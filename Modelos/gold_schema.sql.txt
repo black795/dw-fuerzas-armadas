@@ -50,7 +50,7 @@ CREATE TABLE gold.dim_efectivo (
     id_efectivo INT,
     ci VARCHAR(50),
     nombre_completo VARCHAR(255),
-    genero CHAR(1),
+    genero VARCHAR(15),
     departamento_origen VARCHAR(100),
     fecha_ingreso DATE,
     nombre_especialidad VARCHAR(150),

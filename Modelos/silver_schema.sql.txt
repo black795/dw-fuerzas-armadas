@@ -68,7 +68,7 @@ CREATE TABLE silver.efectivos (
     nombre VARCHAR(255),
     ci VARCHAR(50),
     fecha_nacimiento DATE,
-    genero CHAR(1),
+    genero VARCHAR(15),
     departamento_origen VARCHAR(100),
     fecha_ingreso DATE,
     estado VARCHAR(50),
