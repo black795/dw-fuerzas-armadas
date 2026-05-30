@@ -1,0 +1,1201 @@
+id_efectivo,id_especialidad,id_unidad_actual,id_rango_actual,nombre,ci,fecha_nacimiento,genero,departamento_origen,fecha_ingreso,estado,salario_mensual
+1,19,28,1,Ramos Mendoza Carlos,2719583 - lp,01-03-1998,masculino,La  Paz,17-04-2017,activo,BS 2240.42
+2,12,39,5,Villca García Oscar Alejandro,C.I. 2622631 LP,1988/01/24,Hombre,L.P.,2013/09/04,baja,"Bs.3,661.53"
+3,6,24,5,  Nina Torrez Verónica  ,14994050CB,22/04/1991,femenino,Cbba,20131222,activo.,"Bs. 3,924.41"
+4,7,37,1,Condori\tArce José,CI: 5491946,21/04/2003,HOMBRE,Cbba.,21-07-2024,act,"Bs 2.044,82"
+5,20,5,8,Saavedra   Rodríguez   Rolando   José,3684052LP,1994/07/20,Masc.,La  Paz,2019/09/09,DADO DE BAJA,5762.82
+6,10,41,1,Pérez Castillo Armando,CI: 9517485,12/03/2001,Hombre,Or,25/09/2020,R,"2,476.21"
+7,18,11,10,Cusi Suárez Rolando,3.154.051 OR,1992/09/28,Hombre,oruro,18-04-2016,EN ACTIVIDAD,6870.24
+8,8,5,1,  Rivera Mendoza Wilson  ,12875600-lp,06-03-1998,masculino,L.P.,2020/04/09,act,"Bs. 2,011.40"
+9,2,26,1,Saavedra #Ticona Franz,11963163-LP,20030208,masculino,LA PAZ,18/04/2022,activo.,"2,148.44"
+10,13,1,2,Calle Cruz Elizabeth Natalia,1983738 - tj,05-26-2004,fem,Tj,14/05/2025,activo,2672.88
+11,17,6,1,Castillo Machaca José Nelson,3641282-TJ,02-20-2000,HOMBRE,Tarija,11-28-2018,ACTV,1949.13
+12,15,21,4,Ramos Pérez Pablo,C.I. 12269091 CB,15-01-1982,Hombre,Cbba,18/02/2001,activo.,"Bs.3,160.50"
+13,4,7,3,Chura Colque Valeria Gladys,3253031-LP,03-09-1997,F,LA PAZ,2019/10/07,A,2733.24
+14,3,45,1,Escobar #Canaviri Rubén Iván,C.I. 1162230 CB,2000/09/02,M,Cbba,18/10/2020,en actividad,"Bs.1,954.11"
+15,6,27,2,Paco\tGutiérrez Erick,4971793,1998/03/24,hombre,Beni,26-07-2018,en actividad,"Bs. 2,676.29"
+16,9,23,1,Colque Rojas Edwin,5674183-cb,27/11/2004,HOMBRE,Cbba.,04/01/2024,rsv,"2,042.40 Bs"
+17,12,28,2,Canaviri #Paredes Jhonny Pedro,14531007-LP,11-11-1999,hombre,La  Paz,06-22-2021,en actividad,"2,664.82 Bs"
+18,10,14,4,sánchez poma hugo,1006810-sc,1993/10/20,MASCULINO,Sta Cruz,15/08/2016,activo.,"Bs.3,107.98"
+19,2,16,1,Sánchez Mendoza Alejandro,3.472.189 PT,10-28-2005,MASCULINO,POTOSI,2023/08/14,RESERVA,BS 2249.94
+20,5,30,9,CHOQUE ESCOBAR EDGAR,3036059-lp,09-18-1998,MASCULINO,LaPaz,08-20-2021,en actividad,"6,482.12"
+21,9,22,3,Torrez\tHerrera Rolando,5.793.722 LP,03/09/1990,masculino,LP,08/03/2010,act,"Bs 2.687,52"
+22,10,49,5,CUSI SALAZAR ANA,1098919 - cb,1992/07/18,FEMENINO,Cbba.,20130808,ACTV,"3,783.63 Bs"
+23,9,25,1,Paredes López Pablo Enrique,4.048.907 TJ,15-04-2003,masculino,Tarija,2023/06/25,reserva,2053
+24,1,40,2,Condori Cusi Cristian,5148725LP,05/04/2000,HOMBRE,LA PAZ,2021/11/04,Act.,2288
+25,3,38,2,Machaca Nina Andrés,12995956,02-23-2001,Hombre,Cochabamba,11-20-2021,Activo,2722.17
+26,14,12,2,Alanoca #Cabrera Franz,C.I. 12866669 PT,26-10-2002,Masculino,Potosi,15-08-2024,en actividad,BS 2673.27
+27,11,18,3,Vargas Vásquez Ramiro Marco,14385405 - lp,1988/09/01,masculino,LaPaz,2009/02/08,ACTIVO,"Bs. 2,989.72"
+28,12,45,5,Calle Escobar Pablo,8138769-sc,1994/05/10,masc,SANTA CRUZ,2016/04/04,A,BS 3589.72
+29,10,1,2,Orellana Rojas Javier,CI: 7054579,02-05-2000,HOMBRE,Cbba,09-10-2018,EN ACTIVIDAD,"Bs 2.219,71"
+30,5,10,1,Poma Vásquez Nelson Luis,11560346LP,02-08-2002,masculino,La  Paz,25-09-2020,act,"Bs 2.263,44"
+31,6,16,1,Cruz #Alanoca Adrián Alejandro,12080145-LP,2000/09/03,masculino,LA PAZ,2019/01/14,A,BS 2261.92
+32,3,4,2,Suárez Mendoza Gonzalo,5456573-sc,05-20-2000,masculino,Sta. Cruz,15/05/2022,activo,"Bs.- 2,641.51"
+33,19,3,3,Orellana Saavedra Carlos Rodrigo,1348050-sc,08-17-1985,hombre,SC,06/05/2010,BAJA,"2,942.3"
+34,3,21,9,Poma Zenteno Javier,1.615.675 OR,04/06/1992,Hombre,Or.,2016/09/27,Bja,BS 6074.33
+35,6,20,3,callisaya vásquez javier,11570019,18-01-1997,masculino,La  Paz,02-08-2021,dado de baja,"Bs 3.371,64"
+36,3,18,2,Nina Rojas Marcelo,9526867 - bn,26-06-2004,masculino,Bn.,01-10-2024,Activo,2753.11
+37,2,21,7,  Callisaya Ramos Marco  ,4918527-sc,26/12/1995,HOMBRE,SC,22-07-2019,EN ACTIVIDAD,5018.91
+38,11,40,3,Tito Gutiérrez Mario,C.I. 14111818 LP,11-03-1992,Masc.,La Paz,2015/11/28,en actividad,3408.73
+39,6,45,9,García\tCusi Patricia,2.686.231 SC,1992/01/02,FEMENINO,SANTA CRUZ,10/01/2015,ACTV,"5,679.4"
+40,3,47,8,Sánchez Flores Gonzalo,4.411.176 LP,22/03/1991,masculino,LP,16-01-2014,en actividad,BS 4575.87
+41,15,19,1,Alanoca\tPérez Wilson Marcelo,C.I. 12187730 CB,15/02/2000,hombre,Cbba.,10/10/2020,act,2150.04
+42,20,48,1,Torrez Mamani Teresa Viviana,12505806 - sc,2005/05/25,FEMENINO,Sta Cruz,26/10/2023,activo,"Bs 2.290,17"
+43,18,24,2,martínez paco armando javier,4368777,2002/03/09,masc,CBBA,2023/05/24,en reserva,2728
+44,19,25,3,RODRÍGUEZ MONTAÑO JORGE RAÚL,13566329 - cb,1991/02/22,masculino,CBBA,01/08/2012,act,3398.85
+45,18,27,6,VALDA SUÁREZ ROLANDO FREDDY,8610879-lp,24/12/1998,Hombre,L.P.,07-21-2018,en actividad,"4,186.58"
+46,4,30,2,  Tito Apaza Raúl  ,CI: 5628522,07/11/1999,Masc.,L.P.,01-02-2021,en actividad,"Bs 2.307,68"
+47,4,43,2,Gutiérrez   López   María,14396838SC,03-01-1998,Femenino,Sta. Cruz,04-19-2018,Activo,"2,255.68 Bs"
+48,16,26,1,Ochoa Sánchez Antonio Pablo,1522621,04/11/2004,HOMBRE,cochabamba,2025/12/15,act,1923
+49,14,29,2,Blanco #Callisaya David,11984260-LP,20010711,masculino,LA PAZ,14/07/2022,ACTIVO,2359.41
+50,14,23,2,Rivera\tEscobar Daniel,12240957 - sc,02/12/2004,Masculino,SC,10-10-2024,Activo,2558.44
+51,20,43,1,Aliaga   Zenteno   Franz,C.I. 12324230 SC,01-06-2002,hombre,Santa Cruz,25/12/2022,activo,2094.28
+52,2,10,1,LAURA SÁNCHEZ MARCELO,14033138-SC,2000/10/02,Masculino,SC,05-15-2018,A,"Bs.2,190.54"
+53,5,49,2,CHAMBI CHOQUE ANDRÉS JORGE,6056977 - lp,05-11-2002,Hombre,LA PAZ,01-16-2020,activo,"2,256.77 Bs"
+54,16,20,4,zenteno rivera sergio gonzalo,C.I. 12797721 PN,1985/11/06,Masc.,PANDO,20080723,Act.,"Bs. 3,404.10"
+55,4,26,4,SALAZAR POMA MARCO,8007741,06-06-1980,hombre,santa cruz,27/08/2004,A,BS 3259.09
+56,12,47,5,Rodríguez Ochoa Luis,14022948,19840404,masculino,Sta. Cruz,2004/05/07,ACTV,"3,404.27 Bs"
+57,15,5,2,Martínez #Saavedra Mauricio,6.303.930 PN,21/08/2005,H,Pando,2024/05/19,ACTIVO,2505.50
+58,11,39,2,Paco Cabrera Héctor,14586456,2005/09/05,M,L.P.,2023/08/04,EN ACTIVIDAD,"2,753.03 Bs"
+59,3,22,5,Aliaga Villca Javier,C.I. 1878547 SC,22/09/1983,HOMBRE,Sta Cruz,09/05/2007,Activo,"Bs 3.978,48"
+60,5,43,5,Flores Sánchez Daniel,11796025-SC,1996/02/21,masc,SANTA CRUZ,20200912,Act.,3582.11
+61,20,9,5,Paco Valda Cristian,12105329,03-06-1992,masc,Sta. Cruz,2012/12/25,EN ACTIVIDAD,"Bs. 4,259.03"
+62,15,50,9,Rojas Laura Jimena,10570049,07-17-1992,mujer,santa cruz,20160327,activo.,"5,982.11"
+63,15,23,3,CASTILLO GUTIÉRREZ OSCAR,2538698,19800702,Hombre,TARIJA,12/09/2003,A,"Bs.- 3,445.07"
+64,5,4,2,López Alanoca Antonio,C.I. 4835916 BN,2002/02/09,Masculino,beni,20220809,Activo,2673.36
+65,9,14,1,Herrera #Copa Alejandro,sin dato,09-24-2000,sin dato,LaPaz,sin dato,EN ACTIVIDAD,2060.15
+66,17,24,1,Salazar   Limachi   Antonio,1.221.0785 LP,09-18-1999,M,la paz,2021/09/18,Activo,"Bs. 2,446.40"
+67,6,50,5,Villca   López   Wilson,10160590-LP,1994/12/16,M,la paz,20140303,activo.,"Bs 4.305,71"
+68,11,18,1,Rojas Fernández Pedro,CI: 14100347,06-14-1999,Masc.,Cbba,15-12-2020,en reserva,2125.19
+69,10,12,6,Arce Apaza Carlos,8180149-LP,28/08/1993,masc,LaPaz,20140603,Activo,"Bs.4,184.69"
+70,15,39,4,GARCÍA FLORES RAÚL,5960015-cb,23/03/1993,M,Cochabamba,2018/06/15,act,"Bs 3.777,44"
+71,8,50,1,YUJRA BLANCO CARLOS DAVID,3.117.788 CB,13/06/2003,MASCULINO,cochabamba,01-20-2025,Activo,"Bs.2,166.95"
+72,15,14,3,Nina Machaca Adrián Arturo,5.391.883 SC,16/12/1989,Hombre,Sta Cruz,05/02/2010,RESERVA,2956.84
+73,17,15,5,Chura Callisaya Sergio,1.431.6015 SC,19830426,MASCULINO,santa cruz,26-04-2003,ACTIVO,"Bs 3.641,42"
+74,9,31,3,Laura   Fernández   Cristian,3893776,1983/03/27,Masculino,Cochabamba,14/08/2005,act,2589.71
+75,3,29,4,  Limachi Zenteno Arturo  ,3102634-sc,11-17-1994,M,SCZ,27/03/2017,Act.,"Bs 3.542,59"
+76,7,41,3,Ochoa Cabrera Verónica,CI: 2323049,05/05/1997,F.,CBBA,20191018,Activo,"3,126.89"
+77,20,41,8,Aliaga Salazar Carlos Enrique,4536777-LP,21/08/1988,M,Lp,11-10-2010,EN ACTIVIDAD,"5,675.31 Bs"
+78,17,36,6,Saavedra   Apaza   Germán,3193891-pn,08-06-1983,hombre,PANDO,20080209,Act.,"3,747.51"
+79,1,6,11,vásquez castillo gonzalo,C.I. 6176450 CB,1987/09/15,masculino,Cbba,04-19-2008,ACTIVO,"6,488.72 Bs"
+80,12,36,2,Condori Poma Alejandro,10425722 - lp,13/02/2002,Masculino,LP,08-25-2024,Activo,2743.98
+81,3,8,5,Callisaya Chambi Alejandro,7901353-CB,22/07/1996,Hombre,COCHABAMBA,2015/06/14,BAJA,"Bs.- 3,239.19"
+82,16,34,5,Castillo Condori David,N/D,03-20-1994,N/D,LaPaz,2014/06/20,A,"3,677.97 Bs"
+83,11,47,3,Yujra Cabrera Elizabeth Teresa,10281346,1992/06/04,F.,Pt,2017/10/26,Reserva,"3,142.77"
+84,2,38,3,Alanoca Quispe Armando,5454861,17/03/1995,Hombre,Sta. Cruz,27/03/2019,en actividad,"Bs 2.578,41"
+85,17,25,10,Ochoa Cruz Rosa,12110322SC,15/03/1993,Fem.,SANTA CRUZ,20160912,A,7216.93
+86,16,23,4,Canaviri Cruz Gladys,9204110SC,19971209,FEMENINO,SC,19/02/2019,ACTIVO,"Bs 3.277,29"
+87,5,7,3,Zenteno   Suárez   Nelson,10429097-LP,04-08-1998,MASCULINO,La Paz,20161117,Act.,"Bs 2.759,55"
+88,3,42,1,Cusi Fernández Jimena,Sin Dato,Sin Dato,Fem.,COCHABAMBA,20190314,Sin Dato,"1,986.02"
+89,7,8,3,VALDA LÓPEZ ALEJANDRA,8852085-TJ,1990/03/24,fem,TARIJA,2015/11/09,act,"2,562.68"
+90,13,16,3,CALLE MARTÍNEZ PABLO DANIEL,1114590-BN,1994/05/11,masculino,Bn,24/10/2016,activo.,"Bs.- 2,785.40"
+91,5,30,10,Laura\tCopa Edgar Javier,3240912LP,14-06-1997,Masculino,LaPaz,09-26-2022,Activo,5950.9
+92,17,29,5,  Rojas Salazar Héctor  ,3.760.475 SC,11-07-1983,Masc.,Sta. Cruz,2008/02/17,A,BS 3293.42
+93,19,39,5,Fernández Rodríguez Héctor,14836431CB,12-02-1983,masculino,CBBA,12/12/2002,Rsv,BS 4268.17
+94,18,4,1,Huanca Condori Adrián,12750508 - cb,08-02-1999,hombre,Cbba.,06-07-2019,act,"Bs 2.375,45"
+95,8,1,2,rodríguez vargas raúl víctor,7594429,15/05/1998,Masculino,Pando,18-07-2020,act,2297.25
+96,8,48,1,  García Chambi Elizabeth  ,11029166-lp,15/07/1998,F.,la paz,09-07-2017,Activo,"Bs. 2,382.20"
+97,14,36,2,SÁNCHEZ TORREZ VALERIA,10926527,01-12-2005,MUJER,LaPaz,13/11/2025,en actividad,"Bs 2.364,05"
+98,9,14,3,Limachi   Escobar   José,7.516.590 SC,1990/11/03,M,SCZ,03/06/2015,ACTV,BS 3296.47
+99,16,16,1,Machaca Mamani Ramiro,4188068-LP,07-08-2001,masculino,LaPaz,25/06/2023,EN ACTIVIDAD,BS 2177.73
+100,9,36,1,salazar saavedra marco,3448176 - lp,2004/05/05,H,LaPaz,20230608,EN ACTIVIDAD,"2,420.02 Bs"
+101,17,3,1,Vásquez Vargas Daniel,10095547,11-02-1999,Hombre,Chuquisaca,2017/07/05,ACTV,"Bs.- 2,022.75"
+102,1,33,4,Mamani\tQuispe Raúl,5.609.384 SC,1993/03/04,Masculino,SC,20120905,EN ACTIVIDAD,3522.18
+103,3,26,1,flores tito rodrigo,1.190.3419 PN,2004/07/18,HOMBRE,Pando,21-01-2025,activo,"Bs. 1,983.11"
+104,6,21,1,  Condori Chura Jhonny  ,5703878-LP,19-04-1998,hombre,la paz,12-27-2017,Act.,BS 1920.78
+105,20,50,5,CHOQUE GARCÍA ADRIÁN,2275374,06-01-1992,hombre,Cochabamba,2014/08/16,A,BS 3860.46
+106,12,7,4,  Blanco Alanoca Mario  ,7.536.772 LP,01-10-1982,hombre,LA PAZ,25/06/2007,Activo,3025.16
+107,19,34,3,Nina   Aliaga   René   Erick,1.038.7465 LP,11-13-1985,masculino,LA PAZ,03-09-2005,en actividad,BS 2993.81
+108,11,29,6,mamani poma marcelo andrés,11405098,07-27-1990,Hombre,Cbba,2010/05/11,EN ACTIVIDAD,4446
+109,19,35,2,POMA LAURA OSCAR,10459841-LP,2000/11/25,hombre,LaPaz,24/01/2022,A,"Bs. 2,656.28"
+110,18,3,8,  Calle Rivera René David  ,9499549 - cb,12-26-1993,hombre,Cbba,20120225,act,5456.92
+111,13,30,6,Rivera Callisaya Adrián,8478923,17-12-1998,MASCULINO,SC,01/06/2018,EN ACTIVIDAD,BS 3942.24
+112,4,2,1,CALLISAYA HERRERA FERNANDO,6.037.595 CB,11-04-2003,hombre,CBBA,08/12/2022,act,"Bs 2.234,26"
+113,3,37,4,Nina Mamani Lorena,CI: 4452490,1983/09/06,F.,Sta. Cruz,2006/06/07,ACTV,3157.6
+114,5,21,1,CANAVIRI ARCE HUGO,11309339,04-10-1999,MASCULINO,Cbba.,2017/03/12,Act.,2207.14
+115,5,13,11,COPA CHOQUE MARCO,1160783,09-17-1987,masc,Tj,22/07/2012,en actividad,"7,972.82 Bs"
+116,9,50,1,Vásquez   Escobar   Adrián,C.I. 10608547 SC,2003/09/27,H,SCZ,20211215,EN ACTIVIDAD,"Bs. 2,523.25"
+117,20,41,5,RAMOS CRUZ ROBERTO,10863726-PT,03-20-1993,Hombre,POTOSI,27/04/2013,ACTV,"Bs. 3,297.67"
+118,5,16,2,Machaca #Choque Sandra Angélica,1.200.4113 PN,12-11-2000,Femenino,pando,11-13-2019,A,"Bs.2,558.07"
+119,15,41,1,mamani saavedra rolando,13293069-OR,26/02/2003,Masc.,Or.,07/07/2025,Bja,BS 2414.4
+120,15,1,9,Quispe #Rodríguez Pedro Marcelo,3650523 - bn,23/04/1994,Hombre,BENI,10/11/2014,A,BS 6552.94
+121,17,44,3,Mamani   Cruz   Miguel,3.226.333 CB,1994/01/01,Masculino,Cochabamba,28/02/2017,A,2668.96
+122,20,42,1,Yujra Gutiérrez Daniel,C.I. 10450458 LP,12/08/2000,Masculino,Lp,2019/11/24,ACTV,BS 2141.73
+123,1,43,4,Tito Flores Daniel,11083091-lp,04-17-1989,Masculino,L.P.,12-13-2010,ACTV,2945.66
+124,12,35,8,López\tNina Wálter,10535840-tj,19980325,hombre,Tj.,01/02/2023,activo.,BS 4441.52
+125,17,14,1,Copa Gutiérrez Mauricio,6199374-LP,09-11-2000,masc,La Paz,21/10/2021,act,2298.89
+126,1,11,2,Paco Vargas Pablo,12876601-LP,17-06-2005,M,la paz,09-12-2025,A,"2,220.20 Bs"
+127,12,11,2,Castillo Laura Lucía,10510771-LP,02-19-2002,femenino,Lp,24/04/2020,activo,2158.03
+128,3,37,3,Ramos Limachi Erick,6367620,02-17-1991,H,Chq,08/03/2009,activo.,"3,433.27 Bs"
+129,18,49,2,Ramos Montaño Andrés,9277218,01/03/2001,hombre,CBBA,2022/01/08,ACTIVO,"Bs. 2,601.96"
+130,17,27,3,GUTIÉRREZ CANAVIRI JOSÉ,CI: 1736524,24/08/1991,MASCULINO,L.P.,04/10/2010,Activo,"Bs.- 3,123.49"
+131,19,7,2,Torrez Mendoza Marco,4400953-LP,06/02/2000,H,LA PAZ,11/08/2021,A,"2,526.94"
+132,9,12,4,Ramos   Apaza   Marco   Germán,1821255CB,28/07/1980,M,COCHABAMBA,24/09/2003,act,"Bs 2.986,62"
+133,15,9,2,Machaca Zenteno Wilson,2.081.661 LP,04/06/1999,hombre,Lp,08-02-2017,Act.,"Bs. 2,555.41"
+134,2,6,10,Ramos Tito Antonio,7912082CB,1992/07/05,hombre,CBBA,04-21-2016,Rsv.,BS 6550.34
+135,9,4,1,Vargas #Quispe Marco,4674549CB,20050912,M,COCHABAMBA,04-06-2025,act,"Bs 2.303,53"
+136,12,37,1,Martínez   Arce   Hugo,7019382 - or,07/10/2000,masculino,Oruro,10/09/2021,ACTV,"Bs. 1,895.06"
+137,17,24,1,Rivera Canaviri Marco Mario,13991714CH,06-23-1999,masculino,Sucre,04/10/2020,activo.,"Bs.2,082.92"
+138,5,12,4,Zenteno Vargas Edwin,13314392 - cb,1980/12/19,Masculino,Cbba.,02/10/2003,ACTIVO,"Bs. 3,214.58"
+139,1,17,9,Colque   Alanoca   Miguel,6.632.941 SC,04-23-1991,MASCULINO,Sta. Cruz,06-09-2010,act,"Bs 6.183,52"
+140,10,2,1,Yujra   Mendoza   Jhonny,2236638-lp,20030504,Hombre,LaPaz,2021/06/06,en reserva,1976
+141,10,20,3,CRUZ ROJAS GABRIELA CECILIA,1.029.6463 CB,02/02/1987,F.,Cbba.,18/10/2011,activo,"Bs. 2,688.23"
+142,3,42,3,SÁNCHEZ BLANCO JIMENA,9205682-CB,06-07-1997,F.,Cochabamba,12/07/2020,ACTIVO,2590.16
+143,14,35,14,Escobar Choque Alejandro,CI: 14730561,19750819,HOMBRE,Tj.,10/08/2000,EN ACTIVIDAD,"Bs. 14,570.83"
+144,20,17,2,Flores Yujra Andrea Marisol,CI: 14800334,20031226,F,CBBA,2021/02/13,activo.,BS 2539.04
+145,10,35,1,  Cusi García Jhonny  ,1.044.0266 BN,2003/07/09,hombre,Beni,11-16-2024,Activo,"Bs.2,182.21"
+146,9,32,4,Quispe Villca Oscar,6084418 - pt,05/04/1983,masculino,POTOSÍ,20051215,act,BS 3217.29
+147,5,50,7,Morales   Huanca   Rosa,9502613,10-01-1996,fem,Cbba,04-27-2016,EN ACTIVIDAD,"4,162.98 Bs"
+148,12,11,5,Vásquez Chambi Carlos,8962169-cb,27-12-1988,masc,CBBA,01/05/2007,act,"3,415.71 Bs"
+149,8,17,1,López\tTito María,14436281-LP,12-23-2002,F.,LP,07-13-2022,reserva,"2,172.94 Bs"
+150,3,22,10,Chambi #Fernández Wálter,2813693,1992/11/11,M,cochabamba,05-21-2014,Activo,"Bs.7,265.13"
+151,11,47,2,Limachi Poma Javier,C.I. 1592554 CB,18/11/2001,Masculino,Cbba.,12/11/2022,A,BS 2759.06
+152,11,24,8,Mendoza Apaza Cecilia,6152035 - lp,10-10-1992,fem,LA PAZ,16-02-2017,act,"5,409.66 Bs"
+153,11,46,2,villca limachi mónica andrea,8676774-PN,2000/02/16,F.,PANDO,11-06-2020,ACTIVO,2168.51
+154,1,21,6,NINA MAMANI FRANZ,4345615,04-01-1996,HOMBRE,La  Paz,24/11/2014,activo,"Bs. 4,443.84"
+155,16,23,5,Paredes\tValda David,3244614,03-26-1986,Masculino,SC,2010/01/08,activo,"Bs 4.352,76"
+156,4,27,1,Colque García Antonio José,1331211,07-04-2005,Masculino,Sta Cruz,05-16-2025,ACTV,2005.63
+157,16,13,1,Copa   Rodríguez   Fernando,CI: 14166089,27/05/2001,masculino,Cbba,12/04/2023,activo,"Bs.2,064.93"
+158,9,42,1,Flores   Aliaga   Pablo,13139383-SC,10-08-2001,Hombre,Sta. Cruz,2021/08/02,ACTIVO,"1,985.3"
+159,3,24,3,Morales Villca Daniel,8343630CB,1990/03/04,MASCULINO,Cochabamba,15/07/2014,activo,2897
+160,12,40,6,SALAZAR YUJRA WILSON,11256300,27/11/1980,Hombre,Cochabamba,2005/03/16,Rsv.,BS 3712.3
+161,8,31,8,Ochoa Callisaya Pablo,2597897,19931122,Masc.,SCZ,03-27-2017,EN ACTIVIDAD,"5,811.62"
+162,13,16,6,Torrez Choque Freddy,10235783SC,15/08/1982,hombre,Sta. Cruz,28/02/2007,activo.,3968.24
+163,11,24,9,Valda Castillo Antonio,1.198.2298 SC,04-28-1988,Masculino,SCZ,2013/06/18,activo,"Bs 5.973,92"
+164,14,7,8,Machaca   Condori   José,9567311SC,11-24-1995,MASCULINO,SCZ,06-09-2017,ACTIVO,"Bs 5.619,09"
+165,5,46,11,laura callisaya teresa,3754070LP,1988/02/09,Femenino,LP,04/04/2009,RESERVA,BS 7259.02
+166,19,31,8,Mamani Ochoa Gustavo Rolando,C.I. 10281597 OR,03-23-1996,hombre,oruro,20161227,en actividad,"Bs. 5,024.35"
+167,10,45,13,LÓPEZ LIMACHI LORENA,13556519 - sc,19851224,FEMENINO,santa cruz,04-07-2006,Activo,"Bs.9,840.33"
+168,14,1,4,Colque Canaviri Wilson,13547155,01/02/1996,H,COCHABAMBA,02-03-2020,A,"Bs. 3,093.90"
+169,8,33,6,Paco Escobar Iván Rodrigo,13455618-tj,22/12/1989,H,TARIJA,2007/07/13,EN ACTIVIDAD,"4,563.02"
+170,10,29,2,RIVERA SUÁREZ ENRIQUE,CI: 4296204,03/11/2000,HOMBRE,Or,24/03/2019,EN ACTIVIDAD,"Bs.2,407.90"
+171,16,37,4,Aliaga Chura Marco,12104675,06-03-1997,hombre,Santa Cruz,08/09/2020,Baja,"Bs.3,421.02"
+172,4,43,1,CALLE ESCOBAR ALEJANDRO,11893448-pt,20030808,hombre,Potosi,10-08-2025,dado de baja,2320.48
+173,11,33,2,Herrera Vásquez Gustavo,11930829-LP,1999/02/06,Masculino,L.P.,09-01-2021,act,"Bs.2,283.09"
+174,9,36,2,VILLCA CONDORI MARIO GERMÁN,1910467,1999/10/27,Masc.,La Paz,2018/05/14,ACTV,2597.66
+175,20,6,4,  Castillo García Luis  ,1.250.7134 CB,1989/08/13,Masc.,Cbba,20131101,Act.,"Bs. 3,434.14"
+176,2,1,2,MAMANI ESCOBAR YOLANDA,3.371.859 TJ,2004/09/18,MUJER,TARIJA,07/05/2022,en actividad,2802.66
+177,18,5,9,QUIROGA CHOQUE PABLO,10208193,1992/11/03,Masculino,Tj,2014/02/07,en actividad,"Bs 5.777,71"
+178,14,11,4,GUTIÉRREZ SALAZAR ANDRÉS,14550953 - sc,08/06/1980,masculino,Sta. Cruz,12-24-2001,A,"3,172.21 Bs"
+179,9,47,2,QUIROGA ZENTENO MIGUEL,CI: 10036511,19991203,Masc.,La  Paz,09-21-2017,activo.,"2,561.42 Bs"
+180,17,33,10,Rivera Ticona Edwin,3246154,07-12-1989,masculino,TARIJA,08/11/2007,ACTV,"Bs.7,097.75"
+181,9,24,1,condori mendoza nelson,4888118,20010122,Hombre,Oruro,2020/09/26,activo.,2179.98
+182,17,17,1,vargas nina wilson,7128662 - sc,04-17-2004,MASCULINO,Sta. Cruz,27/06/2025,RESERVA,"2,191.33 Bs"
+183,11,47,7,CANAVIRI ZENTENO SERGIO,4864570-LP,22/08/1983,HOMBRE,Lp,07/08/2008,activo.,5012.05
+184,10,6,1,  Ochoa Poma Rubén  ,CI: 10455717,2001/08/20,HOMBRE,Sta Cruz,08-06-2022,Act.,BS 2141.11
+185,17,44,14,Nina López Wilson René,CI: 4394845,1971/03/20,Masculino,LaPaz,1996/03/16,Rsv.,"13,389.27"
+186,8,31,8,Limachi Laura Enrique,12704504,06-19-1994,Masc.,tarija,05/07/2013,activo,"Bs.5,614.74"
+187,14,24,4,Nina Tito Roberto,14493699-lp,03-14-1983,masc,LP,05-28-2005,activo.,"3,465.96 Bs"
+188,4,48,2,Salazar Apaza Rubén,7679508 - or,2001/08/26,M,ORURO,02-07-2020,activo,"2,714.56"
+189,13,26,1,Huanca Pérez David,2342843-lp,12-20-2002,masc,La Paz,2020/03/21,activo.,"1,877.07 Bs"
+190,13,23,3,Tito   Mamani   Pedro,2456980-PN,19-07-1992,HOMBRE,Pn,01/09/2013,A,"Bs. 2,611.76"
+191,17,19,1,Pérez Vargas Jorge,2786185-cb,02-26-2003,masc,Cbba,20250518,EN ACTIVIDAD,"Bs.2,249.43"
+192,11,27,3,NINA ALANOCA JIMENA LUCÍA,4697401PT,18/09/1991,MUJER,POTOSÍ,12-27-2009,Activo,"Bs. 2,808.56"
+193,8,17,3,Machaca Rojas Adrián,4349848 - sc,1986/04/07,HOMBRE,Santa Cruz,2007/10/12,activo.,2646
+194,6,49,11,Valda Cabrera Marco,CI: 5609255,07-08-1983,MASCULINO,Sta. Cruz,20030117,activo.,"7,451.22 Bs"
+195,18,17,2,GARCÍA MARTÍNEZ ÁLVARO,5357055CB,05-16-2001,hombre,Cbba,06-12-2023,ACTV,2442.96
+196,5,48,2,Arce Ramos Fernando,CI: 7390162,2000/08/26,masculino,SC,14/03/2018,ACTV,2871.67
+197,9,24,5,Calle Orellana Álvaro,8547311 - sc,09-18-1991,Masc.,SANTA CRUZ,20130601,A,"Bs 3.630,24"
+198,6,41,2,  Flores Nina Adrián  ,8780468-SC,21/07/2003,H,Sta Cruz,13/10/2025,act,"Bs. 2,178.51"
+199,5,47,1,Ochoa Herrera Yolanda,4.085.098 CB,09/11/2001,femenino,cochabamba,2019/04/06,ACTIVO,1933.07
+200,5,34,2,Ramos Paco René,11510601-CB,01-02-2000,Masc.,COCHABAMBA,06-28-2020,EN ACTIVIDAD,2856.24
+201,20,9,1,Alanoca Rodríguez Carla,3012881,11-25-2004,Mujer,SCZ,02-23-2023,Activo,"Bs. 2,064.42"
+202,3,29,3,Suárez Sánchez Arturo,9080774,14/06/1989,Masc.,Chuquisaca,2011/03/10,EN ACTIVIDAD,3020
+203,7,27,6,CHAMBI MENDOZA FRANZ,10197474-PT,07-13-1997,masc,potosí,2018/03/23,ACTV,"4,061.05"
+204,5,19,2,TORREZ LIMACHI ADRIÁN,2148634,19991115,M,Lp,20210809,A,"Bs. 2,494.00"
+205,12,30,12,vásquez cruz edwin juan,6227389,03-06-1976,hombre,Cochabamba,09/01/2000,en actividad,"Bs 7.668,46"
+206,13,44,10,Aliaga García Pedro Adrián,4497162,06-06-1992,masc,Santa Cruz,18/12/2010,act,"Bs 6.018,96"
+207,20,10,10,Ramos Mamani Roberto,10748854BN,08/02/1993,Hombre,BENI,2013/08/03,ACTIVO,6184.92
+208,12,47,6,herrera ticona roxana,CI: 12563695,05-02-1984,mujer,LaPaz,15/12/2009,ACTV,"Bs.- 4,253.84"
+209,17,25,1,Zenteno Pérez Mario,8618181SC,20/01/2000,masculino,SCZ,10-08-2020,ACTV,"Bs. 1,911.81"
+210,2,13,2,huanca condori fernando,3177250 - tj,08-07-1999,M,Tj,19/01/2017,ACTIVO,2416.45
+211,12,46,8,Alanoca\tChoque Miguel,CI: 13473481,09/10/1988,masc,cochabamba,12-03-2006,en actividad,"4,541.58 Bs"
+212,15,45,5,Escobar Limachi Hugo,CI: 13856102,19930206,Hombre,Or.,20130913,Activo,"3,979.59"
+213,12,29,3,Ramos Salazar Armando,7292514,19940701,masc,SCZ,20/05/2012,A,"Bs.- 2,671.58"
+214,14,29,12,  Escobar Ochoa Arturo  ,5424046 - or,14-12-1990,Masculino,ORURO,03-17-2010,activo,BS 9357.44
+215,19,16,6,Montaño Apaza Jhonny Pedro,5445763LP,1987/05/26,MASCULINO,LaPaz,19-02-2009,ACTV,"4,726.53"
+216,12,28,5,Salazar Nina Pedro,1938227 - lp,28/02/1993,Masc.,La Paz,21/12/2014,ACTV,4288.66
+217,3,15,12,Poma Herrera José,CI: 10651174,26/05/1988,hombre,Or.,03-05-2012,Act.,BS 8736.26
+218,15,34,7,Aliaga Tito Luis,2872209,24-04-1993,hombre,COCHABAMBA,19-01-2011,BAJA,BS 4585.39
+219,8,16,15,Rojas Escobar Jorge,1.334.2456 SC,25/05/1966,Hombre,SC,06-22-1991,reserva,BS 14030.05
+220,12,10,2,Herrera Condori Iván,4917305,1999/02/24,Masculino,Bn,04-20-2017,reserva,"Bs 2.776,56"
+221,1,25,2,Pérez   Escobar   Raúl,null,06/05/1998,null,Sta Cruz,07/05/2016,null,"2,588.47"
+222,7,33,2,vásquez saavedra sandra,2476741SC,23/09/2005,mujer,SC,2023/01/08,R,2353
+223,18,18,1,Valda Nina José,14671059 - ch,2001/03/11,masc,chuquisaca,05/11/2022,Act.,"2,122.26 Bs"
+224,5,20,2,Cruz Tito Iván,10082410-lp,25/07/2000,Hombre,Lp,2019/11/19,rsv,"Bs.- 2,363.12"
+225,13,45,1,Choque Orellana Álvaro,9.772.377 SC,02/08/2002,Masculino,Santa Cruz,01-02-2024,activo,"Bs 2.376,30"
+226,5,50,3,Zenteno Cabrera Iván,13387283 - sc,02-05-1986,masc,Sta Cruz,25/01/2006,BAJA,"Bs.3,105.25"
+227,16,9,11,Tito Laura David,7500504-LP,1980/04/08,masc,L.P.,25/07/2000,Bja,"8,457.23"
+228,11,26,6,Paredes   Poma   Marcelo,11199372-or,10-18-1998,hombre,Oruro,09-04-2016,activo.,BS 4612.03
+229,14,19,2,Sánchez Aliaga Iván,8740121,12-17-1998,Masc.,POTOSÍ,08-27-2017,Activo,"2,192.83 Bs"
+230,4,6,2,Valda Montaño Germán,6437072 - lp,15/12/1999,Masc.,LP,17/02/2019,Act.,"Bs.- 2,670.16"
+231,10,47,4,Vargas Aliaga Mario Mario,8039412,05-21-1994,masculino,santa cruz,05-02-2014,Bja,"Bs. 2,893.60"
+232,20,41,3,Chambi Mamani Erick,10182868 - lp,02-04-1997,H,la paz,20170302,activo,2583.05
+233,15,48,2,Callisaya Chambi Javier,C.I. 10431768 SC,03/01/2003,masculino,SANTA CRUZ,12/06/2023,Reserva,"Bs 2.740,20"
+234,16,47,1,García Salazar Álvaro,11552509 - sc,07-20-2002,masculino,Sta. Cruz,17-05-2022,ACTV,"Bs. 2,281.34"
+235,14,3,7,Blanco Rodríguez Roberto Mauricio,4478434-OR,06-18-1990,Hombre,Oruro,21/01/2011,Activo,"Bs 4.485,54"
+236,16,3,10,ROJAS VILLCA CARLOS,12282224TJ,NULL,M,Tj.,NULL,NULL,6572.09
+237,6,39,6,Villca Nina Martha,3.784.505 SC,23-05-1983,Mujer,SANTA CRUZ,12-02-2006,Act.,3679.37
+238,7,22,2,Quispe   Arce   Miguel,9389519-sc,12-28-2005,MASCULINO,SANTA CRUZ,2025/05/25,EN ACTIVIDAD,"Bs 2.702,11"
+239,15,3,5,Yujra\tQuiroga Andrés,2460891-SC,25/09/1983,Masc.,SC,2005/01/19,ACTIVO,"Bs. 3,958.29"
+240,9,10,4,GARCÍA CRUZ ANTONIO,10216826,10-08-1989,M,Santa Cruz,02-10-2009,ACTIVO,"3,235.51 Bs"
+241,7,46,5,Callisaya Herrera Wilson,6241884,25/02/1997,masculino,Sta. Cruz,05/10/2022,en actividad,4144.68
+242,15,32,4,Callisaya Machaca Wálter,14233510 - sc,16/02/1980,Masculino,Sta. Cruz,16-06-2000,ACTIVO,"Bs 3.064,22"
+243,16,25,2,RIVERA LIMACHI RAÚL,5088457 - lp,07/06/1999,Masculino,LaPaz,26/07/2021,Bja,"Bs 2.550,41"
+244,11,32,6,Huanca   Chambi   Andrés,14657773,07/02/1981,Masc.,La  Paz,03-19-2006,EN RESERVA,"Bs. 4,371.53"
+245,3,38,5,Yujra Sánchez Jhonny,8293509,1980/10/17,Hombre,Chuquisaca,28-03-2003,activo,"Bs. 3,650.91"
+246,16,9,2,  Poma Nina Marco  ,4543617,2001/09/13,MASCULINO,CBBA,05-07-2021,act,2779
+247,15,33,2,Cabrera   Blanco   Erick,CI: 8142130,2004/09/27,Masc.,SC,07-12-2025,activo.,2443.58
+248,5,47,1,Rodríguez Rivera Nelson,12584621-sc,17/08/2002,Masc.,SCZ,09-20-2020,ACTV,2181.82
+249,12,19,8,cabrera calle nelson,6561881,02/03/1992,H,SCZ,2014/12/26,activo,"Bs. 4,515.81"
+250,4,39,1,Copa Torrez Oscar,5311001-LP,24/10/2000,Masc.,La Paz,15/11/2019,ACTIVO,1985
+251,6,14,9,Limachi   Aliaga   Rolando,1.208.4157 CB,12-27-1997,masculino,CBBA,20200121,activo.,"Bs. 6,355.98"
+252,11,34,6,Mamani Fernández Rubén Franz,8529960-BN,18/02/1981,Masculino,Bn,2005/06/28,act,"4,726.73 Bs"
+253,11,36,2,ROJAS OCHOA RODRIGO,12580948-CB,01/11/1998,masc,Cochabamba,14/01/2016,ACTIVO,2202.93
+254,20,9,1,Alanoca Rodríguez Carla,3012881,11-25-2004,Mujer,SCZ,02-23-2023,Activo,"Bs. 2,064.42"
+255,6,29,3,Villca Choque José,14636535-LP,1982/08/07,masculino,La  Paz,21/03/2006,ACTIVO,2679.49
+256,9,10,6,GUTIÉRREZ TITO CARLOS,C.I. 1634776 SC,1990/07/19,Masculino,santa cruz,23/09/2008,en reserva,4188
+257,3,24,1,Apaza Villca Jhonny,7721201 - sc,27/02/2003,hombre,Santa Cruz,2024/05/21,Activo,"2,235.95 Bs"
+258,13,5,11,Quispe Ticona Gonzalo Gonzalo,5.001.116 PN,18/08/1984,Masc.,pando,20090102,activo.,7134.87
+259,8,45,1,  Vásquez Tito Carmen  ,CI: 11374562,06-01-2000,Femenino,LA PAZ,05-27-2018,ACTV,"Bs. 2,171.08"
+260,11,14,2,  Martínez Rodríguez Adrián  ,1.066.3122 PN,06/10/1998,masc,Pn.,04/02/2018,ACTIVO,BS 2693.16
+261,14,45,4,Flores\tMamani Sergio Rolando,2495541,1995/12/05,HOMBRE,Lp,2016/03/21,ACTV,3349
+262,20,24,1,Escobar Ramos Víctor,9895263-lp,08-25-2001,MASCULINO,Lp,2020/05/02,activo,2395.76
+263,4,41,2,cabrera zenteno mauricio rolando,14880173SC,2001/05/17,masc,SCZ,03-19-2022,en actividad,"2,675.91"
+264,2,35,1,Arce Valda Rubén,CI: 1726746,26/03/2000,masc,Or,17/08/2018,ACTIVO,"Bs 2.460,75"
+265,14,10,1,Mendoza Huanca Gonzalo,9127012-cb,15/10/2001,MASCULINO,Cochabamba,2020/07/12,activo,"Bs. 2,345.08"
+266,19,36,2,Mendoza Valda Erick Ramiro,3630468-CB,2001/02/14,masc,COCHABAMBA,28/08/2023,Baja,"Bs.- 2,568.69"
+267,2,28,12,Limachi   Condori   Jhonny,8896240LP,19870826,MASCULINO,la paz,16/08/2006,ACTIVO,8954.41
+268,5,46,9,Paco Rivera Marcelo,8.630.962 LP,1994/03/26,Masc.,La Paz,15/11/2017,A,"Bs.4,932.37"
+269,13,31,1,  Gutiérrez López Armando  ,12327513,01-13-2005,Masc.,la paz,08-21-2025,ACTIVO,"2,091.3"
+270,17,44,1,  Flores Copa Álvaro  ,CI: 13344017,04/01/2003,masc,CHUQUISACA,20240615,en actividad,"2,111.28 Bs"
+271,11,23,3,callisaya cruz alejandro,CI: 13765547,22/09/1988,Masc.,Or.,02-05-2012,EN ACTIVIDAD,2860.70
+272,4,11,1,Flores Poma Lucía Fabiola,5838090-CH,20020223,MUJER,CHUQUISACA,08-05-2021,en reserva,"2,213.65 Bs"
+273,11,32,5,Orellana #Ochoa Luis Edwin,7907041SC,23/11/1998,Hombre,SC,2023/08/10,activo,4254.04
+274,6,16,2,Fernández Vargas Gabriela,12880133,11/01/1999,mujer,PANDO,03-15-2021,activo.,2263
+275,5,1,4,Vásquez Aliaga Carlos,8684648 - lp,1997/09/11,masculino,la paz,2019/08/10,Bja,"Bs.- 3,659.24"
+276,2,39,4,ORELLANA MENDOZA ANDRÉS ANTONIO,2551575 - cb,17/10/1986,Masc.,Cbba.,07/05/2007,Activo,3439.18
+277,12,1,6,Gutiérrez Canaviri Pablo,7201361TJ,06-12-1989,masculino,Tj,28/08/2011,act,BS 3841.78
+278,3,38,5,Sánchez Calle David Álvaro,9813089PN,01/02/1992,MASCULINO,pando,09/11/2016,EN ACTIVIDAD,3863.63
+279,5,17,1,  Paco Montaño Andrés  ,14274461-lp,2002/11/27,M,LA PAZ,2023/02/21,EN ACTIVIDAD,2059
+280,4,24,10,paredes saavedra wilson,12507707 - lp,12-19-1996,M,La  Paz,05-06-2014,Activo,5809.97
+281,18,21,2,Aliaga Alanoca Luis,2.585.592 LP,26/11/2003,MASCULINO,La  Paz,05-22-2023,EN ACTIVIDAD,"Bs 2.396,89"
+282,18,46,15,  Orellana Rojas Álvaro Edwin  ,10372679,25/12/1973,Hombre,POTOSÍ,15-07-1998,Rsv.,BS 14159.52
+283,8,20,2,Rodríguez   Mendoza   Carlos,CI: 12647485,04-05-2000,masc,LA PAZ,23/07/2018,activo.,2208.79
+284,19,13,2,Cusi García Carmen María,11096393-PT,12/11/2000,MUJER,Pt.,2018/02/05,en actividad,"2,831.38 Bs"
+285,4,14,1,Canaviri Rojas Alejandro Álvaro,3881880-bn,06-23-2005,Masc.,BENI,03-15-2025,Activo,1940.83
+286,16,8,5,Fernández #Escobar Alejandro,C.I. 2379891 SC,15/05/1992,Masculino,SCZ,27-11-2014,Activo,"Bs. 3,861.46"
+287,13,26,2,Ochoa Colque Fernando,3000143,06-12-1999,masculino,SC,2017/06/07,ACTV,2571.22
+288,9,10,13,Colque   Chambi   Jorge,9129112BN,04-02-1989,masculino,Beni,20110816,act,11893.57
+289,7,19,10,Colque   Cusi   Antonio   Luis,9257536SC,19980816,Masculino,Sta. Cruz,09-11-2020,act,"6,579.03 Bs"
+290,5,20,8,Sánchez Valda Pablo,9.245.659 SC,08-25-1994,MASCULINO,santa cruz,22/10/2013,A,"5,283.90 Bs"
+291,5,24,1,Fernández Martínez Víctor,1.090.6332 LP,19/12/2003,masc,L.P.,11/11/2021,A,2152.58
+292,19,33,8,QUISPE SUÁREZ ANDRÉS SERGIO,CI: 8732776,01-05-1994,Masculino,CBBA,2019/10/01,DADO DE BAJA,"5,009.27 Bs"
+293,18,14,1,Laura Paredes Sergio,11660984 - lp,05-02-2002,HOMBRE,la paz,13/10/2022,ACTV,"2,282.22"
+294,7,27,4,Sánchez Castillo Luis,CI: 8263032,20/05/1992,masculino,POTOSÍ,2017/11/25,EN ACTIVIDAD,"Bs. 3,788.51"
+295,7,24,14,CHURA SALAZAR CRISTIAN,C.I. 2004647 SC,19720308,masc,SCZ,12-22-1997,A,"Bs.14,342.08"
+296,15,32,4,Gutiérrez Rojas Jorge,14372192-LP,07-14-1997,M,LaPaz,2015/04/06,activo,"2,919.72"
+297,13,47,1,Limachi Cabrera Luis,12029855-cb,20000404,H,Cbba.,17-12-2022,R,2214.49
+298,5,7,2,Arce Paco Wilson,8094564 - or,09/04/2000,Masc.,oruro,07-09-2021,R,2166
+299,2,45,1,Laura Zenteno Yolanda,11827974,18-05-2001,Fem.,Cbba.,21/05/2022,baja.,"Bs.- 2,109.48"
+300,14,3,4,Cruz Saavedra Alejandro,C.I. 8362611 CH,27-02-1988,MASCULINO,Sucre,24/08/2013,ACTIVO,"Bs 3.747,99"
+301,15,42,2,  Callisaya Quispe Adrián  ,CI: 11760449,20000113,MASCULINO,Or.,2019/11/10,Activo,"2,186.67 Bs"
+302,14,24,1,Zenteno Martínez Hugo,4333024 - pt,20000713,masculino,POTOSÍ,01/04/2022,Rsv,2479.25
+303,14,50,15,Morales Salazar Mario Wálter,13055829-LP,1972/11/16,hombre,Lp,04-23-1997,en actividad,18141.05
+304,8,40,3,Limachi Blanco Rodrigo Hugo,5.868.629 LP,12/04/1994,hombre,LP,2019/02/01,A,3334.3
+305,1,17,1,  Apaza Chambi Freddy  ,CI: 14459496,13/05/2004,masculino,BENI,18/03/2024,activo.,"1,988.39 Bs"
+306,9,40,4,Orellana Torrez Daniel,CI: 8215646,19880911,masculino,Oruro,11/03/2012,activo,"Bs. 3,391.10"
+307,12,46,9,RODRÍGUEZ CABRERA GERMÁN,1684371-BN,15/08/1996,MASCULINO,Bn.,28-02-2021,ACTV,"Bs.- 5,187.61"
+308,16,44,3,Salazar Vargas Juan,2289085,01/06/1983,M,Cochabamba,11-22-2005,EN ACTIVIDAD,"2,886.20 Bs"
+309,19,9,4,Condori Tito Juan,8.601.790 SC,01-26-1986,MASCULINO,SANTA CRUZ,20080626,act,2962.14
+310,10,32,1,Tito Cusi Cristian,CI: 3585950,12-26-2004,hombre,beni,20/11/2024,ACTV,"2,309.24 Bs"
+311,8,42,9,paredes flores antonio mauricio,6733527,05-12-1998,H,Lp,20230921,A,"5,076.11"
+312,14,7,8,Machaca   Condori   José,9567311SC,11-24-1995,MASCULINO,SCZ,06-09-2017,ACTIVO,"Bs 5.619,09"
+313,6,14,5,COLQUE HERRERA ARMANDO,5447210,1985/02/24,masculino,Sta Cruz,11-04-2007,ACTV,BS 3250.42
+314,3,9,4,Yujra\tCallisaya Antonio,14499631 - sc,1984/01/07,hombre,SCZ,2003/01/23,Baja,3766.19
+315,16,2,11,CABRERA GUTIÉRREZ FRANZ SERGIO,8470322,08-10-1989,hombre,oruro,19-05-2010,ACTV,7256.40
+316,8,46,11,Castillo Rivera Rolando,C.I. 12386158 SC,01/09/1976,HOMBRE,Sta Cruz,11/10/2001,act,6977.66
+317,20,46,5,CASTILLO MENDOZA VÍCTOR,1.249.1958 SC,19940310,MASCULINO,santa cruz,27/07/2018,RESERVA,"Bs.3,973.85"
+318,8,14,4,Blanco Limachi David,CI: 9283332,01-01-1997,Hombre,beni,12/05/2020,en actividad,3068.21
+319,5,45,3,aliaga condori ramiro,C.I. 10345284 OR,22/10/1996,Masculino,Or.,2015/12/02,RESERVA,"2,944.04"
+320,17,32,9,MACHACA LAURA MAURICIO ÁLVARO,5.901.010 LP,1989/03/21,masc,LaPaz,27/06/2012,activo.,"Bs. 6,406.56"
+321,7,25,11,CHURA CALLISAYA LUIS,9907521-PT,03-15-1987,HOMBRE,Potosí,2006/04/23,Activo,7996.41
+322,8,9,8,COLQUE RAMOS ERICK,13641752LP,1994/07/14,Masc.,LA PAZ,26/09/2019,Activo,"Bs 5.892,23"
+323,17,19,1,Colque Chura Jorge,10639471-sc,2004/07/22,MASCULINO,Sta Cruz,12-24-2024,en actividad,"Bs.- 2,097.14"
+324,10,6,2,Valda Arce Iván,7786479-PT,11/09/1998,Masc.,Potosi,12-24-2019,Act.,2219.5
+325,2,24,1,ALIAGA SÁNCHEZ RUBÉN,CI: 9477100,17/11/2002,Hombre,SANTA CRUZ,02-02-2022,ACTV,2491.29
+326,13,34,2,Mendoza   Apaza   Raúl,12189100 - cb,11-02-2001,Masculino,Cochabamba,07/10/2023,Act.,"2,395.95 Bs"
+327,14,29,12,  Escobar Ochoa Arturo  ,5424046 - or,14-12-1990,Masculino,ORURO,03-17-2010,activo,BS 9357.44
+328,2,34,4,  Limachi Rodríguez Roberto  ,10592620LP,02-12-1984,H,La  Paz,10/06/2006,EN ACTIVIDAD,2918.54
+329,16,47,6,SALAZAR SÁNCHEZ PEDRO,6667733SC,1984/03/17,hombre,Sta. Cruz,22/08/2009,act,"Bs 4.661,60"
+330,19,41,1,Tito Flores Iván,12864991TJ,20020921,Masc.,TARIJA,2020/11/18,activo.,"Bs.- 2,500.41"
+331,3,35,9,  Torrez Blanco Paola  ,14919897,06-13-1997,femenino,La  Paz,28/08/2015,RESERVA,5521.52
+332,6,2,4,LIMACHI YUJRA CRISTIAN ANDRÉS,C.I. 11309186 LP,13/05/1981,masc,L.P.,2000/06/05,ACTV,"Bs. 3,220.70"
+333,1,27,11,Martínez #Montaño Roberto,2.098.206 SC,09/01/1982,Masc.,SANTA CRUZ,2001/04/25,Act.,"Bs 8.141,73"
+334,20,19,10,MACHACA ESCOBAR RAÚL,1.016.794 CB,1998/03/01,HOMBRE,cochabamba,09/08/2016,Act.,BS 7162.0
+335,7,40,8,Orellana #López Jorge,5688532 - sc,22/06/1996,masc,Sta. Cruz,20191109,DADO DE BAJA,5524.1
+336,18,45,7,Mamani Cabrera Juan,3911451 - lp,1995/07/18,Hombre,LP,21-11-2014,Activo,"Bs 4.124,56"
+337,9,44,1,Chura Rojas Juan Wálter,4716501-cb,03/04/2003,masculino,CBBA,2025/11/10,en actividad,2015.96
+338,19,44,2,Salazar Castillo Roberto,C.I. 10257419 SC,2000/02/19,H,SANTA CRUZ,03-12-2019,activo,2825
+339,11,28,1,Valda Montaño Rubén,8165791,20040504,Masc.,LaPaz,12/08/2025,act,"Bs. 1,898.69"
+340,7,11,3,Mendoza Callisaya Carlos,2248902-cb,03-05-1990,masc,Cochabamba,01-16-2009,Activo,"2,571.62"
+341,15,38,1,Aliaga Chambi Freddy,13819446,02-02-1999,M,SC,2017/07/11,en reserva,2327.62
+342,20,43,3,Poma García Javier,7897247SC,08-13-1980,Hombre,santa cruz,20/07/2003,ACTIVO,2855.65
+343,16,47,8,López Alanoca Gonzalo,CI: 6962475,1997/08/06,Hombre,SC,03-26-2018,activo.,BS 4619.18
+344,2,16,2,MAMANI OCHOA RAMIRO,12379991 - sc,1998/07/12,masculino,santa cruz,2017/04/21,rsv,2713.95
+345,8,30,3,Machaca Condori Marcelo,1.062.026 SC,16/04/1986,M,santa cruz,13/12/2009,A,"2,715.82 Bs"
+346,11,36,2,Rojas Fernández Yolanda Ana,5395611,2001/03/07,Femenino,la paz,20190327,A,"2,200.89 Bs"
+347,4,10,1,Arce Copa Sergio,12927629-CH,07/04/2000,HOMBRE,Chq.,23/07/2022,activo.,"Bs. 2,265.70"
+348,7,47,11,Saavedra López Mauricio,10799273TJ,08-26-1977,Masc.,tarija,03/10/2002,Activo,"7,248.26 Bs"
+349,7,15,1,Poma Alanoca Jimena,10797602-bn,08-28-2001,MUJER,Beni,07/07/2020,ACTIVO,"Bs. 2,456.55"
+350,14,24,8,Copa   Villca   Pedro,8844203-cb,09/06/1995,Masc.,cochabamba,01-06-2019,ACTIVO,BS 4834.37
+351,9,20,5,Suárez Rojas Luis,12326421-CB,23/04/1988,hombre,Cbba.,24-12-2008,activo,"3,527.69 Bs"
+352,17,38,3,MENDOZA TICONA MARIO,8959753-or,08-24-1997,masculino,oruro,26-06-2022,activo,"Bs 3.311,22"
+353,13,49,8,Orellana Apaza Adrián Pablo,8032125-cb,05-11-1996,HOMBRE,cochabamba,10-26-2014,act,4637
+354,3,11,4,  Calle García Raúl  ,8575505,19831118,H,COCHABAMBA,27/01/2003,activo.,3388.39
+355,18,27,2,Machaca Limachi Sergio,2857975 - cb,03/12/2005,HOMBRE,Cbba,04-05-2024,Rsv.,"Bs.2,357.32"
+356,11,37,15,zenteno poma mario,5141290 - sc,1972/08/15,H,Sta. Cruz,1997/12/03,Act.,"Bs 17.828,77"
+357,13,45,1,Machaca   Colque   Franz,10539781LP,19980428,masculino,LP,20170521,activo.,2309.99
+358,17,3,2,Martínez Limachi Gustavo,C.I. 5240720 CB,01-03-2005,M,Cbba,22/12/2025,Act.,"Bs 2.410,87"
+359,9,11,10,  Ramos Canaviri Luis Pablo  ,3353101 - bn,20/01/1990,H,BENI,03-10-2009,Act.,"Bs. 6,970.82"
+360,13,45,1,Choque Orellana Álvaro,9.772.377 SC,02/08/2002,Masculino,Santa Cruz,01-02-2024,activo,"Bs 2.376,30"
+361,6,3,2,García Arce Edwin,1.214.1896 TJ,09-04-2004,masc,TARIJA,18/06/2024,Activo,"Bs. 2,593.51"
+362,2,5,6,Mendoza Huanca René,5671743,19860710,HOMBRE,SC,20110223,act,"Bs.4,818.07"
+363,3,22,10,Valda Callisaya Ramiro Alejandro,12179843-cb,19/10/1988,HOMBRE,Cochabamba,17/07/2013,act,BS 5978.23
+364,8,47,1,Rojas Gutiérrez Wálter,11771625-cb,2005/12/11,H,Cochabamba,11/05/2023,Activo,"Bs 2.371,93"
+365,17,21,6,Arce   Yujra   Pablo,4731991-sc,19850821,MASCULINO,Santa Cruz,28/02/2003,activo.,"4,771.61"
+366,14,12,3,Montaño   Sánchez   Miguel,4314108-lp,05-10-1987,MASCULINO,LaPaz,11-07-2012,activo.,3253.16
+367,18,47,2,paredes quiroga nelson rené,6037049-LP,2000/05/13,masc,Lp,20210515,activo,2546.61
+368,16,16,1,Machaca Mamani Ramiro,4188068-LP,07-08-2001,masculino,LaPaz,25/06/2023,EN ACTIVIDAD,BS 2177.73
+369,16,20,6,Limachi Poma Rolando,7260332-pn,1998/02/14,Hombre,Pn.,2016/02/13,rsv,"Bs.3,774.58"
+370,5,17,1,  Condori Machaca Elizabeth  ,11585629,05/11/2005,femenino,Pt,2024/04/20,ACTIVO,"2,307.32 Bs"
+371,19,20,6,Sánchez Castillo Franz,12047562-BN,28/12/1993,hombre,Bn,21/02/2012,null,"4,574.89"
+372,7,32,2,Morales Vargas Javier,12811951CB,04/09/2000,hombre,Cbba.,2021/10/27,ACTV,2275.71
+373,16,32,3,Torrez   Huanca   Miguel,CI: 10825516,02/01/1983,HOMBRE,cochabamba,20050122,A,"Bs.- 3,438.86"
+374,12,43,3,yujra valda franz,6288577 - cb,1992/07/20,MASCULINO,Cochabamba,2010/06/28,activo.,"Bs. 2,640.16"
+375,7,1,7,Yujra\tColque Wálter,CI: 9638823,1990/01/21,Masculino,Tj,01-26-2013,EN ACTIVIDAD,5056
+376,2,9,12,Rojas Canaviri Jenny,9725065-LP,10/02/1990,Femenino,LA PAZ,03-15-2015,baja,"Bs. 8,752.92"
+377,5,35,2,Pérez Colque Martha,12250822,26/02/2005,femenino,CBBA,2025/06/28,activo.,2556
+378,4,37,2,Rodríguez Flores Rubén Miguel,10935475,03-28-2003,hombre,Cbba,2023/07/19,Act.,"2,358.10 Bs"
+379,16,44,2,Martínez Gutiérrez Jorge Marcelo,CI: 5979872,20/03/2005,Masculino,Potosi,20240324,ACTV,"2,725.97 Bs"
+380,8,45,2,Choque Arce Germán,14889600,28/03/1998,hombre,Cbba,12-13-2019,EN ACTIVIDAD,2736
+381,4,9,6,  Fernández Callisaya Arturo  ,n/a,28/10/1990,MASCULINO,BENI,n/a,en actividad,n/a
+382,6,4,10,MORALES CHURA MARISOL,6965707,21/09/1989,Fem.,La  Paz,2012/10/14,B,"Bs.6,747.60"
+383,9,41,6,Aliaga Montaño Pablo,11910407-TJ,06-01-1994,HOMBRE,tarija,03/02/2013,ACTIVO,BS 4378.18
+384,18,12,1,sánchez salazar enrique,CI: 6456436,12-01-2004,Masculino,L.P.,20250927,ACTIVO,"Bs. 2,406.05"
+385,6,6,2,MARTÍNEZ RODRÍGUEZ HÉCTOR,10648258-lp,03/01/2002,H,La Paz,20200910,activo.,"Bs.- 2,533.32"
+386,7,45,13,Callisaya Martínez Daniel,6907545-sc,1978/11/27,masc,santa cruz,04-02-2000,Act.,BS 9869.08
+387,14,45,3,Cabrera Morales Rubén,2396771 - cb,09-07-1984,Masc.,cochabamba,24/11/2003,Act.,"Bs 3.119,81"
+388,3,22,7,Torrez   Rodríguez   David,12475267-sc,11/06/1982,Masculino,SCZ,20040328,Act.,"4,474.05 Bs"
+389,20,7,3,Callisaya Salazar Rolando Víctor,CI: 10253343,03-11-1981,hombre,tarija,07-06-2006,A,3217.17
+390,8,44,6,Paco #Torrez Daniel Jhonny,1.317.0515 LP,19931215,masc,La  Paz,2013/08/12,ACTIVO,4202
+391,19,4,2,HUANCA TICONA MIGUEL,CI: 2570911,1999/12/10,masculino,LaPaz,08-26-2021,Rsv.,"Bs.2,846.62"
+392,20,29,1,Callisaya Suárez Adrián Franz,5097436-or,11-25-2000,hombre,ORURO,04-06-2022,ACTIVO,"Bs 2.424,01"
+393,1,48,2,Fernández   Sánchez   Cristian,NULL,10/04/2004,Masculino,Santa Cruz,20/08/2022,Act.,NULL
+394,8,31,3,Machaca Vásquez Mario,13909188 - lp,06-10-1992,MASCULINO,la paz,2015/07/06,activo,"Bs 2.792,53"
+395,6,43,1,López Poma Gonzalo,6556840,2001/08/22,hombre,cochabamba,2021/02/14,act,2197.07
+396,14,39,5,Mamani Aliaga Daniel Gustavo,1873083SC,16/07/1980,H,SCZ,16/05/2002,A,3719
+397,20,12,12,Blanco #Arce Gonzalo,13255030,21/10/1981,M,L.P.,08/03/2005,activo,"Bs 8.539,39"
+398,10,8,1,  Paredes Calle Edwin  ,8165093,2002/06/09,Hombre,L.P.,14/12/2022,A,"Bs.- 2,460.77"
+399,11,24,2,Sánchez\tRodríguez Rolando,1.229.203 LP,25-12-2003,MASCULINO,LA PAZ,20/09/2025,en actividad,"Bs. 2,612.69"
+400,18,47,2,Sánchez Ticona Raúl,C.I. 13767260 CB,01-05-2000,Hombre,Cbba,07-18-2019,ACTIVO,"Bs.- 2,793.69"
+401,2,37,4,Morales Chambi Gustavo,3163157,1981/12/07,,,,A,"Bs. 3,777.66"
+402,10,46,3,Canaviri Ticona Daniela,6090377-sc,04/09/1988,FEMENINO,SC,02-04-2008,activo,"Bs.2,812.66"
+403,3,46,4,Apaza Alanoca Raúl Enrique,7192640,05-24-1997,H,SANTA CRUZ,20/07/2017,activo,"3,894.97 Bs"
+404,11,38,2,Castillo\tAliaga Jhonny,5349090 - sc,10-20-2003,masculino,SC,2024/02/02,en actividad,2674.66
+405,20,36,3,Ticona Paco Cristian,11969358,08/08/1986,hombre,SC,07/05/2009,EN ACTIVIDAD,3276.96
+406,3,37,1,Vásquez   Fernández   Sonia,11643027-sc,1999/09/25,fem,SCZ,06/09/2017,act,"2,428.56"
+407,6,12,4,Ticona Vargas Hugo Rolando,1353115-sc,20/11/1992,Masc.,SANTA CRUZ,2013/02/05,activo,3140.16
+408,9,10,1,Tito   Chura   Juan,5166503,1998/01/26,masculino,Lp,24/09/2016,EN ACTIVIDAD,"Bs. 2,432.80"
+409,4,33,4,Quispe Zenteno Mauricio,10137578-LP,01-03-1993,hombre,LA PAZ,01-08-2014,ACTIVO,"Bs. 3,040.32"
+410,20,10,1,Rodríguez Laura Luis,2422780-BN,17-07-2000,Hombre,Beni,06/10/2020,EN ACTIVIDAD,"Bs.1,969.15"
+411,11,10,2,Blanco #Mamani Germán,3493814,20040824,MASCULINO,tarija,02-04-2025,EN ACTIVIDAD,"2,844.69 Bs"
+412,18,32,8,,,1996/09/16,Masculino,BENI,07-03-2017,en actividad,
+413,5,36,9,Saavedra Aliaga Yolanda,5.944.200 PT,07/04/1994,femenino,Potosi,24/01/2015,ACTIVO,"Bs.6,603.97"
+414,5,49,8,GUTIÉRREZ FLORES SERGIO WÁLTER,1209341-LP,1990/08/24,M,La  Paz,17/12/2010,activo,"Bs.- 4,887.23"
+415,19,33,3,Orellana Paredes Gustavo Jorge,8621830,08/12/1989,HOMBRE,Santa Cruz,09/03/2013,B,"3,019.35"
+416,13,11,7,Montaño Calle Luis,C.I. 11769141 CB,21/06/1981,-,-,04-09-2003,ACTIVO,"Bs. 4,192.04"
+417,2,4,11,  Flores Salazar Pedro  ,10457976SC,1985/02/10,MASCULINO,Sta Cruz,2003/06/25,Activo,"Bs 7.270,81"
+418,6,10,4,Blanco Nina Cristian Wilson,1627606CB,21/02/1994,Masc.,cochabamba,20131208,Rsv.,"Bs.- 3,713.63"
+419,8,14,6,Copa #Quiroga Ramiro,C.I. 1671305 BN,1982/03/19,Masculino,beni,26/02/2007,Activo,"Bs. 4,535.56"
+420,9,31,9,Flores #Huanca Jhonny,1.395.1012 LP,1992/08/21,MASCULINO,LaPaz,02-19-2012,ACTV,5562
+421,8,45,1,Valda   Yujra   Gustavo,1.180.2292 LP,03-28-1998,Masculino,la paz,05-13-2016,activo.,"Bs.- 2,133.53"
+422,11,22,1,  Aliaga Paredes Armando Jorge  ,6.515.017 LP,2005/04/23,Hombre,La Paz,20250804,act,1895.27
+423,9,17,8,Cruz Saavedra Nelson,C.I. 13727471 LP,03-03-1998,H,Lp,09-02-2018,ACTIVO,"Bs.- 4,885.41"
+424,14,23,2,LIMACHI CALLE GLADYS ROXANA,12556657-cb,20040118,mujer,Cochabamba,24/02/2023,EN ACTIVIDAD,"Bs.- 2,587.38"
+425,15,41,2,OCHOA TICONA RODRIGO,8559125-LP,19990107,HOMBRE,La Paz,07-23-2018,Activo,2249.58
+426,18,28,5,  Tito Montaño Roberto  ,6.901.033 CB,04/06/1996,hombre,CBBA,14/08/2016,ACTV,"Bs.- 3,860.14"
+427,4,32,7,García Flores Miguel,11339133-SC,1997/02/21,Masc.,Sta. Cruz,19/09/2022,EN ACTIVIDAD,5041
+428,1,24,7,Zenteno Tito Marcelo,13434484 - sc,10/09/1987,hombre,Santa Cruz,09/11/2009,Act.,BS 5379.85
+429,18,26,3,Villca Morales Adrián,8.214.533 BN,1986/10/21,hombre,Bn,01-26-2010,en reserva,"Bs. 2,936.19"
+430,18,11,3,  Blanco Poma Roberto  ,11524655 - tj,04-03-1990,Masculino,Tj.,01-14-2009,Act.,3243
+431,13,50,3,Cabrera Mendoza Hugo,9982810,11-02-1988,HOMBRE,Cochabamba,05/02/2010,A,"Bs. 3,124.55"
+432,14,5,1,Cruz Poma Wálter,14345293LP,03/11/2005,M,Lp,2023/11/14,ACTV,"2,076.97"
+433,9,8,14,COPA CHAMBI VÍCTOR,C.I. 3657314 SC,01/10/1968,MASCULINO,SANTA CRUZ,17/09/1993,Act.,"Bs. 11,893.60"
+434,14,33,11,Tito Fernández Roxana,14572964,1987/04/09,F.,Cbba,22/04/2007,en actividad,7989
+435,14,13,6,Torrez\tZenteno Marisol,2.804.542 CB,1998/06/12,MUJER,Cbba,08-06-2017,RESERVA,"Bs. 4,777.20"
+436,4,1,4,Cruz\tColque Víctor,3433361,01/12/1990,masc,cochabamba,15/04/2013,activo.,"Bs. 3,217.99"
+437,11,13,4,  Tito Limachi Lucía  ,8301537,26/01/1986,femenino,SANTA CRUZ,08-02-2011,dado de baja,3319.66
+438,18,34,1,Fernández López Juan,7758043-TJ,1998/06/21,hombre,Tarija,02-16-2016,Activo,"2,399.66 Bs"
+439,1,15,1,  Tito Machaca Marcelo  ,7273103,19980105,Hombre,La Paz,20160628,activo,"Bs. 2,157.55"
+440,6,9,3,Callisaya Copa Andrés Ramiro,C.I. 7367900 PT,1998/08/04,Masculino,potosí,06-28-2018,ACTV,"3,075.72 Bs"
+441,12,36,1,Mendoza\tFlores Cristian,5969984 - lp,11-21-2001,hombre,L.P.,12-03-2020,Activo,"Bs. 2,196.44"
+442,4,9,12,Sánchez   Canaviri   Marco,3.583.673 CB,1982/06/13,HOMBRE,CBBA,17/10/2007,EN ACTIVIDAD,"8,536.54"
+443,4,36,3,Calle   Colque   Marcelo   Carlos,6904855-SC,14/06/1982,hombre,Sta Cruz,20030313,en actividad,"Bs. 3,007.13"
+444,4,15,3,Ochoa Paredes Arturo,1836704 - lp,01-02-1983,hombre,LA PAZ,03/04/2005,A,"2,797.91 Bs"
+445,17,45,2,  Chambi Fernández Mauricio  ,C.I. 2581127 OR,10/12/2005,M,oruro,04-06-2025,activo,"Bs. 2,177.09"
+446,16,16,1,Mamani Chambi Rodrigo,8949550,02/02/2005,Masculino,Cochabamba,22/10/2023,DADO DE BAJA,"2,421.34 Bs"
+447,10,46,5,Pérez   Laura   Nelly,14887331-cb,25-09-1990,FEMENINO,Cbba,02-09-2015,en actividad,4060.17
+448,9,41,1,ROJAS MACHACA ÁLVARO,11716174-bn,06/09/2005,M,Bn.,11-12-2024,rsv,"2,128.08"
+449,5,30,12,Blanco   Apaza   Jhonny,1139836-CB,09-10-1979,masc,Cbba,22-09-2004,ACTIVO,8765.22
+450,18,10,12,Choque #Pérez Pablo,5752407,19771209,masc,LP,12-07-2000,ACTIVO,"Bs.- 9,904.21"
+451,7,17,2,Yujra Valda Hugo,CI: 10700039,07-18-2000,hombre,Cochabamba,10/05/2019,EN ACTIVIDAD,"Bs.2,550.00"
+452,1,36,9,PAREDES MONTAÑO VÍCTOR,7882997 - cb,03-07-1988,H,Cochabamba,2008/10/10,act,5939.76
+453,4,22,3,Montaño Orellana Alejandro,CI: 1917592,1983/05/19,masc,Lp,12-11-2008,EN RESERVA,2659.3
+454,20,45,11,Sánchez\tTicona Mario,1108226,03/02/1981,Masc.,pando,03-20-2000,RESERVA,"Bs. 7,544.60"
+455,20,8,8,  Suárez Pérez Freddy  ,12430660PT,03-21-1994,masculino,Pt,05/03/2012,ACTIVO,5445
+456,5,2,8,Arce García Jorge,14648157 - cb,04/08/1992,Hombre,COCHABAMBA,01-19-2016,EN ACTIVIDAD,"Bs. 5,426.37"
+457,6,42,1,Cabrera #Canaviri Gustavo,9607469SC,21/06/2000,hombre,Santa Cruz,20220615,EN ACTIVIDAD,"Bs 2.389,22"
+458,11,38,2,Castillo\tAliaga Jhonny,5349090 - sc,10-20-2003,masculino,SC,2024/02/02,en actividad,2674.66
+459,4,3,3,LIMACHI CHURA RENÉ,11266039 - lp,08-25-1982,HOMBRE,L.P.,21/10/2005,EN ACTIVIDAD,"3,381.20 Bs"
+460,4,14,1,  Ochoa Arce Sergio  ,2443147PT,19980301,Masc.,Pt,19/07/2018,en actividad,1917.50
+461,19,8,6,Mamani Nina Fernando,1.980.083 LP,1987/11/02,hombre,LaPaz,20060121,en actividad,"Bs.4,170.30"
+462,13,5,8,Quiroga López Antonio,8363152,05-02-1997,H,Pt.,04/02/2019,Activo,4500.31
+463,10,26,12,Ramos Quiroga Lucía,11255028,09-23-1976,fem,SC,16-10-2000,reserva,10080.23
+464,12,5,1,Valda   Choque   Alejandro,2223258,10-24-2004,Hombre,LP,09-16-2022,R,2048.54
+465,18,31,1,  Saavedra Nina Gonzalo  ,1.338.0303 SC,25-07-1998,Hombre,SC,05/12/2019,act,"Bs.- 2,151.71"
+466,1,47,1,PACO CUSI JUAN,14307366 - ch,03/01/2001,H,CHUQUISACA,2019/03/15,EN ACTIVIDAD,"Bs.1,898.85"
+467,10,24,9,Canaviri   Paco   Raúl,4695807-PT,05-28-1996,HOMBRE,Pt,09/09/2017,en actividad,"Bs.- 5,872.07"
+468,2,16,2,Cruz #Rodríguez Andrés,1.469.6578 CB,25-11-2005,,Cochabamba,01/02/2024,,"Bs 2.150,32"
+469,1,39,5,Suárez Choque René Franz,1525229SC,19900526,M,SCZ,11/01/2011,act,3938
+470,6,25,3,Salazar   Ticona   Raúl,9705913-SC,12-08-1994,Hombre,santa cruz,01-09-2014,ACTV,"Bs. 3,405.87"
+471,9,12,4,Chambi Mamani Enrique,CI: 10536858,08-01-1994,HOMBRE,LA PAZ,15/01/2019,ACTV,3255.90
+472,6,10,3,Torrez Pérez Rubén,3134439,1981/04/04,M,Tj,20050106,activo,"Bs.3,324.51"
+473,17,5,1,Apaza García Germán Freddy,C.I. 8445941 LP,11/04/2001,Hombre,la paz,27/06/2023,act,"Bs.- 2,144.54"
+474,4,39,1,Morales Laura Teresa,3517643,2001/06/17,femenino,LA PAZ,20231023,en actividad,2011.81
+475,20,31,1,Ticona Rodríguez Armando,9854283-tj,09/06/2005,Hombre,Tarija,2023/10/10,EN RESERVA,BS 2086.93
+476,15,27,3,Huanca Machaca Víctor,9122764,27/10/1987,H,Cbba,08/09/2007,ACTIVO,"Bs 2.916,86"
+477,6,8,1,ALIAGA ROJAS ROLANDO,8618016 - ch,20040525,MASCULINO,Chq.,04-12-2025,act,"Bs.- 1,892.49"
+478,19,39,5,Fernández Rodríguez Héctor,14836431CB,12-02-1983,masculino,CBBA,12/12/2002,Rsv,BS 4268.17
+479,11,29,6,Rivera Laura Gustavo Juan,C.I. 8608923 SC,09-24-1985,hombre,SC,08/02/2007,Activo,BS 3999.81
+480,4,23,4,Ticona #Cruz Adrián,5668364-cb,19890304,Masculino,COCHABAMBA,2011/05/16,Act.,3793.06
+481,16,2,1,cabrera suárez sergio pedro,4273782-sc,2003/04/10,Masculino,Sta. Cruz,24-07-2025,EN ACTIVIDAD,"Bs. 1,953.28"
+482,11,11,1,Arce Flores Claudia,4731953,15/05/2003,MUJER,Or,25/11/2025,activo.,"Bs.2,324.04"
+483,9,31,2,Ramos López Mauricio,4694503-sc,27-08-2000,masc,Santa Cruz,12-16-2019,EN ACTIVIDAD,2273.93
+484,16,34,5,COPA NINA ERICK,4.937.877 SC,05-27-1985,Masculino,SANTA CRUZ,22/05/2006,A,"Bs 4.138,29"
+485,5,50,7,Martínez\tColque Franz Marcelo,C.I. 12693192 LP,08-20-1995,Masc.,la paz,08/11/2019,Activo,"Bs 4.465,81"
+486,5,5,4,fernández copa rolando wilson,2202646-TJ,28/10/1994,hombre,Tj,2016/03/21,EN ACTIVIDAD,"3,415.19"
+487,10,29,1,Torrez Vásquez Rubén,6701595 - sc,19/04/2004,Masc.,Santa Cruz,20230907,activo,"1,942.81"
+488,12,35,2,  Escobar Huanca Víctor  ,Sin Dato,03-27-2001,Sin Dato,Sin Dato,28/07/2023,activo,2342.64
+489,9,48,1,Mendoza   Alanoca   Javier,5149152,1999/07/21,hombre,Oruro,27/03/2020,activo.,2048.20
+490,1,20,13,QUIROGA SÁNCHEZ JORGE DAVID,8132878-PT,08-07-1983,H,Pt,21/05/2002,activo.,"10,111.23 Bs"
+491,19,2,3,  Cusi Suárez Viviana  ,8587837 - sc,15/04/1992,MUJER,SANTA CRUZ,19/08/2015,EN ACTIVIDAD,2829.55
+492,20,10,10,Ramos Mamani Roberto,10748854BN,08/02/1993,Hombre,BENI,2013/08/03,ACTIVO,6184.92
+493,9,27,11,Orellana Salazar Nelson,1988730-OR,11/12/1984,Masc.,oruro,01-11-2004,Activo,7722
+494,14,45,1,QUIROGA PACO NELSON,2366240-pn,05/07/1999,hombre,pando,17/03/2017,activo.,"1,979.69 Bs"
+495,17,21,3,Paredes Fernández Jorge Roberto,12352859 - sc,10-21-1991,H,Sta. Cruz,03-10-2011,Activo,"Bs.- 2,734.02"
+496,3,1,10,Mamani   Martínez   Silvia   Jimena,3.522.438 CB,07/12/1992,mujer,sin dato,12-04-2013,en actividad,"Bs 6.170,52"
+497,18,35,3,Sánchez Laura Franz,7765720,02-19-1986,hombre,SC,02-24-2006,ACTV,2710.49
+498,7,6,3,  Calle Cruz Antonio  ,14142682LP,03-06-1984,masculino,la paz,11/01/2009,ACTIVO,"Bs. 3,422.86"
+499,20,14,1,sánchez orellana germán,9903425SC,2000/11/27,Masc.,Sta. Cruz,2020/12/05,Act.,2239.92
+500,12,12,6,Paredes   Cruz   Pablo,4.204.180 SC,15/04/1980,M,santa cruz,07/09/2002,A,"Bs.3,961.09"
+501,20,41,10,Choque   Salazar   Nelly,1.304.6536 PT,1995/08/06,FEMENINO,POTOSI,2020/12/28,Act.,6588.9
+502,7,42,3,Choque Martínez Iván,1.012.8206 LP,27/06/1980,hombre,LP,23-06-2005,activo,3437.64
+503,17,27,2,vargas herrera armando,C.I. 11209422 LP,24/11/2000,masculino,LA PAZ,09/05/2018,ACTIVO,"Bs. 2,213.29"
+504,15,6,6,ALIAGA MORALES MAURICIO,4649478-PT,27/05/1987,HOMBRE,Potosi,12-25-2008,en actividad,"Bs. 3,961.21"
+505,12,50,5,Pérez Flores Nelly,10708910-sc,08-27-1996,Mujer,SANTA CRUZ,27/01/2016,activo.,3407.50
+506,17,43,1,Pérez Cruz Gustavo,1527610,2000/08/05,Hombre,Cochabamba,11/10/2021,EN ACTIVIDAD,"Bs 2.119,42"
+507,20,30,8,Montaño Suárez Víctor,1364903 - lp,10-23-1997,hombre,La  Paz,13/12/2021,en actividad,BS 4800.0
+508,17,11,2,TORREZ SALAZAR ERICK,1479076-cb,20021023,H,COCHABAMBA,19-04-2024,EN ACTIVIDAD,"Bs 2.222,42"
+509,3,47,8,Sánchez Flores Gonzalo,4.411.176 LP,22/03/1991,masculino,LP,16-01-2014,en actividad,BS 4575.87
+510,20,26,8,Poma Aliaga Alejandro,5751216,12/02/1996,Hombre,Cbba,11-24-2021,baja,4461.96
+511,13,42,5,Condori #Cruz Verónica Andrea,2557770-cb,05/07/1985,femenino,CBBA,05-13-2007,ACTIVO,"3,777.94 Bs"
+512,5,37,4,POMA ARCE FERNANDO,3699181,07-22-1996,Masculino,potosí,16-01-2021,EN ACTIVIDAD,"3,573.60 Bs"
+513,3,10,6,Rodríguez Blanco Raúl,8.114.632 LP,06-23-1980,M,LA PAZ,07-05-2004,EN ACTIVIDAD,"Bs 4.344,30"
+514,16,29,2,Paredes Alanoca Mario Alejandro,3525773-sc,08-07-2005,H,Sta Cruz,02-14-2023,EN RESERVA,2504.67
+515,6,19,3,YUJRA FERNÁNDEZ RUBÉN,1394773,1991/07/01,masc,ORURO,10/06/2016,ACTIVO,3086.2
+516,19,30,14,Montaño Callisaya Oscar,14850789,02-11-1965,Masculino,s/d,s/d,s/d,"13,872.86 Bs"
+517,18,16,13,Blanco Rojas Marisol,6086875,06-19-1976,F,santa cruz,04-25-2001,Rsv,"Bs.9,790.58"
+518,4,15,4,Colque López Carlos,8.758.476 LP,Sin Dato,HOMBRE,la paz,Sin Dato,EN ACTIVIDAD,"Bs.- 3,632.73"
+519,13,3,3,Suárez Callisaya Adrián,7544141-LP,1998/02/21,masculino,LaPaz,12/09/2023,ACTV,3223.21
+520,8,25,11,Quispe Cusi Erick,10335505,20/07/1979,hombre,Pn.,02-13-2000,en actividad,"Bs 8.607,29"
+521,17,35,4,COLQUE VALDA WÁLTER,11622034-sc,08/07/1997,H,Santa Cruz,08-25-2021,Activo,BS 3732.66
+522,1,40,2,Tito Limachi Fernando,7883587-PN,20/03/2001,HOMBRE,pando,2023/09/03,Activo,2674.11
+523,12,47,9,Saavedra\tRojas René,3.707.494 TJ,16/03/1991,HOMBRE,tarija,20120605,Act.,6486
+524,3,1,9,SAAVEDRA MACHACA DAVID,5108127-CH,1988/11/22,Masculino,Sucre,2012/09/16,Rsv.,"Bs.5,052.44"
+525,12,26,1,Poma Orellana José,13897678PT,2005/07/26,Hombre,Pt,2023/02/05,Act.,"Bs.- 2,370.24"
+526,8,49,11,Callisaya #Huanca Fernando,12896436,10/06/1983,Masc.,Cbba,26/06/2008,Activo,6955.32
+527,5,48,4,Sánchez\tCalle Germán Mauricio,12295742-SC,03-20-1984,H,SC,2006/07/09,activo.,"Bs 2.918,56"
+528,13,32,6,RIVERA QUIROGA VÍCTOR,9780144-SC,16/09/1985,H,santa cruz,2005/08/13,ACTIVO,"Bs.4,763.15"
+529,8,48,15,Orellana   Paco   Mauricio,CI: 14138027,06-22-1968,Masc.,Tarija,19930721,activo,"15,181.67 Bs"
+530,6,3,9,Quiroga   Ramos   Adrián   Enrique,13035644-lp,05-18-1997,M,L.P.,24/02/2019,ACTV,BS 6375.4
+531,3,31,9,ALANOCA HUANCA JOSÉ,2952975-lp,1991/02/18,masculino,L.P.,10-16-2012,ACTV,BS 4946.71
+532,17,19,10,Vásquez Alanoca Erick,9510963,1998/05/09,MASCULINO,LaPaz,09/06/2019,activo.,"6,505.97 Bs"
+533,7,50,2,García   Chura   Franz,6745050-TJ,1999/04/07,HOMBRE,TARIJA,10/09/2019,en actividad,BS 2522.8
+534,9,15,8,Ochoa Calle Gabriela,14233006-SC,28/08/1992,F.,Sta. Cruz,2014/06/05,activo,BS 5553.67
+535,7,43,2,López Montaño Roxana,1326813OR,2002/05/27,F.,Or.,01-11-2022,A,2411.8
+536,16,16,6,Rivera Calle Nelson,1.771.751 BN,19/10/1988,masculino,BENI,04-01-2012,ACTIVO,"Bs 4.001,79"
+537,15,16,1,  Rivera Sánchez Mario  ,10426050SC,18-10-2003,Hombre,SCZ,09-17-2023,EN ACTIVIDAD,BS 2325.12
+538,9,39,3,Villca   Rojas   Edwin,CI: 12812171,19800304,Masc.,SC,14/07/2005,act,2987
+539,3,37,1,Vásquez   Fernández   Sonia,11643027-sc,1999/09/25,fem,SCZ,06/09/2017,act,"2,428.56"
+540,17,50,9,Huanca\tVargas Mónica,6.701.061 SC,13/01/1994,fem,santa cruz,2016/01/20,Activo,"4,962.84 Bs"
+541,7,50,2,Cabrera   Valda   Jhonny,10678039,10/04/2000,Masculino,SC,01-02-2019,en actividad,"Bs.2,833.37"
+542,15,8,2,Machaca\tCruz Oscar,1.457.958 OR,15-01-2004,Masculino,ORURO,07-02-2023,ACTV,BS 2424.38
+543,7,14,8,Paco   Chambi   Roberto,6316357CB,09-12-1989,Masculino,Cbba,05-17-2014,A,"5,132.85"
+544,16,2,6,Callisaya   Flores   Andrés,CI: 14592387,21/12/1988,masculino,SCZ,05/01/2011,ACTV,"3,793.47"
+545,5,48,13,ZENTENO MORALES WÁLTER,C.I. 3929930 CB,1980/06/04,M,Cochabamba,16/01/2001,EN ACTIVIDAD,10196.51
+546,4,1,2,CUSI CHAMBI CARMEN,C.I. 3847768 SC,04-03-2003,F.,SCZ,2024/02/04,dado de baja,"2,473.32 Bs"
+547,16,48,10,Laura Copa Marco,2617294SC,1997/04/05,H,santa cruz,05/09/2018,en actividad,"Bs. 5,803.06"
+548,5,21,3,Colque Rivera Germán,1.068.3257 SC,22/06/1993,masc,SANTA CRUZ,24/10/2013,reserva,"2,580.8"
+549,15,14,7,Calle Quiroga Juan,11548052-CB,09-10-1994,H,Cbba,24-02-2019,EN ACTIVIDAD,BS 5186.66
+550,18,9,1,PÉREZ HUANCA RAMIRO,8.155.726 PT,04-15-1999,Masculino,Pt.,20170218,Act.,"Bs 1.953,36"
+551,17,39,5,Aliaga Quispe Andrea Verónica,13492244,28/10/1984,FEMENINO,L.P.,12-09-2002,Act.,4020.81
+552,16,30,8,Poma #Fernández Gonzalo,9753488-cb,1993/03/24,Masculino,Cochabamba,2015/01/03,Act.,5286.98
+553,8,23,2,Morales Tito Freddy,10922320-CB,09/04/1999,H,Cbba,04/07/2018,ACTIVO,"2,564.45 Bs"
+554,5,5,9,  Colque Herrera David  ,3094878 - cb,02-05-1993,masculino,Cbba,04/05/2017,ACTIVO,5671.08
+555,14,4,8,Quiroga Colque Yolanda,1.277.0878 SC,28-02-1998,mujer,Santa Cruz,24/12/2020,EN ACTIVIDAD,"Bs. 4,812.61"
+556,20,34,6,Aliaga Zenteno Pablo,10406494,1992/01/20,Hombre,santa cruz,2011/10/27,ACTV,"4,772.13 Bs"
+557,13,41,1,Herrera   Quiroga   Víctor,9770547-cb,01-11-2004,masculino,Cbba,10-06-2023,Activo,"Bs 2.494,33"
+558,7,36,2,CALLISAYA ALANOCA JOSÉ,CI: 14315086,13-12-2003,masc,la paz,28-03-2023,ACTIVO,"Bs.- 2,191.65"
+559,12,22,11,Vargas #Cusi Antonio,CI: 5440600,1989/06/25,H,cochabamba,03-11-2009,act,6802.03
+560,11,35,2,Valda Colque Germán,5418616-CB,07-05-2003,Masculino,Cbba,20240228,Bja,"2,735.93"
+561,15,42,3,ORELLANA CALLISAYA OSCAR EDWIN,CI: 5116319,19860301,masc,pando,01/04/2008,Rsv.,2984.95
+562,13,1,2,Alanoca Ochoa Víctor,1.494.2487 SC,02-18-2002,Masculino,Sta. Cruz,10-12-2020,Reserva,"Bs.2,830.56"
+563,14,24,3,Canaviri Blanco Jenny,14479252-PN,04-11-1991,FEMENINO,Pando,20140223,activo.,"Bs.3,323.95"
+564,15,18,3,  Apaza Canaviri David  ,CI: 10295799,01-15-1998,M,SC,08-19-2023,Act.,3407.85
+565,14,46,11,N/D,11028388LP,N/D,femenino,Lp,N/D,ACTV,"Bs 7.060,49"
+566,8,39,2,OCHOA LIMACHI LUIS,13290255 - or,2000/03/01,hombre,oruro,2021/12/04,Act.,"2,195.62"
+567,13,13,3,Valda   Pérez   Hugo,4096510 - sc,19870621,M,Sta Cruz,06-15-2006,Act.,3021.48
+568,3,12,6,Quispe Arce Marco,10451691-ch,11-20-1986,HOMBRE,CHUQUISACA,18-03-2011,Act.,"4,005.01 Bs"
+569,10,7,4,Valda Blanco Antonio Raúl,14542649-BN,11-06-1991,Masc.,beni,2011/02/16,ACTIVO,"Bs.3,048.36"
+570,12,4,1,ZENTENO VÁSQUEZ MARIO,CI: 7782771,11-23-2005,Masc.,LP,2025/02/28,en actividad,"Bs. 2,307.92"
+571,1,32,11,Paredes Poma Javier,2382256CB,1978/06/18,Masc.,Cochabamba,13/10/2003,ACTIVO,"Bs 8.607,65"
+572,13,13,4,PACO CHOQUE ALEJANDRA SONIA,1792011 - sc,19910902,Femenino,Sta. Cruz,20151217,en actividad,"Bs.3,071.86"
+573,4,19,2,Copa Mamani Álvaro,7400318,22/04/1998,masc,La  Paz,13-03-2018,act,"Bs.2,403.84"
+574,1,27,7,VALDA TITO GLADYS,5573719 - or,07-09-1993,fem,Oruro,2014/08/09,ACTIVO,"Bs. 4,982.21"
+575,10,35,7,Paco Pérez Raúl,12996101-bn,05-28-1989,masculino,BENI,25/02/2011,activo,"5,264.94 Bs"
+576,15,48,6,Callisaya\tArce René Alejandro,8314004-LP,08-20-1984,MASCULINO,la paz,17-11-2002,A,"Bs.- 3,808.10"
+577,7,22,2,Gutiérrez Fernández Enrique René,4778826,---,M,Santa Cruz,---,act,---
+578,19,8,6,Mamani Nina Fernando,1.980.083 LP,1987/11/02,hombre,LaPaz,20060121,en actividad,"Bs.4,170.30"
+579,8,10,5,Machaca   Cabrera   Mauricio,10000215LP,24/11/1989,masculino,LP,2009/07/09,Rsv.,"3,649.61"
+580,15,25,9,Poma\tLimachi Mauricio,8727275 - ch,06-11-1995,HOMBRE,Chq,20181113,activo.,"5,852.09"
+581,10,50,9,GUTIÉRREZ CALLE ANDRÉS,CI: 11942728,02/07/1997,masculino,La Paz,2018/04/11,act,5202.69
+582,11,30,7,Salazar Blanco Mónica,C.I. 3528045 PT,1987/12/05,Femenino,Potosí,20/06/2012,reserva,"Bs 4.961,75"
+583,20,21,5,Gutiérrez Cruz Roxana,2107683-cb,16/08/1998,femenino,Cochabamba,12-06-2021,ACTV,"Bs 3.345,71"
+584,15,7,2,Callisaya Quiroga Edgar,2901872CH,19980313,HOMBRE,Chq.,16/07/2019,activo,2139
+585,13,10,4,VALDA LAURA RAMIRO,3263974-lp,11-07-1983,HOMBRE,LP,20060523,Activo,"3,692.31"
+586,8,45,1,Quispe Vásquez Arturo,3799814 - cb,15/05/2002,M,COCHABAMBA,02-06-2023,ACTV,2526.76
+587,11,24,6,nina condori gonzalo,5534607-SC,19960714,Masculino,SCZ,2019/03/12,Activo,"4,266.0"
+588,5,37,1,García Ramos Daniel,7264416 - lp,28/02/2001,masculino,la paz,2019/01/24,ACTIVO,2402.61
+589,14,44,1,Vargas Flores Adrián,2536556 - sc,04-02-2001,MASCULINO,Sta. Cruz,11/07/2019,ACTV,"1,997.14"
+590,4,45,2,Pérez #Gutiérrez Juan Gonzalo,1.065.4181 TJ,1999/04/06,masc,tarija,06/04/2019,Activo,BS 2752.03
+591,12,47,11,Cusi   Morales   Rodrigo,2053323LP,25/10/1976,HOMBRE,la paz,2001/02/22,ACTV,"Bs.7,986.25"
+592,16,21,4,paco arce marco,9.383.489 SC,19971207,hombre,Sta. Cruz,06-10-2018,EN ACTIVIDAD,"3,249.95 Bs"
+593,13,24,2,Saavedra   López   Erick,7.399.792 PT,26/07/1998,masc,Potosí,03-19-2017,Rsv,"Bs 2.287,75"
+594,2,23,11,ticona vásquez edwin david,3681345-CB,02-11-1978,H,CBBA,10/10/2003,A,"Bs.7,542.22"
+595,12,37,2,Villca Ticona Daniel,12551356-cb,20050201,masculino,Cbba,06-14-2024,ACTV,BS 2833.43
+596,8,32,3,SALAZAR MACHACA SONIA,CI: 10946117,08-01-1998,Mujer,LA PAZ,09-04-2021,en actividad,BS 2683.52
+597,18,10,10,  Mendoza Alanoca Cristian Freddy  ,6975520-lp,1992/06/16,H,La Paz,2015/10/18,en actividad,"7,105.92 Bs"
+598,5,19,2,  Zenteno Quiroga René  ,5378650 - lp,01-21-1998,HOMBRE,LaPaz,2019/02/12,ACTIVO,"Bs.- 2,807.35"
+599,2,21,2,Morales Rivera David,1.284.478 LP,05/06/2005,M,La  Paz,13/12/2024,ACTV,2596.67
+600,6,46,14,Chura   Huanca   Germán   Luis,2.715.524 LP,25/02/1968,hombre,LP,1993/06/11,activo.,"12,389.94"
+601,2,42,1,Saavedra Pérez Roberto,CI: 1948150,02/08/2001,hombre,La Paz,04-25-2019,A,"1,970.74 Bs"
+602,3,22,3,Poma Suárez Nelson Wálter,3664338,19850321,Masc.,L.P.,20041126,activo,"Bs.2,746.58"
+603,1,23,11,Rivera Condori Héctor Gonzalo,10776741LP,12/10/1977,Masc.,la paz,03-13-2002,Act.,"7,581.52"
+604,1,29,9,Pérez   Poma   Gonzalo,5787910-lp,22/11/1997,HOMBRE,La  Paz,06-04-2021,en actividad,"Bs.- 5,604.17"
+605,17,2,2,Mendoza Salazar José,5.233.438 CH,01-07-2002,MASCULINO,chuquisaca,06-07-2021,ACTV,"Bs. 2,664.96"
+606,1,18,1,VALDA MAMANI ELIZABETH SANDRA,11389739 - tj,19980515,mujer,Tarija,19/12/2019,baja,"Bs. 1,934.17"
+607,1,31,1,Chura Valda Mario,4433725-PN,04/01/2000,HOMBRE,pando,08/12/2018,Act.,"Bs. 2,455.05"
+608,3,50,1,Orellana Montaño Pedro,1222617,2002/12/10,M,CBBA,26/04/2023,ACTV,"2,313.02"
+609,3,39,5,Canaviri Quiroga Natalia,CI: 5806959,27/08/1991,mujer,oruro,06/09/2016,act,"Bs 4.258,08"
+610,12,28,7,Cusi Valda Mario,10097757 - sc,09-10-1982,Hombre,santa cruz,20020612,Act.,4729.11
+611,13,6,2,Salazar López Sergio,14292215-pn,2004/02/17,Hombre,pando,04/09/2022,Activo,2316.04
+612,8,41,1,Apaza Paco Jorge,13609176,27/03/2005,Masculino,CBBA,20250423,en actividad,BS 2393.77
+613,3,17,1,QUISPE FERNÁNDEZ MAURICIO GONZALO,4.115.765 LP,14/02/2005,HOMBRE,LaPaz,2024/11/13,ACTV,2264.39
+614,18,50,6,Pérez Callisaya Marco,14385395CB,23/07/1983,H,cochabamba,16/11/2006,Baja,BS 4048.76
+615,11,20,1,Villca Ramos Fabiola,8873203,04-20-2005,Femenino,santa cruz,01/02/2024,A,"Bs.2,261.66"
+616,10,11,9,Rodríguez   Callisaya   Rosa,CI: 3917871,20/05/1988,femenino,SCZ,2011/07/04,Act.,BS 6615.3
+617,4,7,9,Rivera   Quiroga   Ramiro,CI: 12976045,1990/03/05,Masc.,Santa Cruz,08-16-2008,activo,"Bs. 6,146.12"
+618,4,2,2,APAZA CALLE LUIS PABLO,5080755-CB,19/02/2000,MASCULINO,cochabamba,11-07-2019,activo.,2872.39
+619,4,34,1,Mamani Laura Adrián,14221907LP,17/10/2002,masculino,LaPaz,05-26-2020,ACTIVO,"Bs. 2,477.68"
+620,16,33,1,Quiroga Castillo Luis Daniel,C.I. 13759375 LP,10-06-1999,hombre,La Paz,25-11-2018,act,2282.91
+621,20,33,10,Orellana   Saavedra   Viviana,CI: 3136181,11-28-1994,MUJER,LA PAZ,2014/04/20,Act.,BS 6494.41
+622,10,31,4,ARCE MACHACA OSCAR,CI: 9980691,1996/08/13,H,CBBA,11/08/2016,A,"3,389.47"
+623,11,34,2,Salazar Rojas Marco,6139660CB,2004/05/09,masc,CBBA,2025/11/22,activo.,2584.79
+624,20,41,2,Ticona Valda Arturo Armando,5.144.427 CB,21/03/2003,H,cochabamba,08/06/2024,ACTIVO,2662
+625,17,37,3,chura vásquez maría nelly,1.023.8276 CB,09/04/1993,FEMENINO,Cochabamba,07-21-2011,baja,3085.74
+626,7,3,8,Blanco #García Raúl,12521321-BN,02/10/1998,HOMBRE,Bn.,2016/02/11,DADO DE BAJA,"5,542.53"
+627,18,40,2,morales arce marco,7430237,03-03-1998,masc,BENI,12-20-2020,B,"Bs.- 2,327.30"
+628,15,14,6,Sánchez Paredes Juan,C.I. 11061570 SC,1987/02/28,M,santa cruz,2006/07/23,en actividad,"Bs.- 3,759.49"
+629,20,14,9,Quispe Vásquez Arturo,7507893-SC,23/03/1993,hombre,SC,27/10/2012,A,"Bs.- 5,587.14"
+630,1,25,9,SALAZAR RAMOS ANA,2.085.401 SC,12/06/1997,Mujer,SC,20210116,A,"5,704.87 Bs"
+631,2,49,5,Arce   Rojas   Valeria,7399569-tj,02-23-1987,Mujer,TARIJA,20-02-2007,A,"3,287.07"
+632,10,36,2,Mendoza   Saavedra   Sergio,1874873LP,06/07/2005,MASCULINO,LA PAZ,2023/01/26,DADO DE BAJA,BS 2576.98
+633,1,33,13,Martínez Quiroga Elizabeth,C.I. 5569064 LP,07-05-1976,Mujer,LaPaz,16/01/2000,Act.,"Bs.9,341.72"
+634,17,32,9,HUANCA NINA DAVID,5818458 - lp,1998/07/18,hombre,La  Paz,09-15-2022,baja.,"Bs. 6,571.32"
+635,13,25,7,Chambi Laura Pedro,2938375TJ,06-01-1989,HOMBRE,TARIJA,2012/08/07,A,"Bs 4.390,42"
+636,15,9,2,poma montaño lorena,7.233.861 SC,2004/01/08,femenino,Santa Cruz,11-04-2023,Activo,"2,164.84"
+637,4,10,1,ROJAS SÁNCHEZ NELSON RAMIRO,3784101BN,01-01-2002,HOMBRE,Bn,21/04/2024,activo,"1,885.93"
+638,3,10,12,Castillo Condori Natalia,10193742,1987/06/22,Mujer,Sta. Cruz,24/12/2012,activo,"Bs 7.860,03"
+639,3,11,1,Paredes Escobar Jhonny Mario,CI: 4533549,24/05/1998,masculino,SCZ,08-02-2019,ACTV,BS 2517.59
+640,11,34,5,Escobar   Valda   Rubén,CI: 13450562,22/11/1984,Masc.,Chq,10-25-2006,en reserva,3487.87
+641,15,10,3,Escobar #Mendoza Rubén Mario,4673414-TJ,1983/12/18,Masculino,Tj,20060724,activo,"3,059.92 Bs"
+642,16,26,11,VILLCA LAURA NELSON,CI: 4954093,07-14-1981,Masculino,LA PAZ,10/04/2006,activo,"Bs. 8,185.19"
+643,12,44,4,Mamani   Calle   Mónica,CI: 3239478,19911119,F.,La Paz,06-01-2010,R,BS 3226.74
+644,5,5,4,fernández copa rolando wilson,2202646-TJ,28/10/1994,hombre,Tj,2016/03/21,EN ACTIVIDAD,"3,415.19"
+645,11,14,4,  Zenteno Poma Javier  ,4944744-cb,05/08/1987,Masculino,Cbba,2007/01/03,Activo,3782.64
+646,16,42,2,Colque Escobar Roberto,6075879-SC,06/06/1998,masculino,Sta. Cruz,2019/04/12,act,BS 2148.53
+647,1,11,2,Canaviri Paredes Marco,CI: 13608314,03/07/2002,masc,Sta Cruz,05/06/2023,activo,BS 2230.26
+648,2,20,1,Saavedra Ochoa Luis,CI: 10703869,16/04/1998,hombre,COCHABAMBA,2017/10/12,ACTV,2115.24
+649,7,14,12,Mamani García Antonio,14829862-sc,22/06/1979,M,Sta. Cruz,20040517,ACTV,8875.86
+650,15,42,3,ORELLANA CALLISAYA OSCAR EDWIN,CI: 5116319,19860301,masc,pando,01/04/2008,Rsv.,2984.95
+651,16,27,1,-,14284841 - sc,19/10/2005,masc,Sta Cruz,20230627,A,"Bs 2.166,52"
+652,18,35,3,Mamani\tParedes Lorena,2276841 - lp,17/01/1993,Femenino,L.P.,20151022,act,3439.98
+653,4,9,1,Flores\tVillca Gonzalo Franz,9050790,22/03/2002,H,SC,20221109,activo.,2467.93
+654,6,8,3,Mamani Ramos Roberto,1.392.4151 LP,04/06/1994,MASCULINO,LP,04-09-2019,activo.,3102
+655,16,49,2,MORALES GUTIÉRREZ PATRICIA,9759161,2003/01/11,Fem.,cochabamba,2024/07/04,ACTIVO,2706
+656,7,3,6,ALIAGA MONTAÑO CRISTIAN,11779820-CB,1981/08/07,M,Cbba,12-10-2000,ACTIVO,4407.37
+657,4,40,5,Calle Vásquez Cristian Daniel,10254389,11/11/1981,MASCULINO,Sta Cruz,18/05/2001,act,3564
+658,14,2,4,Laura Huanca Luis,C.I. 13392128 SC,05-11-1980,Masculino,SC,2001/12/03,rsv,"Bs.- 3,840.04"
+659,18,37,1,Torrez Sánchez Miguel,1.023.0964 TJ,2002/09/22,H,Tarija,13/02/2022,ACTIVO,1896
+660,3,22,3,Poma Suárez Nelson Wálter,3664338,19850321,Masc.,L.P.,20041126,activo,"Bs.2,746.58"
+661,7,40,8,Rojas Vásquez Armando,1996091-SC,07/07/1998,Masculino,Sta Cruz,06-05-2020,ACTV,"5,341.60 Bs"
+662,8,9,1,Callisaya\tLópez Gonzalo,14664140-sc,04-08-1998,masc,Sta Cruz,03/12/2016,activo,"Bs 1.957,75"
+663,13,43,7,BLANCO RODRÍGUEZ MARIO,6454467,1996/11/09,masc,tarija,11-07-2021,Reserva,"4,290.12 Bs"
+664,4,19,7,Paco Montaño Sergio José,CI: 4419865,09/05/1984,masc,Sta. Cruz,25/07/2004,A,"5,211.4"
+665,13,15,11,Cabrera López Nelson,4932931LP,1979/02/09,M,LA PAZ,09-09-2002,ACTIVO,"Bs. 6,986.58"
+666,16,34,2,Chura   Escobar   Alejandro,10637062,01/03/1998,H,tarija,25/12/2018,A,2550.96
+667,8,21,2,Apaza García David,11479371,12/06/1998,HOMBRE,COCHABAMBA,18/04/2019,activo,"Bs. 2,295.68"
+668,12,7,2,Canaviri López Lucía Lorena,C.I. 4599278 LP,01/05/1998,fem,LA PAZ,04/07/2020,dado de baja,BS 2607.26
+669,16,14,1,Calle   Callisaya   Alejandro,3802428 - lp,20040604,masculino,Lp,19/09/2022,ACTIVO,2249
+670,7,13,2,Mendoza   Paco   Gonzalo   Sergio,4009691-lp,15/05/2000,H,LP,15/11/2018,ACTIVO,"2,225.89"
+671,3,49,1,  Suárez Vargas Sergio  ,8052414 - sc,2000/04/03,Masc.,santa cruz,04-07-2019,ACTV,2331
+672,20,29,2,  Salazar Cruz David  ,8128409-BN,2002/06/09,masculino,Beni,24-04-2024,ACTIVO,BS 2751.72
+673,2,34,2,Quiroga Rodríguez Adrián,7620407-SC,09-08-2000,Hombre,santa cruz,04-02-2019,A,"Bs. 2,580.18"
+674,3,34,3,Quiroga Orellana Pedro,1.446.9924 LP,1984/10/15,Hombre,La Paz,24/07/2003,activo,BS 2622.14
+675,3,45,1,Morales   Cusi   Armando   Marco,11687744 - or,20010826,M,ORURO,20190826,rsv,"Bs 2.297,38"
+676,20,43,2,Pérez Morales Teresa,14635948LP,16/05/2005,Fem.,La Paz,02-05-2025,EN ACTIVIDAD,2697.42
+677,17,18,5,Nina #Apaza Rubén,2487947-SC,13/03/1996,M,SC,04/10/2020,Act.,BS 3400.17
+678,20,23,9,Choque Limachi Germán Nelson,C.I. 7881736 LP,25/10/1988,Masc.,LA PAZ,03-03-2008,activo.,BS 6325.47
+679,13,46,2,  Vásquez Valda Enrique Nelson  ,9.651.395 BN,2001/09/21,MASCULINO,Bn.,07-09-2019,A,"Bs 2.629,75"
+680,7,7,8,López Laura Erick,9863756,19920503,Hombre,SCZ,27/01/2017,activo,"Bs. 5,894.91"
+681,5,48,13,ZENTENO MORALES WÁLTER,C.I. 3929930 CB,1980/06/04,M,Cochabamba,16/01/2001,EN ACTIVIDAD,10196.51
+682,3,31,1,Yujra Vargas Wálter,13234722-cb,2004/05/14,Masculino,Cbba,17/05/2024,activo.,"2,407.72 Bs"
+683,2,19,5,  Montaño Copa Armando  ,CI: 2032303,05-08-1981,Masculino,tarija,2001/04/07,B,"4,169.29"
+684,20,13,1,Ticona Valda Marcelo,10133145,10-03-2001,M,POTOSI,07/08/2020,ACTIVO,"Bs.- 2,295.06"
+685,18,47,7,Nina García Alejandro,9400075-CB,01-01-1996,Masc.,COCHABAMBA,27-04-2016,activo.,"Bs.- 5,247.39"
+686,14,1,1,Vásquez Pérez Nelson,14808335SC,12-07-2001,HOMBRE,SC,05/06/2023,Reserva,"Bs. 1,920.33"
+687,7,39,2,Cusi\tLimachi Carlos,14672532,2000/02/08,H,Lp,05-11-2021,act,2182
+688,14,48,8,Villca   Ramos   Carlos,7635331,23/09/1988,M,santa cruz,24-02-2007,Activo,"Bs 5.637,28"
+689,4,12,2,YUJRA MONTAÑO ALEJANDRO MARIO,13501732,2001/05/11,masculino,LP,2021/01/27,Act.,2537.72
+690,17,29,1,Condori Rodríguez Javier,10303481,10/06/2001,masc,la paz,2020/08/28,ACTIVO,2233.19
+691,10,19,1,Castillo Laura Edgar José,CI: 10744938,20000123,hombre,Pn.,05-19-2021,act,"2,135.88"
+692,3,34,9,  Chambi Paco Enrique  ,CI: 12379638,18/03/1992,Masc.,SC,10-13-2015,en actividad,5919
+693,13,37,8,mendoza fernández cristian,1.402.3628 PT,14-01-1996,masculino,POTOSÍ,2014/09/16,A,5418.77
+694,17,9,3,Colque   Chambi   David,11908371,1997/01/27,HOMBRE,chuquisaca,12/01/2019,B,"Bs 3.348,55"
+695,12,27,6,  Torrez Flores Mario  ,7416175,04-01-1982,HOMBRE,Potosi,20070704,ACTIVO,"Bs. 4,433.95"
+696,2,2,3,Blanco Aliaga Raúl Wilson,9540127-cb,08-25-1985,M,Cochabamba,01-01-2006,act,"3,012.51 Bs"
+697,17,4,6,  Zenteno Quiroga Antonio  ,2111028 - lp,10/02/1988,HOMBRE,LaPaz,2007/12/11,Act.,4083.82
+698,15,9,1,Herrera   Chambi   Oscar   Rolando,C.I. 3723148 CB,2004/07/22,masculino,Cbba.,20231005,Act.,2236.61
+699,3,13,3,Poma Chura Cristian,9951249,15/04/1986,hombre,Santa Cruz,02-05-2007,BAJA,"2,832.78 Bs"
+700,8,49,1,FLORES CHAMBI GABRIELA,7372482,27/04/2004,Femenino,La  Paz,15/03/2024,ACTV,2248.47
+701,14,18,1,fernández castillo sonia viviana,14714725,08/01/2002,Fem.,LaPaz,2023/04/22,Act.,"Bs.- 1,937.07"
+702,4,41,2,cabrera zenteno mauricio rolando,14880173SC,2001/05/17,masc,SCZ,03-19-2022,en actividad,"2,675.91"
+703,1,32,9,limachi quispe daniela sonia,10603703,24-09-1997,Fem.,COCHABAMBA,20210722,Rsv.,BS 5137.05
+704,6,15,2,Nina   Suárez   Wálter,12054684-LP,20030622,Masculino,La  Paz,02-13-2022,Act.,BS 2619.67
+705,18,38,1,López   Martínez   Hugo   Jhonny,8662586,14-04-2002,M,SCZ,18/10/2024,activo,2230
+706,10,42,12,Ticona Chambi Raúl,5207244-SC,05-20-1979,Masc.,santa cruz,12-20-2002,activo,"Bs.9,141.92"
+707,18,50,2,Suárez   Poma   Hugo,9012822 - cb,20000120,masculino,cochabamba,05-13-2021,act,2847.64
+708,11,34,2,CANAVIRI QUIROGA FRANZ,14993676,2001/08/24,masc,la paz,18/11/2019,A,"Bs.- 2,518.29"
+709,1,44,1,Copa #Villca Jenny,10549482,03-09-1999,Fem.,santa cruz,03-25-2021,Act.,"Bs 2.432,64"
+710,13,15,3,López Yujra Mauricio,10664568-SC,09-19-1986,Hombre,Sta Cruz,20050613,EN ACTIVIDAD,"Bs. 2,621.65"
+711,4,15,6,Mendoza Saavedra Jhonny Wilson,6760038-sc,19960218,Masc.,SC,12/06/2020,Activo,BS 4383.73
+712,19,5,13,ROJAS SÁNCHEZ RUBÉN,3012893-SC,1978/08/20,Masculino,SCZ,03-02-2003,act,"Bs 11.549,03"
+713,20,14,5,Rojas   García   Marco,3911009-lp,24/08/1993,MASCULINO,LA PAZ,26/04/2012,ACTIVO,4200.78
+714,20,47,1,Rodríguez Callisaya Antonio,8933739SC,08-01-2000,MASCULINO,SC,06-05-2020,act,"Bs 2.209,41"
+715,6,9,4,Cusi Herrera Daniela,5.689.870 SC,12-11-1995,mujer,SCZ,2018/12/22,ACTV,"Bs. 3,534.82"
+716,5,1,1,null,6574981-sc,05/01/1998,Masculino,SCZ,21/06/2018,Activo,null
+717,10,34,4,paco vargas mauricio,C.I. 5763210 SC,19961013,masc,Sta. Cruz,10-20-2020,Bja,"Bs.3,390.44"
+718,12,19,2,Quiroga Castillo Adrián Wálter,12805863,17/02/2001,masc,Pn.,23/03/2020,activo,2737.27
+719,7,46,2,Ochoa   Ramos   Adrián   Miguel,9.213.082 CB,2005/06/01,Hombre,Cbba.,03-25-2025,A,BS 2514.01
+720,20,6,2,Saavedra Salazar Nelson Mario,6459880 - bn,20050722,masculino,BENI,24/04/2025,en actividad,"Bs. 2,164.82"
+721,6,10,2,Vargas Orellana Jhonny,6466396,14/12/2001,Masc.,Bn.,24/02/2020,Act.,"Bs 2.370,22"
+722,15,48,11,Escobar #Sánchez Alejandra,3049446-LP,06-04-1990,Fem.,LA PAZ,08/05/2014,EN RESERVA,7659.85
+723,5,50,3,Zenteno Cabrera Iván,13387283 - sc,02-05-1986,masc,Sta Cruz,25/01/2006,BAJA,"Bs.3,105.25"
+724,20,30,3,  Herrera Huanca Juan Hugo  ,6555099-lp,19960824,Masc.,L.P.,16/04/2015,activo,"3,285.75"
+725,1,25,2,Pérez   Escobar   Raúl,null,06/05/1998,null,Sta Cruz,07/05/2016,null,"2,588.47"
+726,6,3,2,blanco ticona wálter,CI: 10193570,25-05-1998,masculino,Tj,2020/08/20,Activo,"Bs.2,639.51"
+727,7,2,1,Choque Arce Raúl,13593093,08/05/2002,MASCULINO,TARIJA,03-11-2023,ACTV,"Bs.- 2,434.42"
+728,1,6,5,Morales Aliaga Mario,10846204,16/04/1989,hombre,beni,28/11/2011,ACTV,"3,449.85 Bs"
+729,15,27,1,Ticona   Gutiérrez   Jorge   Mario,3.640.810 LP,05/11/2005,MASCULINO,La Paz,20/02/2023,activo,"2,314.47 Bs"
+730,3,47,3,Blanco\tGarcía Rodrigo,CI: 14850004,28/02/1981,M,Cbba,08-20-2003,ACTV,"Bs.2,616.52"
+731,20,44,1,García Montaño Edwin Miguel,7507886,11/03/1998,HOMBRE,Or,20181215,Activo,"1,905.63"
+732,2,19,2,Chura Ramos Arturo,11451769 - lp,13/07/2001,Masc.,LA PAZ,18/04/2021,A,"Bs. 2,259.13"
+733,19,43,1,Alanoca Ochoa Héctor,6656532 - lp,03-05-2003,Hombre,LP,13-05-2025,ACTIVO,"2,424.39"
+734,1,50,11,Salazar Chambi Álvaro,CI: 14073123,04-15-1978,MASCULINO,COCHABAMBA,09-03-2000,A,8479
+735,16,15,2,Chura Choque Carlos Nelson,7.070.375 CB,02-05-2005,M,Cbba.,20/10/2023,Act.,"2,664.13"
+736,8,45,1,PÉREZ SAAVEDRA SANDRA,CI: 12483143,20020108,Fem.,la paz,02-01-2020,A,2469.27
+737,9,31,3,Laura   Fernández   Cristian,3893776,1983/03/27,Masculino,Cochabamba,14/08/2005,act,2589.71
+738,17,7,1,VÁSQUEZ MORALES ALEJANDRO,1715102,04/08/2003,Masc.,Cochabamba,10-01-2022,RESERVA,"Bs. 1,941.40"
+739,16,20,3,  Zenteno Saavedra Miguel  ,CI: 9903570,07-06-1986,Hombre,Cbba.,12-07-2005,act,3058.62
+740,6,29,7,Colque\tArce Héctor Gonzalo,4361577,13-07-1988,M,Tarija,03/03/2012,A,"Bs 4.172,27"
+741,15,38,1,Quispe Cusi Ramiro,CI: 2954202,20051115,Masculino,La  Paz,05-02-2023,Activo,"Bs. 2,302.37"
+742,20,32,4,Chambi Castillo Hugo Antonio,10892613 - lp,17-10-1992,hombre,La  Paz,08/11/2017,act,3092
+743,11,28,2,Salazar Torrez José,14940464-lp,04-24-2000,M,LA PAZ,2022/11/19,A,"Bs. 2,562.15"
+744,4,6,2,Choque Castillo Silvia Fabiola,10068929-CB,27-01-2004,MUJER,Cochabamba,22/11/2023,ACTV,2598.12
+745,18,33,1,Cabrera #Rodríguez Lorena,8456747,2002/11/17,Fem.,la paz,02-18-2020,R,2460.15
+746,18,3,3,  Suárez Vargas Iván  ,CI: 1431056,11/08/1993,hombre,LA PAZ,2018/11/03,ACTIVO,"Bs.- 2,711.85"
+747,17,41,9,Rodríguez #Limachi Gustavo,5848200-CB,1993/04/13,MASCULINO,CBBA,2012/07/10,act,"5,858.65"
+748,5,30,12,MORALES CHAMBI WILSON,10390021 - sc,22/10/1987,Masculino,SCZ,11-21-2012,ACTIVO,"Bs 7.593,88"
+749,11,47,3,Yujra Cabrera Elizabeth Teresa,10281346,1992/06/04,F.,Pt,2017/10/26,Reserva,"3,142.77"
+750,10,10,13,Copa Paredes Armando,8.601.081 LP,1977/08/01,hombre,La  Paz,09-11-2000,Act.,9373.37
+751,14,9,1,Poma   Suárez   Verónica,C.I. 4824400 SC,16/07/2002,Femenino,SANTA CRUZ,20210915,ACTIVO,1914.98
+752,14,7,2,Chambi Alanoca Víctor,14769874-PT,04-16-2001,hombre,Potosi,2022/01/11,activo,"Bs.- 2,311.47"
+753,2,13,4,pérez rodríguez gladys,8196045-sc,1989/05/01,MUJER,SANTA CRUZ,2013/07/28,ACTV,"3,660.72 Bs"
+754,13,42,5,Condori #Cruz Verónica Andrea,2557770-cb,05/07/1985,femenino,CBBA,05-13-2007,ACTIVO,"3,777.94 Bs"
+755,15,50,13,Limachi Saavedra Jenny,1679900LP,01/01/1978,FEMENINO,Lp,18/07/2003,act,"Bs. 11,042.79"
+756,18,10,9,Machaca Ticona Raúl,C.I. 7722708 LP,1989/05/03,hombre,LP,20140514,activo.,"6,661.78 Bs"
+757,10,33,9,Rivera Poma Freddy,10219954,10/10/1994,MASCULINO,Sta Cruz,06-11-2013,Act.,6633.28
+758,4,5,5,Chura Nina Wálter,1.746.392 CH,02-14-1995,masc,chuquisaca,20130427,Act.,4088.09
+759,5,20,4,Mamani Choque David Rolando,12006927-LP,19961009,Masc.,LP,01-10-2016,en reserva,3908.61
+760,15,22,11,Chura Sánchez Juan,7.110.052 CB,15/10/1975,Hombre,Cbba,2000/06/08,act,BS 7514.45
+761,20,39,5,Fernández   Choque   Erick,11613669,02/04/1991,masculino,LP,20091222,EN ACTIVIDAD,"Bs.4,205.36"
+762,9,46,2,Huanca Nina Alejandro,2326491,19990212,Masc.,La Paz,18/05/2021,ACTV,"2,604.56 Bs"
+763,1,18,9,Vargas   Salazar   Héctor   Miguel,7012365SC,19950323,M,SANTA CRUZ,05-28-2019,en actividad,BS 6342.86
+764,15,36,1,Rivera Ticona Franz,13625844 - cb,06/11/2003,Hombre,Cbba,05-17-2023,A,1954.43
+765,7,5,2,Fernández Tito Andrés,13411239CB,03-07-1999,HOMBRE,CBBA,15-12-2018,ACTIVO,"2,527.95 Bs"
+766,16,11,2,Fernández Tito Álvaro,1.345.3081 SC,28/04/1998,Masc.,Santa Cruz,13-09-2020,ACTIVO,2739.74
+767,11,47,3,Canaviri\tAlanoca Pedro,7486289-LP,27/09/1997,Masculino,LA PAZ,2017/05/20,en reserva,"2,847.92 Bs"
+768,9,17,5,Apaza Vargas Luis,5.268.011 LP,1993/01/27,Masculino,La Paz,2014/09/12,Activo,"Bs. 3,771.63"
+769,20,37,6,Castillo #Colque Marcelo,CI: 10040682,19/07/1998,masculino,LA PAZ,20/12/2018,EN ACTIVIDAD,"Bs.4,821.44"
+770,6,18,3,Chambi Suárez Miguel,7397798,19840427,Masc.,oruro,15/10/2005,Act.,2761
+771,6,10,2,Chura   Choque   Valeria,10345678 - sc,01-27-1999,femenino,Sta. Cruz,06/01/2017,activo,"2,791.72 Bs"
+772,18,6,1,Yujra Calle Héctor,3041832-SC,12/04/2002,masc,Sta Cruz,20230210,ACTV,"2,348.17 Bs"
+773,11,20,2,Aliaga   Quiroga   Erick,C.I. 3319495 SC,10-11-2004,MASCULINO,Santa Cruz,01-01-2022,A,2704
+774,14,43,8,VILLCA QUISPE IVÁN,C.I. 1773047 CH,1994/07/09,masc,Chq,01/02/2013,EN RESERVA,5033.06
+775,12,50,1,Copa Calle Wilson,CI: 11320932,07-14-2001,hombre,LaPaz,2023/04/10,activo.,"Bs. 2,119.43"
+776,20,5,11,calle ochoa mauricio,1.207.9872 PN,1986/01/12,masc,PANDO,12/03/2010,ACTIVO,6549.45
+777,13,1,2,Alanoca Ochoa Víctor,1.494.2487 SC,02-18-2002,Masculino,Sta. Cruz,10-12-2020,Reserva,"Bs.2,830.56"
+778,9,6,2,VARGAS BLANCO JAVIER,CI: 10090074,03-14-2004,H,la paz,06/03/2024,Act.,2832.27
+779,5,1,12,Orellana Condori Wálter,14077878,1979/03/28,masc,CBBA,27-08-2002,act,"Bs. 8,996.74"
+780,18,40,2,Saavedra Calle Daniel,9440595PN,26/12/2003,H,pando,02/01/2023,Act.,2515
+781,2,23,1,Blanco Aliaga Alejandra,9077731,04-02-1998,Femenino,Cbba,01/06/2020,ACTIVO,BS 2426.93
+782,14,38,1,López Rojas Iván Jhonny,C.I. 8757372 LP,11-01-2003,H,la paz,2021/08/09,R,"2,417.78"
+783,5,39,5,Escobar Salazar Marcelo,CI: 7914310,16/05/1988,masculino,L.P.,27-07-2007,activo.,4323.64
+784,8,44,7,Condori\tGutiérrez Luis Ramiro,10420076CB,15-02-1985,Hombre,COCHABAMBA,04-26-2007,activo,"Bs 4.598,32"
+785,10,35,3,Herrera Rojas Pedro,4674703-sc,19960418,H,Sta. Cruz,20180311,activo.,2894.36
+786,12,6,5,Canaviri   Choque   Iván,8532729-cb,19910706,Hombre,Cochabamba,06/10/2012,A,BS 3241.1
+787,20,44,1,García Montaño Edwin Miguel,7507886,11/03/1998,HOMBRE,Or,20181215,Activo,"1,905.63"
+788,15,21,2,Mamani   Cabrera   Miguel,3268836,01/01/2003,MASCULINO,la paz,20220725,ACTV,"Bs. 2,814.23"
+789,7,9,9,Condori Orellana Pedro,13834318-sc,1995/10/18,Masculino,Santa Cruz,23/06/2013,act,"Bs. 6,102.88"
+790,1,18,1,Mamani Cruz Andrés,10713642,03-02-2003,HOMBRE,Santa Cruz,20220702,Activo,"Bs.- 2,331.16"
+791,5,3,5,Cusi Ramos Raúl,12509584 - ch,07-03-1991,hombre,Chq.,14/01/2009,baja.,"Bs.3,879.11"
+792,13,44,10,Aliaga García Pedro Adrián,4497162,06-06-1992,masc,Santa Cruz,18/12/2010,act,"Bs 6.018,96"
+793,7,43,2,Calle Castillo Edgar,12412165,10-28-2001,masculino,LP,,Act.,"Bs 2.864,91"
+794,10,7,2,Martínez Pérez Álvaro,7562626LP,09/09/2005,masc,La  Paz,02/10/2023,ACTIVO,2621.12
+795,8,1,5,Cabrera   Limachi   Pedro,1.778.376 TJ,14/09/1997,MASCULINO,Tj.,20190401,A,"Bs.- 4,259.25"
+796,11,37,9,Valda Salazar Fabiola,1.011.0537 SC,06-02-1990,FEMENINO,SCZ,06/05/2014,Act.,"5,331.84 Bs"
+797,1,29,2,  Montaño Valda Rubén  ,1.099.6498 LP,19990226,Masculino,Lp,08/03/2019,activo.,BS 2538.05
+798,17,28,1,Salazar #García María,13965475CB,2001/09/12,Fem.,COCHABAMBA,2021/09/18,ACTIVO,"Bs 2.258,44"
+799,3,36,2,Villca Machaca Alejandro,C.I. 9975441 LP,2004/10/05,Masc.,Lp,26/03/2025,EN ACTIVIDAD,"Bs. 2,373.77"
+800,5,4,2,López Alanoca Antonio,C.I. 4835916 BN,2002/02/09,Masculino,beni,20220809,Activo,2673.36
+801,19,10,11,Machaca Canaviri Javier,7.513.876 OR,11/02/1984,Masc.,ORURO,06/02/2009,en actividad,8317
+802,2,18,2,Paco Mamani Rodrigo Mauricio,11637490 - lp,28/04/2000,Hombre,L.P.,23/03/2019,Act.,"2,394.38 Bs"
+803,12,46,1,Rojas Mamani Angélica,14839164,15/08/2001,F,Sta Cruz,13/06/2022,RESERVA,"Bs 1.933,33"
+804,4,2,2,  Nina Saavedra Adrián Andrés  ,3669613,27-04-2002,Masculino,Sta. Cruz,05-03-2024,activo.,2418.91
+805,13,15,1,Machaca Poma Angélica,13635641CB,03/03/2004,F,Cbba.,20250612,act,2253
+806,6,30,6,Salazar   Limachi   Gonzalo,6071766-cb,28/03/1986,hombre,CBBA,05/07/2006,Activo,4620
+807,20,44,11,Castillo Quiroga Rodrigo Rodrigo,1659190,1978/12/20,hombre,SC,21/03/2003,activo.,"Bs 7.075,05"
+808,18,16,5,Vargas Valda Javier,1.966.421 CB,1987/04/09,masculino,Cbba.,26/01/2008,A,"Bs 3.318,41"
+809,19,46,7,Torrez Vásquez Edgar,8608994-cb,25/12/1988,hombre,CBBA,04-12-2011,baja.,4708
+810,19,22,1,Villca Fernández Oscar Hugo,9.983.971 CB,09-03-2002,H,Cbba.,25/03/2022,en actividad,1964.11
+811,13,8,2,Canaviri Rivera Freddy,5457623-pn,22-01-2002,H,Pn,18-11-2022,en actividad,"Bs.2,310.86"
+812,1,35,1,Montaño Mendoza Edwin,1.241.9741 LP,19990817,Masc.,La  Paz,05/03/2019,R,"Bs 1.922,40"
+813,16,4,3,CABRERA CASTILLO HUGO,5358076-PT,1983/08/07,MASCULINO,POTOSÍ,20031127,EN ACTIVIDAD,"3,172.35 Bs"
+814,2,49,1,ROJAS MONTAÑO MARCO,CI: 5675094,20030327,M,La Paz,20240903,EN ACTIVIDAD,"2,487.79"
+815,1,39,8,Colque Quiroga Andrés Marcelo,CI: 3011841,19/04/1992,M,BENI,25/04/2011,act,5677.55
+816,19,47,2,Machaca Ticona Cristian,11819212 - lp,12/04/2005,masc,Lp,12/12/2023,Bja,"Bs. 2,389.19"
+817,12,15,3,QUIROGA CALLE PAOLA YOLANDA,14896660-sc,04-14-1984,Fem.,Santa Cruz,02-17-2008,act,2581.28
+818,1,32,1,Orellana Quiroga Gustavo,C.I. 1647170 LP,03-13-1999,Masc.,Lp,2017/06/21,EN ACTIVIDAD,"Bs.2,413.59"
+819,7,21,10,  Suárez Saavedra Germán  ,7753453,1995/05/05,M,LA PAZ,2015/04/07,dado de baja,"Bs. 7,440.82"
+820,6,47,2,SALAZAR GUTIÉRREZ PABLO,1.215.6916 SC,02/07/2003,hombre,SANTA CRUZ,27-03-2024,EN RESERVA,"2,869.68"
+821,3,49,1,  Suárez Vargas Sergio  ,8052414 - sc,2000/04/03,Masc.,santa cruz,04-07-2019,ACTV,2331
+822,4,16,3,  Torrez Poma Claudia  ,CI: 9250637,22/08/1980,Femenino,SANTA CRUZ,2002/04/28,Act.,"Bs 2.824,40"
+823,13,5,5,Salazar Orellana Pablo,12020130-sc,1990/12/09,Hombre,Santa Cruz,01-12-2015,A,3878.29
+824,19,47,1,Torrez   Quispe   Cecilia,12249547SC,07-10-2004,F,SC,18/08/2024,Act.,"Bs.2,401.20"
+825,13,11,7,Montaño Calle Luis,C.I. 11769141 CB,21/06/1981,-,-,04-09-2003,ACTIVO,"Bs. 4,192.04"
+826,14,40,3,Gutiérrez\tSánchez Natalia Patricia,4385396,08-18-1992,Fem.,L.P.,02/07/2017,ACTV,3020
+827,18,27,10,Quispe Montaño René,12667763-BN,1993/04/27,hombre,Bn,22/11/2014,activo,7310
+828,19,5,1,Mendoza Rodríguez Mauricio,3.659.852 LP,20030125,masculino,La Paz,2023/08/26,activo,2525.5
+829,11,40,3,Tito Gutiérrez Mario,C.I. 14111818 LP,11-03-1992,Masc.,La Paz,2015/11/28,en actividad,3408.73
+830,19,29,4,COLQUE CUSI ANDRÉS,7726215-cb,10/08/1998,Hombre,Cochabamba,27/07/2017,en actividad,"Bs 3.798,34"
+831,15,29,2,Nina\tTorrez Pedro,11342460-SC,1999/02/21,HOMBRE,Sta. Cruz,2021/11/12,Act.,"Bs 2.646,96"
+832,20,19,4,Cruz Paredes Marcelo,2314715-CB,19961028,H,Cbba,2019/10/13,A,"Bs.3,177.33"
+833,20,16,3,POMA SALAZAR ANDRÉS,10883261,1988/05/19,Masc.,BENI,08/05/2013,activo,2792.68
+834,19,18,14,Chura Cruz Armando,12224089,04-06-1966,M,pando,25/01/1991,activo.,"Bs 11.553,45"
+835,20,33,10,Orellana   Saavedra   Viviana,CI: 3136181,11-28-1994,MUJER,LA PAZ,2014/04/20,Act.,BS 6494.41
+836,2,16,2,Calle   Arce   Erick,14048412SC,10/01/1998,M,SCZ,14/10/2018,Activo,2411.13
+837,7,22,6,Poma   Saavedra   Marcelo,CI: 12861135,21/06/1998,Masculino,Cbba,2023/01/18,Rsv.,"Bs. 4,793.27"
+838,2,14,6,Huanca\tMendoza René,10239717-BN,07/03/1989,H,beni,22/03/2013,ACTIVO,3612.19
+839,18,2,7,Paco Callisaya Wilson,1.203.9957 SC,09-26-1981,M,SANTA CRUZ,23-06-2005,ACTIVO,"Bs.4,282.85"
+840,5,15,1,ROJAS CONDORI JAVIER RUBÉN,6.344.163 CB,06/01/2003,MASCULINO,COCHABAMBA,20/09/2022,Rsv.,2148
+841,1,15,2,  Poma Salazar Daniel Ramiro  ,4615930-pn,1998/04/07,Hombre,Pando,07-15-2018,act,2675.55
+842,12,14,3,ramos cabrera alejandro,3911866-OR,06/02/1981,MASCULINO,Oruro,19/12/2001,A,"2,782.48 Bs"
+843,6,43,2,Machaca Aliaga Adrián,8620528-LP,02-05-2000,masculino,LA PAZ,15-01-2020,EN ACTIVIDAD,"Bs.2,666.66"
+844,2,25,3,Copa Blanco Rubén,4068162 - tj,18/11/1991,Masculino,TARIJA,28/09/2012,reserva,"2,688.68"
+845,8,32,2,Suárez   Fernández   René,9508283,20011107,Masculino,santa cruz,10-25-2022,Rsv.,2720.82
+846,2,32,9,Paco Copa Angélica,2240405-LP,12-02-1992,F.,la paz,2013/10/05,ACTIVO,"5,952.70 Bs"
+847,6,11,9,Paco Pérez Rolando,10354242 - lp,28/06/1988,hombre,L.P.,20100305,activo,"Bs.5,236.50"
+848,17,34,4,Herrera   Valda   Javier,1.310.742 CH,1995/09/20,Masc.,Sucre,09/01/2018,ACTV,BS 3710.53
+849,7,11,8,copa callisaya iván,7664932CH,11/12/1997,Hombre,Chq.,09/04/2021,act,5857.2
+850,5,38,2,López #Quispe Mario,10608389 - sc,02-03-2002,masc,Sta. Cruz,07/07/2022,Act.,"Bs.2,568.56"
+851,9,40,5,Vargas Condori Javier,2275031CB,21/01/1996,H,cochabamba,02-07-2019,en actividad,"Bs.3,351.94"
+852,10,33,6,GARCÍA ORELLANA MIGUEL MARIO,C.I. 2279588 LP,12/12/1983,HOMBRE,LA PAZ,07-18-2003,A,4199.37
+853,6,37,6,Orellana Yujra Andrés,1.433.1384 LP,08-15-1996,hombre,La  Paz,2021/04/27,ACTIVO,3982.39
+854,6,5,2,Gutiérrez\tCanaviri Pablo Antonio,14567119-BN,20010301,H,beni,20211203,ACTV,BS 2247.32
+855,19,45,3,Herrera   Gutiérrez   Nelson,7815765-PT,02-21-1996,hombre,Potosí,2016/09/23,Act.,"Bs.3,211.82"
+856,4,1,2,Suárez\tVillca Gonzalo,7644275 - lp,20031102,Masc.,Lp,20230309,ACTV,"Bs. 2,522.10"
+857,14,16,9,Suárez Callisaya José Jorge,14801524-CB,28-03-1991,hombre,CBBA,20/09/2012,rsv,6101.32
+858,6,11,9,Paco Pérez Rolando,10354242 - lp,28/06/1988,hombre,L.P.,20100305,activo,"Bs.5,236.50"
+859,1,5,1,  García Ramos Viviana Fabiola  ,6112064 - cb,22-03-2001,fem,Cbba,07-03-2023,EN RESERVA,BS 2343.15
+860,16,32,7,Cusi Paco Nelson,1331934,21-02-1992,Masc.,Bn.,25/07/2010,A,"Bs. 4,613.14"
+861,12,38,1,  Limachi Rodríguez David  ,9441757 - cb,20041028,MASCULINO,CBBA,09-23-2023,Activo,"Bs.2,306.09"
+862,7,20,9,SALAZAR ORELLANA ALEJANDRO VÍCTOR,6430328 - lp,1997/09/19,H,Lp,06-11-2017,ACTV,5404.72
+863,15,37,1,Paredes Rivera Alejandro,6108877-PN,08-01-2004,HOMBRE,Pn.,26/09/2022,A,2072.62
+864,17,41,9,Rodríguez #Limachi Gustavo,5848200-CB,1993/04/13,MASCULINO,CBBA,2012/07/10,act,"5,858.65"
+865,1,35,1,Montaño Condori Pedro Daniel,CI: 5863345,05-18-2000,M,Cbba,06-17-2020,activo.,2016.15
+866,1,10,3,PACO GARCÍA RUBÉN,7979221 - sc,01/06/1994,HOMBRE,SC,2012/01/07,activo,"Bs.- 2,860.42"
+867,14,29,4,  Aliaga Salazar Fernando  ,C.I. 8353032 LP,17-01-1998,M,LA PAZ,2023/12/01,en actividad,"3,431.44 Bs"
+868,20,39,2,Fernández Sánchez Edwin,5228949BN,07-16-1998,H,Beni,11-11-2018,B,2543.97
+869,6,12,2,López #Martínez Franz,13886888BN,01/10/1999,H,beni,20190407,Reserva,2610.64
+870,18,15,3,Paredes   Martínez   David,14825927 - lp,16-01-1990,HOMBRE,La Paz,10/03/2009,en actividad,"Bs 2.862,93"
+871,15,32,2,ALIAGA CALLE LUCÍA,14066111-LP,2000/07/25,MUJER,la paz,21/09/2020,ACTV,"Bs.2,309.79"
+872,16,24,5,MARTÍNEZ GARCÍA DANIEL,CI: 9428153,03/08/1982,masculino,Cbba,02/06/2000,en actividad,BS 3955.87
+873,4,30,4,Saavedra\tOchoa Mario,C.I. 13285094 OR,1983/06/19,M,Or,26/12/2005,baja,"Bs. 3,358.65"
+874,20,12,14,Huanca Callisaya Miguel,1.484.9563 LP,17/01/1971,Masc.,LaPaz,18/09/1996,Reserva,"14,217.13"
+875,7,21,4,RODRÍGUEZ HERRERA LUIS,7.855.064 SC,26/08/1987,hombre,Sta. Cruz,17/02/2005,EN ACTIVIDAD,"2,999.53 Bs"
+876,5,38,7,Huanca Sánchez Jorge,14650490,13/05/1998,M,la paz,05-11-2022,ACTV,4926.06
+877,7,37,1,Condori\tArce José,CI: 5491946,21/04/2003,HOMBRE,Cbba.,21-07-2024,act,"Bs 2.044,82"
+878,17,19,7,Morales García Rodrigo,10064773 - sc,19890321,HOMBRE,Sta Cruz,07-09-2011,Activo,"4,821.02 Bs"
+879,17,48,2,Canaviri Salazar Natalia,9722462 - cb,02-10-1999,Femenino,COCHABAMBA,03/03/2018,activo.,"Bs. 2,562.86"
+880,9,22,4,Chura Villca Patricia,9877175-or,26/05/1983,FEMENINO,ORURO,2004/07/16,en actividad,"3,053.07 Bs"
+881,9,22,1,Salazar Ramos Raúl Miguel,9249090,24/01/1998,masculino,santa cruz,28/11/2020,DADO DE BAJA,2345.29
+882,15,37,1,Paredes Rivera Alejandro,6108877-PN,08-01-2004,HOMBRE,Pn.,26/09/2022,A,2072.62
+883,17,35,4,  Blanco Laura Carla  ,1.490.9300 LP,1980/12/15,Femenino,LA PAZ,01-25-2005,ACTV,3214.79
+884,4,16,5,Calle   Sánchez   Silvia,CI: 6287324,19/01/1993,Mujer,la paz,17/12/2011,Act.,"Bs. 3,839.91"
+885,7,25,11,CHURA CALLISAYA LUIS,9907521-PT,03-15-1987,HOMBRE,Potosí,2006/04/23,Activo,7996.41
+886,13,25,5,HERRERA COLQUE MARISOL TERESA,11916288-LP,19871016,F.,La Paz,2007/06/12,activo.,"Bs.- 3,361.89"
+887,14,1,6,Suárez   Chambi   Carlos,13846470 - cb,04-10-1990,M,Cochabamba,2010/09/03,EN ACTIVIDAD,3891
+888,2,24,3,  Zenteno Alanoca Cecilia  ,7.871.859 CH,01-07-1983,MUJER,Chuquisaca,16/03/2001,dado de baja,"Bs.2,557.45"
+889,19,3,7,Martínez Blanco Wilson,1362517-lp,19930813,HOMBRE,Lp,25/12/2015,Rsv.,BS 5029.36
+890,8,50,1,Saavedra Martínez Marcelo,6882175,20030924,Masc.,Or.,20240328,ACTIVO,BS 2169.32
+891,17,5,12,Orellana\tCondori Cristian,4494099-LP,04-18-1990,masculino,LaPaz,21/08/2015,A,10019.15
+892,1,12,8,Apaza Rojas Antonio,11685670,13-03-1996,masc,Santa Cruz,2016/06/09,Activo,"5,933.03 Bs"
+893,4,37,3,Canaviri Callisaya Oscar José,n/a,09/03/1986,MASCULINO,SANTA CRUZ,n/a,activo.,n/a
+894,5,12,4,Vargas Laura Angélica,9321648,09/01/1989,MUJER,LP,14/03/2010,act,"Bs. 3,434.24"
+895,2,39,1,TITO MORALES JORGE,CI: 3540849,13/04/2003,Hombre,LaPaz,12-05-2024,Activo,2107.86
+896,20,30,2,Salazar\tMamani Ramiro,8740921LP,04-25-1999,Masc.,LaPaz,15-11-2017,act,"2,195.14 Bs"
+897,4,32,7,Chura\tCanaviri Rubén,13473549,19831006,masc,Or,27/08/2002,Act.,"Bs. 4,449.84"
+898,5,47,1,Cruz Machaca Juan Hugo,1.367.2314 SC,09/10/1998,MASCULINO,Sta. Cruz,2018/12/27,Activo,"Bs 2.426,10"
+899,5,18,1,Chambi   Zenteno   Erick   Marcelo,CI: 10348119,12/12/2003,Masc.,cochabamba,20250912,ACTIVO,"Bs. 1,894.46"
+900,18,28,10,Arce   Suárez   Teresa,CI: 5283210,14/11/1996,Mujer,Chuquisaca,04-15-2016,en actividad,"5,639.64 Bs"
+901,3,28,2,Vásquez Fernández Claudia,C.I. 10516939 SC,20020102,femenino,santa cruz,20231024,Act.,"2,521.81"
+902,6,8,12,Castillo Paredes Martha,1655531,19821017,fem,LaPaz,2006/06/09,Act.,"7,870.81"
+903,13,16,13,Mamani   Choque   Álvaro,s/d,1984/12/23,s/d,s/d,08/08/2008,ACTIVO,"Bs 10.853,39"
+904,20,3,9,Rojas Chura Freddy Rolando,C.I. 14953093 CB,01-18-1994,masculino,Cbba,05-18-2017,baja,6584.66
+905,14,29,4,  Aliaga Salazar Fernando  ,C.I. 8353032 LP,17-01-1998,M,LA PAZ,2023/12/01,en actividad,"3,431.44 Bs"
+906,8,29,1,YUJRA MENDOZA WILSON,2992138-LP,02-17-1999,HOMBRE,La  Paz,03/06/2017,activo,"Bs. 2,236.50"
+907,1,29,7,MARTÍNEZ CUSI JUAN ÁLVARO,7.926.858 LP,1990/07/19,Masculino,La Paz,05-19-2012,Reserva,"Bs.- 4,473.61"
+908,8,33,2,Machaca   Flores   Germán,3553618-SC,25-10-2005,masculino,SC,2024/01/05,B,"2,418.31 Bs"
+909,1,19,1,Morales Chura Gonzalo,8624134 - lp,19990320,MASCULINO,la paz,05/09/2017,activo,"Bs. 2,089.13"
+910,1,4,7,Vargas Mendoza Pedro David,8154988LP,18/03/1982,MASCULINO,LP,05/09/2003,ACTIVO,4122.66
+911,8,50,4,MAMANI VÁSQUEZ RAÚL,8301883-or,13-05-1988,H,oruro,21-05-2006,activo,3037.21
+912,16,10,4,  Paco Arce Wálter  ,4438621-SC,12/04/1988,MASCULINO,SCZ,02-16-2012,B,"Bs 3.435,45"
+913,5,9,7,Nina Chura Erick,12723750CB,20/02/1988,masculino,Cochabamba,2013/07/28,ACTV,4815.32
+914,10,10,10,García Arce Erick,9398649SC,04-11-1990,Masculino,SANTA CRUZ,10/04/2012,act,"6,940.81"
+915,10,42,3,salazar blanco sergio,7705340,1982/02/04,masc,La  Paz,18/04/2007,ACTV,BS 3028.08
+916,13,26,1,N/D,8042663-SC,N/D,Mujer,Santa Cruz,02-02-2020,N/D,"Bs. 1,976.26"
+917,13,4,12,Zenteno Ramos Arturo,2685776 - sc,19760406,M,Santa Cruz,07/12/2000,NULL,NULL
+918,2,50,7,Paco García Alejandro,8828832-sc,19831125,Masc.,SC,25/03/2007,dado de baja,"4,590.88"
+919,15,22,2,Machaca Mamani Ramiro,2292538 - sc,17-06-2001,Masc.,Sta Cruz,04/12/2020,Act.,BS 2816.97
+920,4,50,13,Limachi García Edwin,10269828-CB,03-05-1990,Masculino,cochabamba,20/11/2011,rsv,"10,777.45"
+921,15,10,3,Escobar #Mendoza Rubén Mario,4673414-TJ,1983/12/18,Masculino,Tj,20060724,activo,"3,059.92 Bs"
+922,18,24,1,Mamani Vargas Sandra,10177638,2003/08/28,fem,Pt,20250101,Act.,2039
+923,2,21,7,  Callisaya Ramos Marco  ,4918527-sc,26/12/1995,HOMBRE,SC,22-07-2019,EN ACTIVIDAD,5018.91
+924,13,43,3,Cusi Nina René,8648613-SC,13-01-1995,Hombre,Sta Cruz,2020/11/22,Act.,2943.24
+925,1,14,10,Zenteno Gutiérrez Erick,1074018 - cb,02-06-1991,HOMBRE,COCHABAMBA,10/03/2013,A,"6,895.49 Bs"
+926,11,15,1,Chambi Arce Fernando,CI: 14657449,03-04-1998,H,Pt,2018/02/13,en actividad,"Bs. 2,110.72"
+927,4,49,1,Escobar Flores Ramiro,C.I. 6466883 LP,14/08/2002,masculino,L.P.,03-16-2022,Activo,BS 2403.53
+928,5,15,1,Cabrera Herrera Raúl,6528357 - ch,2003/10/16,HOMBRE,chuquisaca,11/02/2025,act,1972.14
+929,15,10,9,Laura Aliaga Alejandro,13971541,06-03-1988,H,CBBA,02-01-2013,en actividad,"5,036.39 Bs"
+930,10,5,9,  Mendoza Ochoa Rolando  ,4115736,28/09/1992,hombre,LP,20151215,EN ACTIVIDAD,"Bs. 5,596.98"
+931,7,10,6,PAREDES PÉREZ PEDRO,8.471.222 LP,28/02/1995,HOMBRE,Lp,07/06/2016,activo.,"4,788.29 Bs"
+932,17,26,13,Colque Callisaya José,5416539 - lp,19820302,HOMBRE,Lp,06-25-2005,ACTV,"Bs 8.943,98"
+933,14,29,4,Pérez\tAliaga Lorena,4.218.743 LP,16/12/1981,F,L.P.,15-10-2004,activo.,"Bs. 3,235.78"
+934,6,12,1,López Montaño Jorge,4.024.300 SC,04/08/2000,masculino,Santa Cruz,02-27-2018,activo,BS 2114.85
+935,2,24,3,  Orellana Escobar Yolanda Martha  ,10285500,27/02/1985,femenino,cochabamba,2009/10/01,activo,3320.83
+936,3,29,1,Vásquez Orellana Rodrigo,8085066 - lp,20050107,H,L.P.,07/07/2023,act,"2,383.83"
+937,19,18,2,Quiroga Rodríguez Jenny,8391531TJ,08/07/2005,F,TARIJA,18-01-2025,ACTV,BS 2547.12
+938,6,49,9,MENDOZA PACO FERNANDO,3134406,19950318,HOMBRE,SCZ,03-19-2014,Act.,"5,604.45"
+939,12,14,4,Morales Montaño Enrique,10277209-TJ,09/08/1998,masculino,Tj,2021/01/15,activo,"Bs. 3,405.78"
+940,6,50,2,Orellana Quiroga Fernando,1779426,25/06/1999,---,la paz,20190420,en actividad,"Bs. 2,319.29"
+941,4,40,1,CABRERA TITO MARIO,CI: 6772242,06-10-2001,Masc.,Potosi,2021/12/22,R,2019.18
+942,5,1,8,Ramos Poma Sergio,10933714,12-01-1996,M,chuquisaca,2017/02/05,ACTV,"Bs 5.650,31"
+943,7,5,7,  Rodríguez Gutiérrez Antonio José  ,9328427LP,10/08/1995,Masculino,L.P.,20180506,Activo,4101.44
+944,8,47,6,Huanca Callisaya Hugo,9.080.202 LP,03-14-1992,MASCULINO,La Paz,11-08-2014,act,4644.84
+945,11,9,3,Morales Colque Juan,9.943.029 OR,07/01/1988,H,ORURO,2008/12/04,Act.,3171.97
+946,5,17,9,Ochoa Quiroga Pablo,CI: 10920027,05/10/1995,H,CBBA,2018/12/24,Activo,"Bs.5,158.45"
+947,2,28,11,Mamani Sánchez Hugo,9.105.115 OR,13/11/1990,HOMBRE,Oruro,08/04/2011,EN ACTIVIDAD,"Bs.7,700.05"
+948,17,34,5,  Villca Alanoca Martha Valeria  ,14159846SC,18/12/1986,MUJER,SC,06-23-2006,Act.,"Bs.4,134.86"
+949,19,26,1,Alanoca Saavedra Álvaro,7.261.796 CB,2000/09/06,hombre,COCHABAMBA,2019/03/28,A,"2,368.29 Bs"
+950,8,18,2,Vargas Tito Alejandro,3.844.192 LP,19/05/1999,masculino,La Paz,20/03/2021,act,2135.08
+951,10,42,10,Laura Paredes Rosa,2119934-LP,1988/01/23,MUJER,Lp,03/10/2009,A,"7,007.5"
+952,15,32,2,Mamani Callisaya Verónica,1356812,19980613,FEMENINO,LP,04/07/2018,Rsv.,"Bs.2,686.27"
+953,14,43,9,Vargas   Rojas   Marco,2512159 - lp,1990/04/22,H,La  Paz,2009/04/28,en reserva,"Bs. 6,298.51"
+954,15,12,2,Cabrera Zenteno René,13563883,22-08-2005,masc,Cbba,2024/09/12,Act.,2440.17
+955,18,29,13,Calle Martínez Franz,2679177,27/02/1975,Masc.,TARIJA,10-20-2000,A,BS 9468.17
+956,13,37,12,PAREDES ALIAGA EDWIN,4294552-CB,19-08-1983,MASCULINO,Cbba.,03-12-2001,reserva,"Bs. 9,519.96"
+957,8,33,5,Torrez #Huanca Franz,1053903-SC,11-11-1990,M,SCZ,2015/12/09,ACTV,BS 3675.53
+958,4,19,7,SÁNCHEZ VÁSQUEZ RODRIGO,CI: 11655059,08-17-1987,Hombre,tarija,07/05/2009,act,"4,650.5"
+959,12,43,1,Chura   Arce   Verónica,14122274,12-03-2002,FEMENINO,Chq.,27-06-2024,activo,BS 2271.89
+960,12,27,3,ORELLANA ESCOBAR MARCELO,CI: 5866331,11/01/1993,hombre,Cbba.,2011/04/23,en actividad,2790.31
+961,16,37,7,LÓPEZ VARGAS ROBERTO,CI: 8056995,20/02/1988,HOMBRE,Oruro,09-15-2006,en actividad,4810.18
+962,13,2,10,Callisaya Copa Sergio,9450935 - tj,11/11/1993,Masc.,tarija,2011/11/21,ACTIVO,5794.20
+963,13,49,1,  Cruz Vargas Carlos  ,C.I. 13793241 TJ,22-10-2000,Masculino,Tj.,07-08-2018,Rsv,"2,252.94 Bs"
+964,3,30,9,  Aliaga Cruz Marco  ,4915473-OR,1988/09/14,Masc.,ORURO,20101009,ACTIVO,"Bs.5,951.92"
+965,19,40,5,Chambi Callisaya Rodrigo,5735821,08-01-1993,HOMBRE,Lp,20171006,A,"Bs. 3,617.58"
+966,12,44,4,Mamani   Calle   Mónica,CI: 3239478,19911119,F.,La Paz,06-01-2010,R,BS 3226.74
+967,15,47,1,Ramos #Arce Oscar,3461185-LP,16/07/1999,Masc.,La Paz,13/01/2021,A,"Bs.- 2,499.54"
+968,15,50,2,TITO CASTILLO MARIO,1024707,16/02/1998,Masc.,La Paz,10-05-2016,ACTIVO,"2,348.76 Bs"
+969,10,34,4,Escobar Vargas David,n/a,22/01/1990,masculino,n/a,n/a,ACTIVO,"Bs 3.562,97"
+970,1,16,2,Poma #López Gabriela,1555218-LP,02-08-1999,femenino,Lp,2018/07/07,Activo,2786
+971,10,11,2,Paco Fernández María María,1.203.5208 PT,14/04/2003,FEMENINO,potosí,20250119,ACTV,"2,819.53 Bs"
+972,10,16,2,NINA TITO ROSA,CI: 1012904,05/06/2004,MUJER,oruro,2024/01/12,A,"Bs.2,648.80"
+973,19,29,5,  Cabrera Castillo Martha  ,2994080,04-17-1995,femenino,Sta. Cruz,23-05-2018,ACTV,BS 3403.59
+974,7,21,4,Chambi Saavedra Franz,5754314,1983/08/13,HOMBRE,Bn,09/01/2006,activo.,"3,708.62 Bs"
+975,5,48,2,Rivera Sánchez Wilson Wálter,9130270,05-06-1998,hombre,Santa Cruz,20200913,ACTV,2845.93
+976,19,48,2,Rivera Machaca Jenny,11080052 - ch,04-11-2001,FEMENINO,Chq,20231216,en reserva,2424.86
+977,7,39,5,Cabrera Chambi Hugo Rubén,2604667-PT,07/12/1996,masculino,Pt,05/03/2015,ACTV,BS 3263.44
+978,7,20,1,Colque Mendoza Gladys,5.768.827 TJ,07/01/1999,F.,Tj.,10-16-2021,Activo,"2,464.75"
+979,2,34,2,LÓPEZ FERNÁNDEZ PABLO,6528202-ch,11/04/2000,H,Chq.,20190119,en reserva,2869.99
+980,18,9,7,Zenteno Condori Alejandra,7.207.931 SC,19800216,femenino,santa cruz,08/06/2005,EN ACTIVIDAD,"Bs. 4,084.00"
+981,9,8,11,Mamani Sánchez Teresa,6156538,08/06/1980,Fem.,LaPaz,07/11/2000,Act.,7767.01
+982,5,45,1,cusi salazar edwin,4008803-OR,24/10/2003,H,ORURO,24-10-2025,A,"Bs. 2,000.86"
+983,5,50,8,Vásquez Paredes Juan,13579429 - lp,1991/06/03,M,la paz,27/12/2009,en actividad,4921
+984,4,2,2,  Nina Saavedra Adrián Andrés  ,3669613,27-04-2002,Masculino,Sta. Cruz,05-03-2024,activo.,2418.91
+985,18,23,1,NINA ROJAS VÍCTOR VÍCTOR,C.I. 1621418 PN,12/06/1998,HOMBRE,pando,2020/12/03,en actividad,2403.12
+986,1,46,3,Calle\tMamani Enrique,1189715-lp,1989/06/10,MASCULINO,Lp,09/09/2008,baja,"Bs.3,445.01"
+987,18,36,6,PACO TICONA SERGIO,9619152,1992/11/09,Masculino,LP,15/11/2010,act,"Bs.3,585.68"
+988,10,17,10,Limachi López Freddy,CI: 4185548,19880917,HOMBRE,Lp,16/07/2006,ACTIVO,6928.68
+989,3,13,1,Alanoca Valda Armando,4730545-PN,13-07-2000,masc,PANDO,2018/02/11,ACTIVO,2235.34
+990,20,31,3,Yujra Morales Marcelo,6260319LP,16-08-1980,MASCULINO,L.P.,23/06/2002,ACTIVO,"Bs. 2,982.22"
+991,13,27,11,Ramos   Salazar   Jhonny,14298832-LP,06/07/1979,hombre,LA PAZ,2001/06/23,A,7220.84
+992,13,16,1,Ochoa Poma Iván René,C.I. 14633180 LP,13/07/1998,hombre,La  Paz,27-07-2017,ACTV,1899.05
+993,5,24,1,morales choque carmen,4.980.521 PT,01-20-2000,F.,Potosi,06/06/2020,ACTIVO,2376.48
+994,16,19,5,Paredes #Condori Carmen Alejandra,N/D,1990/05/26,Mujer,N/D,N/D,BAJA,3279.98
+995,13,26,5,Cruz #Fernández Mauricio,5.747.786 CH,20/03/1985,hombre,Chuquisaca,04-03-2008,Act.,"Bs 3.794,35"
+996,5,13,1,Alanoca Gutiérrez Javier,7813311,12/02/2003,Masculino,oruro,06-01-2025,ACTIVO,"Bs 2.500,23"
+997,19,21,3,Vargas Pérez Jhonny Daniel,4509606-CB,1989/08/19,Hombre,CBBA,20110123,EN ACTIVIDAD,2787.79
+998,14,48,7,Flores\tCusi Jhonny,C.I. 9803220 SC,1989/12/13,masculino,SC,2010/07/11,activo.,"4,257.20 Bs"
+999,16,47,10,  Aliaga Vargas Rodrigo  ,13517347 - pn,09-09-1989,masc,PANDO,26/01/2010,Act.,"Bs.6,624.14"
+1000,18,9,2,Saavedra Poma Rodrigo Jhonny,CI: 1669715,25/04/2003,MASCULINO,Cbba.,07-26-2022,R,2470.14
+1001,4,19,7,SÁNCHEZ VÁSQUEZ RODRIGO,CI: 11655059,08-17-1987,Hombre,tarija,07/05/2009,act,"4,650.5"
+1002,1,37,2,Tito Gutiérrez Raúl,CI: 4997984,23/05/1999,masc,La  Paz,02-14-2017,ACTIVO,2295.96
+1003,9,45,5,Calle Villca María,2411026-PT,19900313,Femenino,Potosí,11/08/2008,act,BS 4016.29
+1004,16,29,2,Paredes Alanoca Mario Alejandro,3525773-sc,08-07-2005,H,Sta Cruz,02-14-2023,EN RESERVA,2504.67
+1005,10,9,12,Villca   Copa   René,C.I. 11467387 CB,24/02/1984,hombre,Cbba.,2002/11/16,Activo,"8,265.43 Bs"
+1006,1,3,2,Mamani Orellana Wálter,14931908-bn,13-12-2001,H,beni,2020/09/22,dado de baja,2600.72
+1007,19,35,11,García   Ochoa   Enrique,10849477BN,26-10-1983,Hombre,Beni,20-05-2002,R,7513.69
+1008,13,7,3,López #Paco Teresa,10906570-lp,06/02/1984,F,La Paz,2003/11/28,Rsv,"Bs.2,846.59"
+1009,16,20,4,zenteno rivera sergio gonzalo,C.I. 12797721 PN,1985/11/06,Masc.,PANDO,20080723,Act.,"Bs. 3,404.10"
+1010,2,25,14,Suárez Quiroga Nelson Pablo,CI: 7508433,12-07-1966,H,Cbba.,21/10/1991,Activo,"12,243.19 Bs"
+1011,1,40,3,Nina Rojas Jhonny,1.008.6148 CH,03-07-1994,MASCULINO,Chuquisaca,02/02/2018,Activo,"Bs 2.603,42"
+1012,11,21,7,Torrez   Villca   Gustavo,9.770.096 SC,08-12-1991,Masc.,SCZ,09-03-2010,activo.,"4,475.42"
+1013,9,20,2,  Apaza Pérez Luis  ,C.I. 3582118 CB,25/02/2002,Masc.,Cbba.,20241020,act,2347.08
+1014,7,3,7,Ticona Huanca Nelson,5112941-CB,05/05/1989,HOMBRE,CBBA,09-21-2010,activo,4329
+1015,3,39,8,Colque Rivera Luis,13921107,10-16-1995,HOMBRE,La  Paz,03-27-2020,A,"Bs 5.964,45"
+1016,19,21,1,Cusi Callisaya Alejandro,9546975 - sc,11-21-2005,MASCULINO,Sta Cruz,20231009,activo,"Bs. 2,456.26"
+1017,17,39,5,Quiroga Condori Enrique,2510339,17/06/1984,HOMBRE,POTOSI,10-27-2006,EN RESERVA,"3,764.25 Bs"
+1018,9,44,8,Rodríguez Colque Antonio,9614853-CB,1996/12/06,hombre,CBBA,01-17-2017,A,5549.3
+1019,18,25,5,Cabrera Paredes Cristian,1.178.4814 LP,1988/03/15,hombre,LP,10/08/2012,R,"Bs.3,469.16"
+1020,18,33,10,Chura #Cabrera Wálter Arturo,2515453 - pt,05-25-1990,M,Pt,20100727,en actividad,6187.78
+1021,8,31,2,Castillo Rivera Nelson Antonio,3541821 - lp,23/01/1998,Masc.,La  Paz,27-06-2019,EN ACTIVIDAD,2724.59
+1022,15,48,1,Martínez   Rojas   Iván,CI: 2298454,08-17-2001,HOMBRE,SCZ,2019/06/19,act,"Bs. 2,196.11"
+1023,1,44,2,Herrera   Limachi   Rubén,1383428 - lp,2005/07/03,M,la paz,2023/04/19,activo.,"2,206.58"
+1024,12,46,8,Alanoca\tChoque Miguel,CI: 13473481,09/10/1988,masc,cochabamba,12-03-2006,en actividad,"4,541.58 Bs"
+1025,17,50,1,Suárez Ochoa Jhonny,12000204,21/01/2000,masculino,santa cruz,13/01/2021,EN ACTIVIDAD,BS 2371.88
+1026,10,39,8,Mendoza Torrez Héctor,C.I. 9579547 CH,1995/01/08,masc,CHUQUISACA,14/01/2018,EN ACTIVIDAD,5137.98
+1027,11,22,1,Orellana Arce Fernando,CI: 4657775,2003/11/02,masc,santa cruz,22/08/2023,Reserva,"Bs. 2,105.93"
+1028,4,49,1,Huanca   Sánchez   Alejandra,9110060 - lp,04-21-2000,MUJER,LA PAZ,2020/01/07,ACTV,2523.72
+1029,9,23,4,Saavedra Valda Iván,11717445-lp,10-09-1993,hombre,LP,20150716,activo,3189.31
+1030,12,38,1,Cusi Vásquez Marco,4494905-SC,06-15-2005,Masc.,SCZ,2025/03/20,reserva,2311.78
+1031,8,12,3,Colque Sánchez Wálter,CI: 14784924,1989/02/13,M,Sta. Cruz,20120218,A,"Bs. 3,214.98"
+1032,18,19,5,Ticona   Rodríguez   Rubén,11606379,16/11/1982,MASCULINO,Cochabamba,12-20-2004,ACTIVO,"Bs 3.302,55"
+1033,16,25,3,García #Mendoza Javier,6030679PT,19/12/1981,MASCULINO,potosí,09-07-2002,en actividad,3279
+1034,19,47,1,quiroga alanoca mario,13567834,2004/12/27,hombre,Cbba.,02-18-2023,RESERVA,2144.31
+1035,5,44,2,Arce Machaca Freddy,14311610-lp,05-20-2001,hombre,LaPaz,09-02-2023,activo,2866.43
+1036,1,40,4,TORREZ ZENTENO MARCO ANDRÉS,C.I. 5602792 CB,08/04/1985,hombre,Cochabamba,15/02/2008,act,"Bs. 3,293.36"
+1037,20,41,6,Blanco Cusi Luis,11785163-CB,19/06/1990,HOMBRE,Cochabamba,06/11/2010,activo.,"Bs 4.122,73"
+1038,10,44,3,Ticona Cruz Ramiro,14116349-TJ,1988/09/13,masc,Tarija,06/03/2013,Activo,"Bs. 3,032.35"
+1039,3,8,5,Fernández\tRivera Wálter,3496733,1988/12/26,H,Potosí,09-17-2013,A,"Bs. 4,169.25"
+1040,2,4,12,CHOQUE CALLISAYA FERNANDO,7274275-sc,23/12/1978,hombre,Sta. Cruz,04-03-2003,Act.,9017.26
+1041,11,28,15,García   Condori   Héctor   Marcelo,C.I. 7801301 SC,11-03-1969,masc,SANTA CRUZ,19940114,ACTIVO,"Bs 16.728,15"
+1042,14,22,12,Choque #Vargas Gonzalo Pedro,4104111,12-01-1985,masculino,La Paz,06/03/2008,ACTIVO,"Bs. 7,732.32"
+1043,5,9,13,  Paredes Cabrera Carlos Jorge  ,13418303 - lp,09/03/1979,hombre,Lp,2000/01/11,ACTIVO,12003
+1044,7,15,1,Pérez Suárez Luis Álvaro,4751841-CB,06-06-2000,hombre,CBBA,04/07/2022,Act.,"Bs. 1,974.49"
+1045,9,38,2,Copa Herrera Cristian,1083492-CB,2004/07/07,masculino,CBBA,20240324,en actividad,"Bs. 2,732.68"
+1046,11,45,1,Orellana Mendoza Wálter Nelson,1.399.2226 CB,13/07/2000,masc,CBBA,06-19-2020,ACTV,"Bs.- 2,046.56"
+1047,6,19,6,Laura\tMendoza Nelson,CI: 10757711,1994/05/25,hombre,Lp,2018/07/24,ACTV,3863.99
+1048,19,10,11,Machaca Canaviri Javier,7.513.876 OR,11/02/1984,Masc.,ORURO,06/02/2009,en actividad,8317
+1049,13,47,1,Ramos Colque Gustavo,CI: 7928298,2000/05/19,hombre,Santa Cruz,10-21-2021,en actividad,"Bs.2,271.56"
+1050,16,14,1,Callisaya   Montaño   Gustavo,5107786,03-13-2005,hombre,LaPaz,20230823,activo,2417.86
+1051,19,50,2,López Rodríguez Jhonny,C.I. 7681222 PN,13/08/2002,H,Pn,2021/06/21,en actividad,"Bs.- 2,233.11"
+1052,1,14,4,Rivera Saavedra Daniel,11579866 - pt,10-09-1992,Masculino,potosí,11-04-2011,activo,"Bs 3.311,88"
+1053,6,23,1,Rodríguez Condori Ramiro,7536896,13/02/1998,H,La  Paz,20/10/2017,act,"2,256.17"
+1054,3,47,3,Blanco\tGarcía Rodrigo,CI: 14850004,28/02/1981,M,Cbba,08-20-2003,ACTV,"Bs.2,616.52"
+1055,17,36,2,Chura Morales Andrés,1648481,04/07/2004,Masculino,CHUQUISACA,02/09/2025,Activo,"Bs 2.179,27"
+1056,19,43,10,Rojas Huanca José,12666187,1989/08/27,Masculino,Cbba.,18/04/2008,Act.,BS 5680.68
+1057,17,36,2,Sánchez #Cabrera Carlos,1072278,05-03-1999,Masculino,cochabamba,27/03/2017,act,"2,763.31 Bs"
+1058,2,41,1,Rojas #Chambi Javier,10296385-LP,20/05/2005,Hombre,La  Paz,13-11-2023,ACTIVO,"Bs.2,251.21"
+1059,3,27,6,Colque Paredes Ramiro David,4112947BN,27-05-1997,M,BENI,2020/06/06,dado de baja,"3,791.13 Bs"
+1060,12,28,15,Chambi Canaviri Fabiola,9734158SC,10-10-1971,mujer,Sta Cruz,19960101,en actividad,"Bs 16.436,07"
+1061,5,25,9,Vargas   Herrera   Mario,2449920,25/03/1994,H,SCZ,20170712,A,5596.04
+1062,15,50,13,Limachi Saavedra Jenny,1679900LP,01/01/1978,FEMENINO,Lp,18/07/2003,act,"Bs. 11,042.79"
+1063,6,12,2,  Colque Morales Víctor  ,3396209-lp,05-01-2000,H,La Paz,16/05/2022,ACTIVO,2241.66
+1064,8,23,1,Mendoza Laura David,2707582-ch,07/06/1998,hombre,Chq,05/08/2018,Activo,2294
+1065,3,2,1,RAMOS QUISPE ALEJANDRO,10067236LP,2002/02/20,Masc.,LA PAZ,20221211,A,"Bs. 1,920.95"
+1066,17,44,1,Alanoca López Javier,3940814,20010113,masculino,santa cruz,06-16-2020,BAJA,"Bs.2,239.10"
+1067,20,37,7,Canaviri Herrera Antonio,CI: 5018995,27/06/1980,M,La  Paz,11/09/2002,baja,"5,397.55"
+1068,1,25,8,Apaza Cabrera Mauricio Andrés,1.119.6133 LP,02-12-1989,Masculino,LP,14/06/2013,EN ACTIVIDAD,"Bs 4.784,30"
+1069,1,14,4,Rivera Saavedra Daniel,11579866 - pt,10-09-1992,Masculino,potosí,11-04-2011,activo,"Bs 3.311,88"
+1070,1,33,3,CABRERA ESCOBAR HÉCTOR WILSON,7001450-LP,04-16-1988,masculino,Lp,20/10/2012,activo,"3,101.58 Bs"
+1071,9,6,1,Vargas Cruz Mario,1079984 - cb,05/12/2005,Hombre,Cbba,02-24-2024,ACTV,"Bs.- 2,032.76"
+1072,2,16,9,MAMANI MORALES JHONNY,7189494-lp,22-04-1991,Hombre,Lp,10-26-2011,n/a,5973.62
+1073,6,39,4,  Flores Herrera Edgar  ,9143206,1984/03/01,HOMBRE,Lp,14-02-2006,act,3836.16
+1074,4,15,2,  López Zenteno María  ,1553932,02/09/2000,F.,Cochabamba,25/09/2020,R,"Bs.2,393.72"
+1075,6,46,1,Flores Chambi Rolando,1975340-LP,07-04-2003,Masc.,la paz,03-06-2024,ACTV,"Bs 2.118,54"
+1076,7,9,5,GUTIÉRREZ MENDOZA ANTONIO,14319797-LP,1987/02/13,masc,LaPaz,26/08/2012,ACTIVO,3316.03
+1077,16,28,9,Machaca García Rodrigo,1.224.2077 CH,14/12/1994,HOMBRE,CHUQUISACA,01-12-2017,Activo,"5,749.42 Bs"
+1078,13,31,1,  Gutiérrez López Armando  ,12327513,01-13-2005,Masc.,la paz,08-21-2025,ACTIVO,"2,091.3"
+1079,3,19,1,castillo laura armando,9354721-CB,20001010,HOMBRE,cochabamba,01-02-2019,Act.,"2,362.66"
+1080,13,40,6,Apaza Chambi Mario,9.425.599 SC,03-16-1986,Hombre,SANTA CRUZ,20080216,Act.,3824.15
+1081,8,49,11,Callisaya #Huanca Fernando,12896436,10/06/1983,Masc.,Cbba,26/06/2008,Activo,6955.32
+1082,10,12,6,Arce Apaza Carlos,8180149-LP,28/08/1993,masc,LaPaz,20140603,Activo,"Bs.4,184.69"
+1083,19,28,4,LIMACHI PÉREZ ANTONIO,9578346,09/03/1985,hombre,santa cruz,12/12/2007,ACTV,"Bs 2.912,11"
+1084,14,46,9,Saavedra Limachi Claudia Rosa,13594552-OR,1995/03/20,Mujer,ORURO,11/12/2016,ACTV,5998.17
+1085,15,36,11,VARGAS GUTIÉRREZ WÁLTER,C.I. 5910815 PT,12/05/1975,M,Pt,19/12/2000,en actividad,"Bs.8,348.75"
+1086,5,45,9,ORELLANA GUTIÉRREZ IVÁN,4239141OR,23/10/1988,masc,oruro,2010/06/03,Act.,"5,616.79"
+1087,1,4,2,Rodríguez Huanca Franz,14317340-PN,2002/09/09,hombre,pando,2021/07/27,act,2848.52
+1088,7,25,1,Poma Vásquez Edgar,11706169,19980621,hombre,SC,10-10-2018,reserva,2448.63
+1089,2,42,6,Flores Machaca Wálter,4609600 - sc,04-02-1980,M,santa cruz,13-05-2002,en actividad,4004
+1090,10,4,1,Condori Fernández Alejandro,C.I. 2143161 LP,03/04/2002,Masculino,La  Paz,07-13-2022,R,"2,094.35 Bs"
+1091,11,25,13,Alanoca Mamani José Antonio,7766517,04-08-1984,Masculino,LP,18-08-2009,activo.,"Bs.9,212.31"
+1092,17,28,8,García Laura Edgar Miguel,7530736 - sc,19/02/1989,Masculino,Sta. Cruz,15-07-2014,Activo,"5,567.92"
+1093,14,21,5,Pérez Apaza Carla,CI: 2123634,1994/12/05,FEMENINO,SC,12/04/2017,baja.,"Bs.4,355.62"
+1094,14,28,3,  Condori Huanca Jimena  ,CI: 10050064,20/08/1997,Fem.,SANTA CRUZ,01-27-2018,en reserva,"2,732.15 Bs"
+1095,6,21,1,Alanoca Laura Rubén,12913843PT,20000912,M,potosí,20200704,Bja,1872.92
+1096,16,31,11,  Mendoza Escobar Marcelo  ,3800406TJ,1989/12/25,hombre,TARIJA,25/02/2008,ACTV,6690.47
+1097,10,32,4,Canaviri Quiroga Luis Mario,4245755-lp,02/11/1986,HOMBRE,LP,20091222,ACTV,3728.08
+1098,14,19,9,Apaza #Aliaga Germán,13912839,1988/10/20,MASCULINO,COCHABAMBA,20120928,A,5430
+1099,5,6,2,Aliaga #Montaño Germán,12652742 - sc,05-08-1999,Masculino,SC,12-01-2021,ACTV,2396.38
+1100,14,1,2,Condori Huanca Adrián,C.I. 14905024 CB,19980902,HOMBRE,Cbba.,12-07-2017,en actividad,"Bs. 2,663.33"
+1101,19,26,4,Cabrera Flores Álvaro,2808532-sc,10-03-1995,H,Sta Cruz,08-07-2017,B,3615.1
+1102,17,10,2,Zenteno Colque Natalia,CI: 7121455,18/07/2002,F,Cochabamba,28-05-2022,Rsv,2801.23
+1103,18,50,1,Nina Blanco Andrés,C.I. 2443116 LP,2003/05/07,masc,L.P.,04/08/2022,act,"2,300.12"
+1104,2,47,1,Cabrera Rojas Germán,2500036PT,02-10-1998,H,Pt.,19-10-2020,activo,"Bs. 2,235.01"
+1105,7,40,8,Orellana #López Jorge,5688532 - sc,22/06/1996,masc,Sta. Cruz,20191109,DADO DE BAJA,5524.1
+1106,20,44,2,TORREZ HUANCA CECILIA,11068622,1998/10/24,femenino,COCHABAMBA,01-09-2017,activo,"2,600.02 Bs"
+1107,15,45,4,Paredes Ochoa Daniel,13768002,19880828,Masc.,L.P.,2006/06/23,en actividad,3903.38
+1108,18,38,1,COPA CASTILLO GONZALO,C.I. 3340558 CB,1999/12/10,Masculino,Cbba.,14-11-2018,act,"2,183.08 Bs"
+1109,14,16,2,Cabrera López Nelson,10104874 - sc,09-17-2004,hombre,SANTA CRUZ,01-03-2024,Act.,"2,422.38 Bs"
+1110,3,26,7,Salazar #Callisaya Edgar,CI: 8508580,06/03/1990,Hombre,santa cruz,08-10-2008,EN ACTIVIDAD,"Bs. 4,428.25"
+1111,18,2,6,Quispe Escobar Rolando,10345642-TJ,01-03-1990,masc,Tj.,25/02/2012,Act.,4693.85
+1112,1,50,11,Salazar Chambi Álvaro,CI: 14073123,04-15-1978,MASCULINO,COCHABAMBA,09-03-2000,A,8479
+1113,10,34,1,Flores #Suárez Jorge,2346854 - sc,02/01/2004,masculino,santa cruz,01-01-2024,EN ACTIVIDAD,"Bs 1.991,20"
+1114,4,47,2,Aliaga   Gutiérrez   Edwin,1302289-SC,06-21-2000,M,Sta. Cruz,2018/02/21,ACTV,"Bs 2.751,71"
+1115,13,11,1,Cruz #Zenteno Gonzalo,10408553,01-26-1998,hombre,Lp,07/11/2019,ACTV,"1,959.83 Bs"
+1116,9,20,1,Callisaya   Arce   Teresa,1.411.8014 CB,20041120,fem,Cbba,2024/07/22,A,"Bs.- 2,197.38"
+1117,12,33,8,Tito Paredes Luis,10000291 - ch,19911124,Masc.,chuquisaca,2013/09/07,act,"5,296.04"
+1118,16,24,9,Ramos Gutiérrez Gladys,12123217 - lp,01/08/1996,Mujer,La  Paz,06/04/2018,act,6061
+1119,12,47,1,Cusi   Ticona   Carmen,6.354.067 PT,06/10/1998,F.,Pt.,13/05/2020,activo,"Bs.2,353.66"
+1120,1,16,5,QUIROGA RIVERA NATALIA,11652462 - cb,1997/01/03,F,Cbba,20210311,activo,"Bs.3,630.33"
+1121,8,15,3,Valda   Huanca   Álvaro,8784547,1995/10/28,HOMBRE,La Paz,03/04/2018,Act.,"Bs 3.202,40"
+1122,4,45,5,ORELLANA YUJRA RUBÉN FRANZ,4073227-CB,19810912,H,CBBA,2003/04/17,activo,BS 4045.0
+1123,12,21,5,García   Flores   Wilson,6.107.595 CB,15/12/1987,H,Cbba.,05/07/2005,Act.,"3,849.95"
+1124,9,7,8,TICONA CUSI WÁLTER,3798207,07-01-1990,M,tarija,09-04-2012,ACTIVO,5642.32
+1125,2,20,11,Chambi Villca Freddy,8311956,1985/01/23,hombre,beni,20/12/2008,ACTIVO,7589
+1126,17,23,4,OCHOA MACHACA EDWIN,1.645.558 SC,10-11-1982,MASCULINO,santa cruz,05/01/2002,en actividad,3722.23
+1127,4,46,1,Nina   Montaño   Cristian,C.I. 11227959 LP,19/05/2003,H,L.P.,12-10-2021,ACTV,"Bs 1.998,09"
+1128,16,8,11,Quiroga Morales Pedro,10818962 - sc,06-01-1978,Hombre,SCZ,22/03/2003,EN ACTIVIDAD,"Bs. 8,509.63"
+1129,8,40,11,Flores Paco Franz Antonio,9.445.981 LP,1979/03/04,hombre,LaPaz,08/09/2004,activo,"Bs 8.399,76"
+1130,12,13,1,  Fernández Apaza Rolando Enrique  ,13423278 - tj,1998/05/09,Masc.,TARIJA,01-01-2018,activo.,1987.20
+1131,13,29,12,Valda\tChoque Andrés,6.305.096 LP,1987/01/08,Hombre,La  Paz,2005/05/01,activo.,"Bs.9,377.70"
+1132,15,12,2,Condori   Huanca   Raúl,14926842-CH,28/01/1999,Masculino,CHUQUISACA,02-08-2019,activo.,"Bs. 2,406.47"
+1133,17,8,6,Rojas   Yujra   Cristian,13620843-or,04-14-1993,masc,oruro,2011/04/18,EN ACTIVIDAD,BS 4411.13
+1134,3,17,2,VARGAS CONDORI ROLANDO,6932225LP,1999/01/16,Masc.,la paz,04/08/2017,en actividad,"2,326.75 Bs"
+1135,12,17,4,Rivera Cusi Roberto,5443133 - lp,07-20-1991,masculino,LA PAZ,20/03/2016,EN ACTIVIDAD,BS 3235.2
+1136,19,23,3,Limachi   Cusi   Rodrigo,8.141.340 LP,05/02/1992,Masculino,L.P.,07-25-2016,activo.,"2,746.88 Bs"
+1137,9,22,1,Salazar Ramos Raúl Miguel,9249090,24/01/1998,masculino,santa cruz,28/11/2020,DADO DE BAJA,2345.29
+1138,13,5,4,Cruz\tYujra Gabriela,13035774-SC,1989/05/26,Femenino,SCZ,07-06-2013,ACTIVO,"Bs.3,098.89"
+1139,8,33,5,Torrez #Huanca Franz,1053903-SC,11-11-1990,M,SCZ,2015/12/09,ACTV,BS 3675.53
+1140,7,27,8,MENDOZA RODRÍGUEZ WÁLTER GUSTAVO,CI: 9923201,08-01-1992,M,SANTA CRUZ,07-11-2014,activo.,BS 5944.05
+1141,8,45,7,Yujra Chambi Raúl,4822476,1982/06/19,masculino,Beni,12-05-2002,ACTV,"Bs. 5,098.00"
+1142,18,29,1,Chura   Yujra   Rosa,2580209,2000/03/17,femenino,La Paz,16-05-2019,EN ACTIVIDAD,"Bs 1.997,10"
+1143,20,39,9,Pérez Orellana Armando,5779148SC,19880606,Hombre,santa cruz,2008/02/16,activo.,5415.74
+1144,14,16,4,Vásquez Cruz María,1.248.7550 SC,07/07/1983,femenino,Santa Cruz,03-20-2002,A,3864.19
+1145,13,34,1,OCHOA QUIROGA DANIELA CARLA,CI: 10898178,02/12/2000,FEMENINO,Santa Cruz,04-21-2018,en actividad,"2,199.73 Bs"
+1146,2,20,1,Saavedra Ochoa Luis,CI: 10703869,16/04/1998,hombre,COCHABAMBA,2017/10/12,ACTV,2115.24
+1147,11,7,4,Cruz Chambi Oscar,3441083-sc,19940503,H,SCZ,06-18-2014,en reserva,"Bs.- 2,958.10"
+1148,18,26,1,Canaviri Rojas Germán,1626170-CB,20/10/2001,Hombre,ND,09/06/2021,ND,2007.22
+1149,12,38,4,Condori Tito Cristian,12672974,05/08/1997,masculino,Sta Cruz,2019/12/02,en actividad,"Bs 3.654,24"
+1150,7,28,10,Huanca Valda Angélica,11430396 - lp,16/01/1995,FEMENINO,Lp,2015/02/16,A,6902.89
+1151,8,28,2,Choque #Limachi Verónica,5121047-SC,20030501,Mujer,SANTA CRUZ,2021/09/04,activo,"Bs. 2,357.50"
+1152,3,8,5,Callisaya Chambi Alejandro,7901353-CB,22/07/1996,Hombre,COCHABAMBA,2015/06/14,BAJA,"Bs.- 3,239.19"
+1153,6,25,12,Flores Yujra Mauricio Marco,1936211,11-27-1977,MASCULINO,Santa Cruz,2000/01/21,Act.,"Bs. 8,491.99"
+1154,8,15,5,Paredes Chambi Wilson,3816575,1997/07/03,HOMBRE,L.P.,2019/02/27,A,4167.9
+1155,14,13,3,Yujra Vargas Teresa Marisol,4151107SC,05-22-1986,F.,SC,2007/04/09,activo.,"2,883.83 Bs"
+1156,18,22,2,Ticona Escobar Hugo,11405601,2003/01/15,Masc.,la paz,2023/04/11,EN ACTIVIDAD,"2,141.28"
+1157,7,21,4,Chambi Saavedra Franz,5754314,1983/08/13,HOMBRE,Bn,09/01/2006,activo.,"3,708.62 Bs"
+1158,14,28,13,Copa Tito Teresa,C.I. 7329897 CB,18/10/1989,femenino,cochabamba,01/08/2011,A,9260.45
+1159,4,22,9,OCHOA PÉREZ ALEJANDRO,CI: 13009537,08-27-1994,M,POTOSI,14/07/2017,EN ACTIVIDAD,"Bs.4,930.09"
+1160,19,34,8,Callisaya Cruz Paola,CI: 7172964,19930109,Fem.,Bn,21/01/2016,Act.,"5,057.98"
+1161,11,29,2,Paredes\tHuanca Hugo,12794515-CB,1999/05/02,masculino,Cbba.,2018/06/02,baja.,"2,636.87"
+1162,14,36,3,Cusi Ramos Lucía,5823820,13/11/1981,FEMENINO,Sta. Cruz,06-17-2001,act,2567.05
+1163,5,46,6,CUSI FERNÁNDEZ ENRIQUE,9450936,12/08/1995,hombre,SANTA CRUZ,02/08/2019,Reserva,"Bs. 4,057.99"
+1164,5,13,1,Paco   Canaviri   Cristian,C.I. 2760795 LP,15-06-2001,masculino,La  Paz,16/02/2022,Activo,"2,360.24 Bs"
+1165,2,33,4,NINA RAMOS ERICK,8457408-BN,16/10/1997,masc,Bn,26-05-2022,Activo,3678.85
+1166,16,25,3,Pérez Valda Adrián,CI: 1461312,07-18-1994,Masculino,Potosi,05-01-2019,Activo,"Bs. 2,685.27"
+1167,2,42,1,TITO ALIAGA NELSON,CI: 11435265,28/10/1998,H,La  Paz,02/12/2018,activo.,2115
+1168,14,28,2,Villca Vargas Franz,12355390,22/11/1998,masc,Chq,01-09-2016,Activo,"2,766.6"
+1169,3,6,4,Salazar Rivera Alejandro,1.498.4616 OR,22/02/1997,H,oruro,09-07-2020,ACTIVO,"3,346.78 Bs"
+1170,13,43,7,TORREZ TICONA ROLANDO,10790350 - cb,09-05-1992,Masc.,CBBA,2010/12/12,A,"Bs.4,611.16"
+1171,1,21,4,Salazar   Canaviri   Juan,8093626,22/08/1988,Masculino,LP,10-18-2009,A,"3,822.92 Bs"
+1172,11,11,12,Flores #Pérez Héctor,13426037,10-08-1983,MASCULINO,CBBA,01/03/2005,activo.,"9,079.07 Bs"
+1173,10,32,7,Paco Yujra Miguel,7816369,05-04-1995,Hombre,SANTA CRUZ,07/02/2016,en reserva,BS 4189.95
+1174,4,32,2,Chura Ochoa Álvaro,7118313OR,20/06/2003,MASCULINO,Or.,20250126,Activo,"Bs 2.352,69"
+1175,4,38,2,Apaza Cusi Claudia,4609319-sc,20010518,Femenino,SCZ,18/02/2023,en reserva,"Bs. 2,699.07"
+1176,8,49,9,Morales García Hugo,7207157-SC,19881024,H,Sta Cruz,03-03-2007,en actividad,"Bs. 5,199.24"
+1177,10,19,1,Huanca Martínez Wálter José,C.I. 4184471 LP,08-15-1998,HOMBRE,La  Paz,2020/02/22,Activo,"Bs 2.459,84"
+1178,18,48,1,Arce Sánchez Franz,6093157-CB,19/10/2000,H,CBBA,14/03/2018,RESERVA,2436.07
+1179,17,41,1,  Nina Callisaya Jenny  ,C.I. 1289731 SC,20000322,FEMENINO,Sta Cruz,26/03/2020,EN ACTIVIDAD,"Bs 2.136,97"
+1180,17,13,1,  Salazar Aliaga René  ,3449651CB,2002/08/19,Hombre,Cbba.,01/12/2020,Act.,2245.34
+1181,20,32,5,TITO COLQUE SERGIO PEDRO,5485076-CB,26/05/1984,M,Cbba,2005/09/15,Rsv.,"Bs.- 3,395.01"
+1182,10,36,1,Ochoa #Poma Mario,7.377.075 LP,03-26-1998,hombre,la paz,01/05/2017,ACTV,2106.68
+1183,7,3,3,villca paredes armando,CI: 12539548,07-11-1983,hombre,Cbba,07-26-2006,ACTV,3013.34
+1184,3,7,1,Limachi Tito Pablo,3316129-lp,13/09/2001,HOMBRE,La Paz,16/05/2019,activo,"Bs. 2,052.88"
+1185,8,36,4,Ochoa\tRivera Rubén,13839546PT,1985/12/19,Hombre,POTOSÍ,03/05/2007,Act.,3658.56
+1186,5,43,3,Alanoca Choque Angélica,6559653PT,01-08-1992,mujer,Pt,2014/09/25,Act.,3283.22
+1187,18,1,2,Vargas Saavedra Pablo,9817050-CH,09-07-1999,H,Sucre,20180412,act,"2,452.59 Bs"
+1188,16,18,2,Poma Torrez Carlos,10255387,10-11-2002,Hombre,CBBA,2024/08/11,Activo,2298.29
+1189,3,46,1,Suárez Canaviri Antonio,5637794,2002/09/13,masculino,Cbba.,15/07/2021,en actividad,"Bs. 1,949.40"
+1190,15,34,7,Aliaga Tito Luis,2872209,24-04-1993,hombre,COCHABAMBA,19-01-2011,BAJA,BS 4585.39
+1191,10,50,2,Gutiérrez\tLópez Mauricio Oscar,13739351 - sc,13/08/2000,Masculino,SCZ,2021/09/02,activo.,2514
+1192,15,48,2,Escobar Mamani Gonzalo,6597615-LP,26/06/2001,M,la paz,13/07/2023,B,"Bs.- 2,489.48"
+1193,16,9,2,Chura Paco Natalia,7759550,1998/11/11,MUJER,Pt.,20170723,en reserva,"2,349.18 Bs"
+1194,7,36,4,Condori   Morales   Gustavo,6996458,22/01/1987,H,PANDO,20120811,rsv,"Bs 3.450,00"
+1195,16,22,1,Herrera   Escobar   Adrián,CI: 14961924,11-26-1999,MASCULINO,santa cruz,2021/12/19,Reserva,"Bs. 2,270.72"
+1196,12,19,2,Quiroga Castillo Adrián Wálter,12805863,17/02/2001,masc,Pn.,23/03/2020,activo,2737.27
+1197,17,49,2,YUJRA GARCÍA SERGIO,5.623.677 CB,25/09/2001,M,Cbba.,19/11/2021,Activo,"Bs 2.454,98"
+1198,18,31,8,Orellana Sánchez Germán,C.I. 13848580 LP,04/08/1998,HOMBRE,La Paz,07-26-2021,en actividad,"Bs. 5,903.17"
+1199,11,42,2,Rodríguez   Choque   Wilson,C.I. 2841967 SC,15/08/2002,Masc.,Sta. Cruz,20/05/2021,DADO DE BAJA,2305
+1200,6,42,1,Cabrera #Canaviri Gustavo,9607469SC,21/06/2000,hombre,Santa Cruz,20220615,EN ACTIVIDAD,"Bs 2.389,22"

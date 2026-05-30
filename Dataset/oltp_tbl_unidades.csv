@@ -1,0 +1,51 @@
+id_unidad,id_brigada,nombre,codigo,ciudad,departamento,tipo_cuartel
+1,17,Regimiento de Infantería 1 Jordán,RI-1,La Paz,La Paz,general
+2,17,Regimiento de Infantería 2 Sucre,RI-2,La Paz,La Paz,general
+3,17,Regimiento de Infantería 3 Pérez,RI-3,El Alto,La Paz,general
+4,17,Regimiento de Escolta Presidencial,REP-1,La Paz,La Paz,general
+5,17,Batallón de Policía Militar 1,BPM-1,La Paz,La Paz,general
+6,18,Regimiento de Infantería Mecanizado 1,RIM-1,Viacha,La Paz,general
+7,18,Regimiento de Caballería Mecanizado 1,RCM-1,Viacha,La Paz,general
+8,18,Grupo de Artillería Blindado 1,GAB-1,Oruro,Oruro,general
+9,18,Batallón de Tanques,BT-1,Viacha,La Paz,general
+10,19,Batallón de Ingeniería I Colorados,BI-1,Cochabamba,Cochabamba,general
+11,19,Batallón de Ingeniería II,BI-2,Sacaba,Cochabamba,general
+12,19,Batallón de Ingeniería III,BI-3,Quillacollo,Cochabamba,general
+13,19,Compañía de Construcciones,CC-1,Cochabamba,Cochabamba,general
+14,20,Regimiento de Infantería 7 Marzana,RI-7,Cochabamba,Cochabamba,general
+15,20,Regimiento de Infantería 8 Ayacucho,RI-8,Punata,Cochabamba,general
+16,20,Grupo de Artillería Antiaérea 2,GAA-2,Cochabamba,Cochabamba,general
+17,20,Batallón de Comunicaciones II,BCOM-2,Cochabamba,Cochabamba,general
+18,21,Grupo de Artillería 1 Camacho,GA-1,Santa Cruz,Santa Cruz,general
+19,21,Grupo de Artillería Antiaérea 1,GAA-1,Santa Cruz,Santa Cruz,general
+20,21,Batallón de Artillería Pesada,BAP-1,Montero,Santa Cruz,general
+21,21,Regimiento de Infantería 10 Warnes,RI-10,Warnes,Santa Cruz,general
+22,22,Regimiento de Infantería Selva 12,RIS-12,San Ignacio,Santa Cruz,avanzado
+23,22,Regimiento de Infantería Selva 13,RIS-13,Concepción,Santa Cruz,avanzado
+24,22,Batallón de Ingeniería Selva IV,BIS-4,San José,Santa Cruz,avanzado
+25,22,Regimiento de Infantería Selva 14,RIS-14,Riberalta,Beni,frontera
+26,23,Regimiento de Caballería 1 Abaroa,RC-1,Santa Cruz,Santa Cruz,general
+27,23,Regimiento de Caballería 2 Ballivián,RC-2,Camiri,Santa Cruz,avanzado
+28,23,Regimiento de Caballería 3,RC-3,Boyuibe,Santa Cruz,frontera
+29,23,Grupo de Reconocimiento 1,GR-1,Santa Cruz,Santa Cruz,general
+30,24,Regimiento de Infantería 4 Loa,RI-4,Tarija,Tarija,general
+31,24,Regimiento de Infantería 5 Campero,RI-5,Yacuiba,Tarija,frontera
+32,24,Regimiento de Infantería 6 Campos,RI-6,Bermejo,Tarija,frontera
+33,24,Batallón de Comunicaciones III,BCOM-3,Tarija,Tarija,general
+34,24,Compañía de Frontera Villamontes,CF-1,Villamontes,Tarija,frontera
+35,25,Batallón de Intendencia I,BINT-1,Sucre,Chuquisaca,general
+36,25,Batallón de Sanidad Militar,BSM-1,Sucre,Chuquisaca,general
+37,25,Batallón de Material Bélico,BMB-1,Sucre,Chuquisaca,general
+38,25,Batallón de Transporte,BTR-1,Sucre,Chuquisaca,general
+39,26,Regimiento de Infantería de Montaña 15,RIM-15,Potosí,Potosí,general
+40,26,Regimiento de Infantería de Montaña 16,RIM-16,Uyuni,Potosí,avanzado
+41,26,Regimiento de Infantería de Montaña 17,RIM-17,Villazón,Potosí,frontera
+42,26,Grupo de Artillería de Montaña,GAM-1,Potosí,Potosí,general
+43,26,Batallón de Ingeniería de Montaña V,BIM-5,Tupiza,Potosí,avanzado
+44,27,Regimiento de Comandos,RCDO-1,Cochabamba,Cochabamba,general
+45,27,Batallón de Fuerzas Especiales 1,BFE-1,Cochabamba,Cochabamba,general
+46,27,Batallón de Operaciones Especiales,BOE-1,Chimoré,Cochabamba,avanzado
+47,27,Compañía de Paracaidistas,CPAR-1,Cochabamba,Cochabamba,general
+48,27,Compañía Antinarcóticos 1,CAN-1,Chimoré,Cochabamba,avanzado
+49,27,Compañía Antinarcóticos 2,CAN-2,Ivirgarzama,Cochabamba,frontera
+50,27,Unidad de Desminado Humanitario,UDH-1,Cochabamba,Cochabamba,general

@@ -1,0 +1,107 @@
+CREATE SCHEMA silver;
+GO
+
+-- CATÁLOGOS LIMPIOS
+CREATE TABLE silver.zonas (
+    id_zona INT PRIMARY KEY,
+    nombre VARCHAR(255),
+    departamento VARCHAR(100),
+    frontera_con VARCHAR(150),
+    tipo_terreno VARCHAR(100),
+    altitud_msnm INT,
+    nivel_riesgo VARCHAR(50),
+    acceso_carretero BIT
+);
+
+CREATE TABLE silver.tipos_operacion (
+    id_tipo INT PRIMARY KEY,
+    nombre VARCHAR(150),
+    categoria VARCHAR(100)
+);
+
+CREATE TABLE silver.especialidades (
+    id_especialidad INT PRIMARY KEY,
+    nombre VARCHAR(150),
+    area VARCHAR(100)
+);
+
+CREATE TABLE silver.rangos (
+    id_rango INT PRIMARY KEY,
+    nombre VARCHAR(100),
+    categoria VARCHAR(100),
+    nivel_jerarquico INT,
+    abreviatura VARCHAR(20)
+);
+
+CREATE TABLE silver.tipos_movimiento (
+    id_tipo INT PRIMARY KEY,
+    nombre VARCHAR(100),
+    descripcion VARCHAR(255)
+);
+
+CREATE TABLE silver.unidades (
+    id_unidad INT PRIMARY KEY,
+    id_brigada INT,
+    nombre VARCHAR(255),
+    codigo VARCHAR(50),
+    ciudad VARCHAR(100),
+    departamento VARCHAR(100),
+    tipo_cuartel VARCHAR(100)
+);
+
+CREATE TABLE silver.estructura_organizacional (
+    id_estructura INT PRIMARY KEY,
+    id_padre INT NULL,
+    nivel VARCHAR(50),
+    nombre VARCHAR(255),
+    sigla VARCHAR(50),
+    tipo VARCHAR(50),
+    cobertura_departamentos VARCHAR(255)
+);
+
+-- TRANSACCIONALES LIMPIOS
+CREATE TABLE silver.efectivos (
+    id_efectivo INT PRIMARY KEY,
+    id_especialidad INT,
+    id_unidad_actual INT,
+    id_rango_actual INT,
+    nombre VARCHAR(255),
+    ci VARCHAR(50),
+    fecha_nacimiento DATE,
+    genero CHAR(1),
+    departamento_origen VARCHAR(100),
+    fecha_ingreso DATE,
+    estado VARCHAR(50),
+    salario_mensual DECIMAL(18,2)
+);
+
+CREATE TABLE silver.movimientos_personal (
+    id_movimiento INT PRIMARY KEY,
+    id_efectivo INT,
+    id_unidad_destino INT,
+    id_rango INT,
+    id_tipo INT,
+    fecha_movimiento DATE,
+    antiguedad_anios INT,
+    salario_mensual DECIMAL(18,2),
+    observaciones VARCHAR(MAX)
+);
+
+CREATE TABLE silver.operaciones (
+    id_operacion INT PRIMARY KEY,
+    id_tipo INT,
+    id_unidad_resp INT,
+    id_zona INT,
+    nombre_operacion VARCHAR(255),
+    fecha_inicio DATE,
+    fecha_fin DATE,
+    efectivos_desplegados INT,
+    vehiculos_utilizados INT,
+    duracion_dias INT,
+    costo_operacion DECIMAL(18,2),
+    resultado VARCHAR(100),
+    detenidos INT,
+    area_km2 DECIMAL(10,2),
+    incidentes INT,
+    observaciones VARCHAR(MAX)
+);

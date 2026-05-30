@@ -1,0 +1,28 @@
+id_estructura,id_padre,nivel,nombre,sigla,tipo,cobertura_departamentos
+1,,rama,Ejército de Bolivia,EB,,
+2,,rama,Fuerza Aérea Boliviana,FAB,,
+3,,rama,Armada Boliviana,AB,,
+4,1.0,division,División I,,División territorial,"La Paz, Oruro"
+5,1.0,division,División II,,División territorial,Cochabamba
+6,1.0,division,División III,,División territorial,"Santa Cruz, Beni"
+7,1.0,division,División IV,,División territorial,"Tarija, Chuquisaca"
+8,1.0,division,División V,,División territorial,Potosí
+9,2.0,division,Ala Aérea I,,Base aérea,La Paz
+10,2.0,division,Ala Aérea II,,Base aérea,Cochabamba
+11,2.0,division,Ala Aérea III,,Base aérea,Santa Cruz
+12,2.0,division,Ala Aérea IV,,Base aérea,Beni
+13,3.0,division,Distrito Naval I,,Distrito naval,La Paz
+14,3.0,division,Distrito Naval II,,Distrito naval,Beni
+15,3.0,division,Distrito Naval III,,Distrito naval,Santa Cruz
+16,3.0,division,Distrito Naval IV,,Distrito naval,Beni
+17,4.0,brigada,Brigada Colorados de Bolivia,,Infantería,
+18,4.0,brigada,Brigada Mecanizada,,Mecanizada,
+19,5.0,brigada,Brigada de Ingeniería,,Ingeniería,
+20,5.0,brigada,Brigada Bolívar,,Infantería,
+21,6.0,brigada,Brigada de Artillería,,Artillería,
+22,6.0,brigada,Brigada de Selva,,Selva,
+23,6.0,brigada,Brigada de Caballería,,Caballería,
+24,7.0,brigada,Brigada Frontera Sur,,Frontera,
+25,7.0,brigada,Brigada de Logística,,Logística,
+26,8.0,brigada,Brigada de Montaña,,Montaña,
+27,8.0,brigada,Brigada de Fuerzas Especiales,,Fuerzas especiales,

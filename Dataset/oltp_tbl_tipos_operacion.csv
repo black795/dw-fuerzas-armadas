@@ -1,0 +1,9 @@
+id_tipo,nombre,categoria
+1,Antinarcóticos,seguridad
+2,Patrullaje fronterizo,seguridad
+3,Control de contrabando,seguridad
+4,Defensa civil - inundaciones,defensa_civil
+5,Defensa civil - incendios forestales,defensa_civil
+6,Apoyo a la comunidad,defensa_civil
+7,Ejercicio militar,entrenamiento
+8,Operación conjunta internacional,entrenamiento

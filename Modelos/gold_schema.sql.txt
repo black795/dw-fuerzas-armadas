@@ -1,0 +1,104 @@
+CREATE SCHEMA gold;
+GO
+
+-- DIMENSIONES
+CREATE TABLE gold.dim_tiempo (
+    fecha_key INT PRIMARY KEY, -- YYYYMMDD
+    fecha DATE NOT NULL,
+    anio SMALLINT,
+    mes TINYINT,
+    nombre_mes VARCHAR(15),
+    trimestre TINYINT,
+    dia_semana TINYINT,
+    nombre_dia VARCHAR(15)
+);
+
+CREATE TABLE gold.dim_zona_operacion (
+    zona_key INT IDENTITY(1,1) PRIMARY KEY,
+    id_zona INT,
+    nombre_zona VARCHAR(255),
+    departamento VARCHAR(100),
+    frontera_con VARCHAR(150),
+    tipo_terreno VARCHAR(100),
+    nivel_riesgo VARCHAR(50)
+);
+
+CREATE TABLE gold.dim_tipo_operacion (
+    tipo_operacion_key INT IDENTITY(1,1) PRIMARY KEY,
+    id_tipo INT,
+    nombre_tipo VARCHAR(150),
+    categoria VARCHAR(100)
+);
+
+CREATE TABLE gold.dim_tipo_movimiento (
+    tipo_movimiento_key INT IDENTITY(1,1) PRIMARY KEY,
+    id_tipo INT,
+    nombre_tipo VARCHAR(100)
+);
+
+CREATE TABLE gold.dim_rango (
+    rango_key INT IDENTITY(1,1) PRIMARY KEY,
+    id_rango INT,
+    nombre_rango VARCHAR(100),
+    categoria VARCHAR(100),
+    nivel_jerarquico INT
+);
+
+-- Dimensión Aplanada: Efectivo + Especialidad
+CREATE TABLE gold.dim_efectivo (
+    efectivo_key INT IDENTITY(1,1) PRIMARY KEY,
+    id_efectivo INT,
+    ci VARCHAR(50),
+    nombre_completo VARCHAR(255),
+    genero CHAR(1),
+    departamento_origen VARCHAR(100),
+    fecha_ingreso DATE,
+    nombre_especialidad VARCHAR(150),
+    area_especialidad VARCHAR(100)
+);
+
+-- Dimensión Aplanada: Unidad + Jerarquía Estructural
+CREATE TABLE gold.dim_unidad (
+    unidad_key INT IDENTITY(1,1) PRIMARY KEY,
+    id_unidad INT,
+    nombre_unidad VARCHAR(255),
+    codigo_unidad VARCHAR(50),
+    ciudad VARCHAR(100),
+    departamento VARCHAR(100),
+    tipo_cuartel VARCHAR(100),
+    nombre_brigada VARCHAR(255), -- Traído de tbl_estructura_organizacional
+    nivel_jerarquico VARCHAR(50) 
+);
+
+-- TABLAS DE HECHOS (FACT TABLES)
+CREATE TABLE gold.hechos_operacion (
+    hecho_operacion_key INT IDENTITY(1,1) PRIMARY KEY,
+    fecha_inicio_key INT FOREIGN KEY REFERENCES gold.dim_tiempo(fecha_key),
+    fecha_fin_key INT FOREIGN KEY REFERENCES gold.dim_tiempo(fecha_key),
+    tipo_operacion_key INT FOREIGN KEY REFERENCES gold.dim_tipo_operacion(tipo_operacion_key),
+    unidad_resp_key INT FOREIGN KEY REFERENCES gold.dim_unidad(unidad_key),
+    zona_key INT FOREIGN KEY REFERENCES gold.dim_zona_operacion(zona_key),
+    
+    -- Métricas
+    efectivos_desplegados INT,
+    vehiculos_utilizados INT,
+    duracion_dias INT,
+    costo_operacion DECIMAL(18,2),
+    detenidos INT,
+    area_km2 DECIMAL(10,2),
+    incidentes INT,
+    resultado VARCHAR(100) -- Atributo degenerado
+);
+
+CREATE TABLE gold.hechos_movimiento_personal (
+    hecho_movimiento_key INT IDENTITY(1,1) PRIMARY KEY,
+    fecha_movimiento_key INT FOREIGN KEY REFERENCES gold.dim_tiempo(fecha_key),
+    efectivo_key INT FOREIGN KEY REFERENCES gold.dim_efectivo(efectivo_key),
+    unidad_destino_key INT FOREIGN KEY REFERENCES gold.dim_unidad(unidad_key),
+    rango_key INT FOREIGN KEY REFERENCES gold.dim_rango(rango_key),
+    tipo_movimiento_key INT FOREIGN KEY REFERENCES gold.dim_tipo_movimiento(tipo_movimiento_key),
+    
+    -- Métricas
+    antiguedad_anios INT,
+    salario_mensual DECIMAL(18,2)
+);

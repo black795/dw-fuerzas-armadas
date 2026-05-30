@@ -1,0 +1,7 @@
+id_tipo,nombre,descripcion
+1,alta,Incorporación del efectivo al servicio activo
+2,baja,Desvinculación definitiva del servicio militar
+3,ascenso,Promoción al rango inmediato superior
+4,traslado,Cambio de unidad o destino de servicio
+5,licencia,Permiso temporal de ausencia del servicio
+6,reincorporacion,Retorno al servicio activo tras licencia o baja

@@ -1,0 +1,21 @@
+id_especialidad,nombre,area
+1,Infantería,combate
+2,Caballería,combate
+3,Artillería,combate
+4,Blindados,combate
+5,Ingeniería Militar,apoyo_combate
+6,Comunicaciones,apoyo_combate
+7,Inteligencia Militar,apoyo_combate
+8,Guerra Electrónica,apoyo_combate
+9,Intendencia,servicios
+10,Sanidad Militar,servicios
+11,Transporte,servicios
+12,Material Bélico,servicios
+13,Policía Militar,servicios
+14,Justicia Militar,servicios
+15,Aviación del Ejército,tecnica
+16,Informática Militar,tecnica
+17,Cartografía,tecnica
+18,Meteorología,tecnica
+19,Hidrografía,tecnica
+20,Mecánica,tecnica

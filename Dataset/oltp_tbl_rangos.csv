@@ -1,0 +1,18 @@
+id_rango,nombre,categoria,nivel_jerarquico,abreviatura
+1,Soldado,Tropa,1,Sdo.
+2,Cabo,Tropa,2,Cbo.
+3,Sargento Segundo,Suboficiales,3,Sgto.2do.
+4,Sargento Primero,Suboficiales,4,Sgto.1ro.
+5,Suboficial Segundo,Suboficiales,5,Subof.2do.
+6,Suboficial Primero,Suboficiales,6,Subof.1ro.
+7,Suboficial Mayor,Suboficiales,7,Subof.My.
+8,Subteniente,Of. Subalternos,8,Subtte.
+9,Teniente,Of. Subalternos,9,Tte.
+10,Capitán,Of. Subalternos,10,Cap.
+11,Mayor,Of. Superiores,11,My.
+12,Teniente Coronel,Of. Superiores,12,Tcnl.
+13,Coronel,Of. Superiores,13,Cnel.
+14,General de Brigada,Of. Generales,14,Gral.Brig.
+15,General de División,Of. Generales,15,Gral.Div.
+16,General de Ejército,Of. Generales,16,Gral.Ejto.
+17,Comandante en Jefe,Of. Generales,17,Cmdte.

@@ -1,0 +1,124 @@
+// Tablas
+
+Table tbl_operaciones {
+  id_operacion int [primary key]
+  id_tipo int
+  id_unidad_resp int
+  id_zona int
+  nombre_operacion varchar
+  fecha_inicio varchar
+  fecha_fin varchar
+  efectivos_desplegados varchar
+  vehiculos_utilizados varchar
+  duracion_dias varchar
+  costo_operacion varchar
+  resultado varchar
+  detenidos varchar
+  area_km2 varchar
+  incidentes varchar
+  observaciones varchar
+}
+
+Table tbl_zonas {
+  id_zona int [primary key]
+  nombre varchar
+  departamento varchar
+  frontera_con varchar
+  tipo_terreno varchar
+  altitud_msnm int
+  nivel_riesgo varchar
+  acceso_carretero int
+}
+
+Table tbl_tipos_operacion {
+  id_tipo int [primary key]
+  nombre varchar
+  categoria varchar
+}
+
+Table tbl_movimientos_personal {
+  id_movimiento int [primary key]
+  id_efectivo int
+  id_unidad_destino int
+  id_rango int
+  id_tipo int
+  fecha_movimiento varchar
+  antiguedad_anios varchar
+  salario_mensual varchar
+  observaciones varchar
+}
+
+Table tbl_efectivos {
+  id_efectivo int [primary key]
+  id_especialidad int
+  id_unidad_actual int
+  id_rango_actual int
+  nombre varchar
+  ci varchar
+  fecha_nacimiento varchar
+  genero varchar
+  departamento_origen varchar
+  fecha_ingreso varchar
+  estado varchar
+  salario_mensual varchar
+}
+
+Table tbl_especialidades {
+  id_especialidad int [primary key]
+  nombre varchar
+  area varchar
+}
+
+Table tbl_rangos {
+  id_rango int [primary key]
+  nombre varchar
+  categoria varchar
+  nivel_jerarquico int
+  abreviatura varchar
+}
+
+Table tbl_tipos_movimiento {
+  id_tipo int [primary key]
+  nombre varchar
+  descripcion varchar
+}
+
+Table tbl_unidades {
+  id_unidad int [primary key]
+  id_brigada int
+  nombre varchar
+  codigo varchar
+  ciudad varchar
+  departamento varchar
+  tipo_cuartel varchar
+}
+
+Table tbl_estructura_organizacional {
+  id_estructura int [primary key]
+  id_padre int
+  nivel varchar
+  nombre varchar
+  sigla varchar
+  tipo varchar
+  cobertura_departamentos varchar
+}
+
+// Relaciones (Cardinalidad 1 a Muchos)
+
+Ref: tbl_zonas.id_zona < tbl_operaciones.id_zona
+Ref: tbl_tipos_operacion.id_tipo < tbl_operaciones.id_tipo
+Ref: tbl_unidades.id_unidad < tbl_operaciones.id_unidad_resp
+
+Ref: tbl_efectivos.id_efectivo < tbl_movimientos_personal.id_efectivo
+Ref: tbl_unidades.id_unidad < tbl_movimientos_personal.id_unidad_destino
+Ref: tbl_rangos.id_rango < tbl_movimientos_personal.id_rango
+Ref: tbl_tipos_movimiento.id_tipo < tbl_movimientos_personal.id_tipo
+
+Ref: tbl_especialidades.id_especialidad < tbl_efectivos.id_especialidad
+Ref: tbl_unidades.id_unidad < tbl_efectivos.id_unidad_actual
+Ref: tbl_rangos.id_rango < tbl_efectivos.id_rango_actual
+
+Ref: tbl_estructura_organizacional.id_estructura < tbl_unidades.id_brigada
+
+// Relación recursiva
+Ref: tbl_estructura_organizacional.id_estructura < tbl_estructura_organizacional.id_padre

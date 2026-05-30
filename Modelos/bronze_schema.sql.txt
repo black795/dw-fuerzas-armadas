@@ -1,0 +1,107 @@
+CREATE SCHEMA bronze;
+GO
+
+-- CATÁLOGOS
+CREATE TABLE bronze.zonas_raw (
+    id_zona VARCHAR(MAX),
+    nombre VARCHAR(MAX),
+    departamento VARCHAR(MAX),
+    frontera_con VARCHAR(MAX),
+    tipo_terreno VARCHAR(MAX),
+    altitud_msnm VARCHAR(MAX),
+    nivel_riesgo VARCHAR(MAX),
+    acceso_carretero VARCHAR(MAX)
+);
+
+CREATE TABLE bronze.tipos_operacion_raw (
+    id_tipo VARCHAR(MAX),
+    nombre VARCHAR(MAX),
+    categoria VARCHAR(MAX)
+);
+
+CREATE TABLE bronze.especialidades_raw (
+    id_especialidad VARCHAR(MAX),
+    nombre VARCHAR(MAX),
+    area VARCHAR(MAX)
+);
+
+CREATE TABLE bronze.rangos_raw (
+    id_rango VARCHAR(MAX),
+    nombre VARCHAR(MAX),
+    categoria VARCHAR(MAX),
+    nivel_jerarquico VARCHAR(MAX),
+    abreviatura VARCHAR(MAX)
+);
+
+CREATE TABLE bronze.tipos_movimiento_raw (
+    id_tipo VARCHAR(MAX),
+    nombre VARCHAR(MAX),
+    descripcion VARCHAR(MAX)
+);
+
+CREATE TABLE bronze.unidades_raw (
+    id_unidad VARCHAR(MAX),
+    id_brigada VARCHAR(MAX),
+    nombre VARCHAR(MAX),
+    codigo VARCHAR(MAX),
+    ciudad VARCHAR(MAX),
+    departamento VARCHAR(MAX),
+    tipo_cuartel VARCHAR(MAX)
+);
+
+CREATE TABLE bronze.estructura_organizacional_raw (
+    id_estructura VARCHAR(MAX),
+    id_padre VARCHAR(MAX),
+    nivel VARCHAR(MAX),
+    nombre VARCHAR(MAX),
+    sigla VARCHAR(MAX),
+    tipo VARCHAR(MAX),
+    cobertura_departamentos VARCHAR(MAX)
+);
+
+-- TRANSACCIONALES
+CREATE TABLE bronze.efectivos_raw (
+    id_efectivo VARCHAR(MAX),
+    id_especialidad VARCHAR(MAX),
+    id_unidad_actual VARCHAR(MAX),
+    id_rango_actual VARCHAR(MAX),
+    nombre VARCHAR(MAX),
+    ci VARCHAR(MAX),
+    fecha_nacimiento VARCHAR(MAX),
+    genero VARCHAR(MAX),
+    departamento_origen VARCHAR(MAX),
+    fecha_ingreso VARCHAR(MAX),
+    estado VARCHAR(MAX),
+    salario_mensual VARCHAR(MAX)
+);
+
+CREATE TABLE bronze.movimientos_personal_raw (
+    id_movimiento VARCHAR(MAX),
+    id_efectivo VARCHAR(MAX),
+    id_unidad_destino VARCHAR(MAX),
+    id_rango VARCHAR(MAX),
+    id_tipo VARCHAR(MAX),
+    fecha_movimiento VARCHAR(MAX),
+    antiguedad_anios VARCHAR(MAX),
+    salario_mensual VARCHAR(MAX),
+    observaciones VARCHAR(MAX)
+);
+
+CREATE TABLE bronze.operaciones_raw (
+    id_operacion VARCHAR(MAX),
+    id_tipo VARCHAR(MAX),
+    id_unidad_resp VARCHAR(MAX),
+    id_zona VARCHAR(MAX),
+    nombre_operacion VARCHAR(MAX),
+    fecha_inicio VARCHAR(MAX),
+    fecha_fin VARCHAR(MAX),
+    efectivos_desplegados VARCHAR(MAX),
+    vehiculos_utilizados VARCHAR(MAX),
+    duracion_dias VARCHAR(MAX),
+    costo_operacion VARCHAR(MAX),
+    resultado VARCHAR(MAX),
+    detenidos VARCHAR(MAX),
+    area_km2 VARCHAR(MAX),
+    incidentes VARCHAR(MAX),
+    observaciones VARCHAR(MAX)
+);

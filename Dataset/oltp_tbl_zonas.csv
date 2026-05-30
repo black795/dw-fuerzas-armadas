@@ -1,0 +1,26 @@
+id_zona,nombre,departamento,frontera_con,tipo_terreno,altitud_msnm,nivel_riesgo,acceso_carretero
+1,Chapare,Cochabamba,,selva,300,alto,True
+2,TIPNIS,Cochabamba,,selva,250,medio,False
+3,Chiquitanía,Santa Cruz,,llano,400,alto,True
+4,Desaguadero,La Paz,Perú,altiplano,3810,alto,True
+5,Lago Titicaca,La Paz,Perú,altiplano,3812,medio,True
+6,Triple Frontera Bolivia-Brasil-Paraguay,Santa Cruz,Brasil,chaco,150,critico,False
+7,Pantanal boliviano,Santa Cruz,Brasil,llano,120,medio,False
+8,Yungas,La Paz,,valle,1500,alto,True
+9,Chaco tarijeño,Tarija,Argentina,chaco,600,medio,True
+10,Frontera Villazón,Potosí,Argentina,altiplano,3440,medio,True
+11,Puerto Quijarro,Santa Cruz,Brasil,llano,130,alto,True
+12,San Matías,Santa Cruz,Brasil,llano,170,alto,False
+13,Riberalta,Beni,Brasil,selva,140,medio,True
+14,Cobija,Pando,Brasil,selva,250,alto,True
+15,Uyuni,Potosí,,altiplano,3670,bajo,True
+16,Apolo,La Paz,,selva,1400,medio,False
+17,Rurrenabaque,Beni,,selva,200,medio,True
+18,San Ignacio de Velasco,Santa Cruz,,llano,410,medio,True
+19,Camiri,Santa Cruz,,chaco,800,bajo,True
+20,Bermejo,Tarija,Argentina,valle,400,medio,True
+21,Guayaramerín,Beni,Brasil,selva,130,alto,True
+22,Yacuiba,Tarija,Argentina,chaco,620,alto,True
+23,Puerto Suárez,Santa Cruz,Brasil,llano,140,medio,True
+24,Oruro frontera,Oruro,Chile,altiplano,3700,medio,True
+25,Sajama,Oruro,Chile,altiplano,4200,bajo,False
