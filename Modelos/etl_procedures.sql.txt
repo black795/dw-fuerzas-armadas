@@ -1,0 +1,210 @@
+-- PROCEDURE: Generar Dimensión de Tiempo
+CREATE OR ALTER PROCEDURE gold.sp_generate_dim_tiempo
+AS
+BEGIN
+    SET NOCOUNT ON;
+    DECLARE @StartDate DATE = '2020-01-01';
+    DECLARE @EndDate DATE = '2030-12-31';
+
+    WHILE @StartDate <= @EndDate
+    BEGIN
+        DECLARE @FechaKey INT = CAST(CONVERT(VARCHAR(8), @StartDate, 112) AS INT);
+        
+        IF NOT EXISTS (SELECT 1 FROM gold.dim_tiempo WHERE fecha_key = @FechaKey)
+        BEGIN
+            INSERT INTO gold.dim_tiempo (fecha_key, fecha, anio, mes, nombre_mes, trimestre, dia_semana, nombre_dia)
+            VALUES (
+                @FechaKey,
+                @StartDate,
+                YEAR(@StartDate),
+                MONTH(@StartDate),
+                DATENAME(MONTH, @StartDate),
+                DATEPART(QUARTER, @StartDate),
+                DATEPART(WEEKDAY, @StartDate),
+                DATENAME(WEEKDAY, @StartDate)
+            );
+        END
+        SET @StartDate = DATEADD(DAY, 1, @StartDate);
+    END
+END;
+GO
+
+-- PROCEDURE: Bronze a Silver (Limpieza y Casteo Básicos)
+CREATE OR ALTER PROCEDURE silver.sp_bronze_to_silver
+AS
+BEGIN
+    SET NOCOUNT ON;
+    
+    -- Limpieza de zonas
+    TRUNCATE TABLE silver.zonas;
+    INSERT INTO silver.zonas
+    SELECT 
+        CAST(id_zona AS INT),
+        nombre,
+        departamento,
+        frontera_con,
+        tipo_terreno,
+        CAST(altitud_msnm AS INT),
+        nivel_riesgo,
+        CAST(CASE WHEN acceso_carretero IN ('1','true','True') THEN 1 ELSE 0 END AS BIT)
+    FROM bronze.zonas_raw;
+
+    -- Limpieza de tipos operacion
+    TRUNCATE TABLE silver.tipos_operacion;
+    INSERT INTO silver.tipos_operacion
+    SELECT CAST(id_tipo AS INT), nombre, categoria FROM bronze.tipos_operacion_raw;
+
+    -- Limpieza de especialidades
+    TRUNCATE TABLE silver.especialidades;
+    INSERT INTO silver.especialidades
+    SELECT CAST(id_especialidad AS INT), nombre, area FROM bronze.especialidades_raw;
+
+    -- Limpieza de rangos
+    TRUNCATE TABLE silver.rangos;
+    INSERT INTO silver.rangos
+    SELECT CAST(id_rango AS INT), nombre, categoria, CAST(nivel_jerarquico AS INT), abreviatura FROM bronze.rangos_raw;
+
+    -- Limpieza de unidades
+    TRUNCATE TABLE silver.unidades;
+    INSERT INTO silver.unidades
+    SELECT CAST(id_unidad AS INT), CAST(id_brigada AS INT), nombre, codigo, ciudad, departamento, tipo_cuartel 
+    FROM bronze.unidades_raw;
+
+    -- Limpieza de tipos de movimiento
+    TRUNCATE TABLE silver.tipos_movimiento;
+    INSERT INTO silver.tipos_movimiento
+    SELECT CAST(id_tipo AS INT), nombre, descripcion FROM bronze.tipos_movimiento_raw;
+
+    -- Limpieza de efectivos (transaccional)
+    TRUNCATE TABLE silver.efectivos;
+    INSERT INTO silver.efectivos
+    SELECT 
+        CAST(id_efectivo AS INT),
+        CAST(id_especialidad AS INT),
+        CAST(id_unidad_actual AS INT),
+        CAST(id_rango_actual AS INT),
+        nombre,
+        ci,
+        CAST(fecha_nacimiento AS DATE),
+        genero,
+        departamento_origen,
+        CAST(fecha_ingreso AS DATE),
+        estado,
+        CAST(salario_mensual AS DECIMAL(18,2))
+    FROM bronze.efectivos_raw;
+
+    -- Limpieza de operaciones (transaccional)
+    TRUNCATE TABLE silver.operaciones;
+    INSERT INTO silver.operaciones
+    SELECT 
+        CAST(id_operacion AS INT),
+        CAST(id_tipo AS INT),
+        CAST(id_unidad_resp AS INT),
+        CAST(id_zona AS INT),
+        nombre_operacion,
+        CAST(fecha_inicio AS DATE),
+        CAST(fecha_fin AS DATE),
+        CAST(efectivos_desplegados AS INT),
+        CAST(vehiculos_utilizados AS INT),
+        CAST(duracion_dias AS INT),
+        CAST(costo_operacion AS DECIMAL(18,2)),
+        resultado,
+        CAST(detenidos AS INT),
+        CAST(area_km2 AS DECIMAL(10,2)),
+        CAST(incidentes AS INT),
+        observaciones
+    FROM bronze.operaciones_raw;
+    
+    -- Limpieza de movimientos (transaccional)
+    TRUNCATE TABLE silver.movimientos_personal;
+    INSERT INTO silver.movimientos_personal
+    SELECT 
+        CAST(id_movimiento AS INT),
+        CAST(id_efectivo AS INT),
+        CAST(id_unidad_destino AS INT),
+        CAST(id_rango AS INT),
+        CAST(id_tipo AS INT),
+        CAST(fecha_movimiento AS DATE),
+        CAST(antiguedad_anios AS INT),
+        CAST(salario_mensual AS DECIMAL(18,2)),
+        observaciones
+    FROM bronze.movimientos_personal_raw;
+END;
+GO
+
+-- PROCEDURE: Silver a Gold (Carga de Dimensiones y Hechos)
+CREATE OR ALTER PROCEDURE gold.sp_silver_to_gold
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    -- Cargar Dimensiones (Borrando y Recargando para simplicidad de la práctica)
+    DELETE FROM gold.hechos_operacion;
+    DELETE FROM gold.hechos_movimiento_personal;
+    
+    DELETE FROM gold.dim_zona_operacion;
+    INSERT INTO gold.dim_zona_operacion (id_zona, nombre_zona, departamento, frontera_con, tipo_terreno, nivel_riesgo)
+    SELECT id_zona, nombre, departamento, frontera_con, tipo_terreno, nivel_riesgo FROM silver.zonas;
+
+    DELETE FROM gold.dim_tipo_operacion;
+    INSERT INTO gold.dim_tipo_operacion (id_tipo, nombre_tipo, categoria)
+    SELECT id_tipo, nombre, categoria FROM silver.tipos_operacion;
+
+    DELETE FROM gold.dim_rango;
+    INSERT INTO gold.dim_rango (id_rango, nombre_rango, categoria, nivel_jerarquico)
+    SELECT id_rango, nombre, categoria, nivel_jerarquico FROM silver.rangos;
+
+    DELETE FROM gold.dim_tipo_movimiento;
+    INSERT INTO gold.dim_tipo_movimiento (id_tipo, nombre_tipo)
+    SELECT id_tipo, nombre FROM silver.tipos_movimiento;
+
+    DELETE FROM gold.dim_unidad;
+    INSERT INTO gold.dim_unidad (id_unidad, nombre_unidad, codigo_unidad, ciudad, departamento, tipo_cuartel, nombre_brigada, nivel_jerarquico)
+    SELECT u.id_unidad, u.nombre, u.codigo, u.ciudad, u.departamento, u.tipo_cuartel, 'Brigada ' + CAST(u.id_brigada AS VARCHAR), 'Nivel Base' 
+    FROM silver.unidades u;
+
+    DELETE FROM gold.dim_efectivo;
+    INSERT INTO gold.dim_efectivo (id_efectivo, ci, nombre_completo, genero, departamento_origen, fecha_ingreso, nombre_especialidad, area_especialidad)
+    SELECT e.id_efectivo, e.ci, e.nombre, e.genero, e.departamento_origen, e.fecha_ingreso, esp.nombre, esp.area
+    FROM silver.efectivos e
+    LEFT JOIN silver.especialidades esp ON e.id_especialidad = esp.id_especialidad;
+
+    -- Cargar Hechos Operacion
+    INSERT INTO gold.hechos_operacion (
+        fecha_inicio_key, fecha_fin_key, tipo_operacion_key, unidad_resp_key, zona_key,
+        efectivos_desplegados, vehiculos_utilizados, duracion_dias, costo_operacion,
+        detenidos, area_km2, incidentes, resultado
+    )
+    SELECT 
+        CAST(CONVERT(VARCHAR(8), o.fecha_inicio, 112) AS INT),
+        CAST(CONVERT(VARCHAR(8), o.fecha_fin, 112) AS INT),
+        dto.tipo_operacion_key,
+        du.unidad_key,
+        dz.zona_key,
+        o.efectivos_desplegados, o.vehiculos_utilizados, o.duracion_dias, o.costo_operacion,
+        o.detenidos, o.area_km2, o.incidentes, o.resultado
+    FROM silver.operaciones o
+    LEFT JOIN gold.dim_tipo_operacion dto ON o.id_tipo = dto.id_tipo
+    LEFT JOIN gold.dim_unidad du ON o.id_unidad_resp = du.id_unidad
+    LEFT JOIN gold.dim_zona_operacion dz ON o.id_zona = dz.id_zona;
+    
+    -- Cargar Hechos Movimiento
+    INSERT INTO gold.hechos_movimiento_personal (
+        fecha_movimiento_key, efectivo_key, unidad_destino_key, rango_key, tipo_movimiento_key,
+        antiguedad_anios, salario_mensual
+    )
+    SELECT 
+        CAST(CONVERT(VARCHAR(8), m.fecha_movimiento, 112) AS INT),
+        de.efectivo_key,
+        du.unidad_key,
+        dr.rango_key,
+        dtm.tipo_movimiento_key,
+        m.antiguedad_anios, m.salario_mensual
+    FROM silver.movimientos_personal m
+    LEFT JOIN gold.dim_efectivo de ON m.id_efectivo = de.id_efectivo
+    LEFT JOIN gold.dim_unidad du ON m.id_unidad_destino = du.id_unidad
+    LEFT JOIN gold.dim_rango dr ON m.id_rango = dr.id_rango
+    LEFT JOIN gold.dim_tipo_movimiento dtm ON m.id_tipo = dtm.id_tipo;
+
+END;
+GO

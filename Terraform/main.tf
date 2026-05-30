@@ -47,7 +47,7 @@ resource "azurerm_mssql_server" "db_server_ffaa" {
   location                     = azurerm_resource_group.rg_ffaa.location
   version                      = "12.0"
   administrator_login          = "alan"
-  administrator_login_password = "4-v3ry-53cr37-p455w0rd"
+  administrator_login_password = "S3cur3_P@ssw0rd_2026"
 }
 
 resource "azurerm_mssql_firewall_rule" "allow_all_ffaa" {
@@ -73,9 +73,70 @@ resource "azurerm_data_factory" "df_ffaa" {
   resource_group_name = azurerm_resource_group.rg_ffaa.name
 }
 
-// ejecutar en terminal los siguientes comandos:
-// terraform validate
-// terraform init
-// terraform plan
-// terraform apply
-// luego del trabajo: terraform destroy
+resource "azurerm_data_factory_linked_service_azure_sql_database" "ls_sqldb" {
+  name                = "ls_sqldb_gold"
+  data_factory_id     = azurerm_data_factory.df_ffaa.id
+  connection_string   = "Integrated Security=False;Data Source=sql-ucb-sisger-ffaa-5756067.database.windows.net;Initial Catalog=dw_ffaa;User ID=alan;Password=S3cur3_P@ssw0rd_2026"
+}
+
+resource "azurerm_data_factory_dataset_azure_sql_table" "ds_dim_tiempo" {
+  name                = "ds_gold_dim_tiempo"
+  data_factory_id     = azurerm_data_factory.df_ffaa.id
+  linked_service_id   = azurerm_data_factory_linked_service_azure_sql_database.ls_sqldb.id
+  schema              = "gold"
+  table               = "dim_tiempo"
+}
+
+resource "azurerm_data_factory_dataset_azure_sql_table" "ds_dim_unidad" {
+  name                = "ds_gold_dim_unidad"
+  data_factory_id     = azurerm_data_factory.df_ffaa.id
+  linked_service_id   = azurerm_data_factory_linked_service_azure_sql_database.ls_sqldb.id
+  schema              = "gold"
+  table               = "dim_unidad"
+}
+
+resource "azurerm_data_factory_dataset_azure_sql_table" "ds_hechos_operacion" {
+  name                = "ds_gold_hechos_operacion"
+  data_factory_id     = azurerm_data_factory.df_ffaa.id
+  linked_service_id   = azurerm_data_factory_linked_service_azure_sql_database.ls_sqldb.id
+  schema              = "gold"
+  table               = "hechos_operacion"
+}
+
+resource "azurerm_data_factory_pipeline" "pipeline_etl" {
+  name            = "pl_bronze_to_gold_etl"
+  data_factory_id = azurerm_data_factory.df_ffaa.id
+
+  activities_json = <<JSON
+  [
+    {
+      "name": "SP_Bronze_to_Silver",
+      "type": "SqlServerStoredProcedure",
+      "linkedServiceName": {
+        "referenceName": "ls_sqldb_gold",
+        "type": "LinkedServiceReference"
+      },
+      "typeProperties": {
+        "storedProcedureName": "[silver].[sp_bronze_to_silver]"
+      }
+    },
+    {
+      "name": "SP_Silver_to_Gold",
+      "type": "SqlServerStoredProcedure",
+      "dependsOn": [
+        {
+          "activity": "SP_Bronze_to_Silver",
+          "dependencyConditions": ["Succeeded"]
+        }
+      ],
+      "linkedServiceName": {
+        "referenceName": "ls_sqldb_gold",
+        "type": "LinkedServiceReference"
+      },
+      "typeProperties": {
+        "storedProcedureName": "[gold].[sp_silver_to_gold]"
+      }
+    }
+  ]
+JSON
+}
