@@ -42,7 +42,7 @@ def load_data():
                 continue
                 
             print(f"Cargando {csv_file} a {table_name}...")
-            df = pd.read_csv(file_path).head(50)
+            df = pd.read_csv(file_path)
             
             # Crear la instrucción INSERT
             cols = ', '.join(df.columns)
