@@ -1,0 +1,10 @@
+{
+	"name": "adf-ucb-dw-ffaa-9876543",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "canadacentral"
+}
