@@ -3,9 +3,41 @@
 	"properties": {
 		"activities": [
 			{
+				"name": "Limpiar_Base_Datos",
+				"type": "Script",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "0.12:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"linkedServiceName": {
+					"referenceName": "LS_AzureSQL_FFAA_Destino",
+					"type": "LinkedServiceReference"
+				},
+				"typeProperties": {
+					"scripts": [
+						{
+							"type": "NonQuery",
+							"text": "DELETE FROM gold.hechos_operacion;\nDELETE FROM gold.hechos_movimiento_personal;\n\nDELETE FROM gold.dim_zona_operacion;\nDELETE FROM gold.dim_tipo_operacion;\nDELETE FROM gold.dim_tipo_movimiento;\nDELETE FROM gold.dim_rango;\nDELETE FROM gold.dim_efectivo;\nDELETE FROM gold.dim_unidad;\n\nTRUNCATE TABLE silver.efectivos;\nTRUNCATE TABLE silver.especialidades;\nTRUNCATE TABLE silver.estructura_organizacional;\nTRUNCATE TABLE silver.movimientos_personal;\nTRUNCATE TABLE silver.operaciones;\nTRUNCATE TABLE silver.rangos;\nTRUNCATE TABLE silver.tipos_movimiento;\nTRUNCATE TABLE silver.tipos_operacion;\nTRUNCATE TABLE silver.unidades;\nTRUNCATE TABLE silver.zonas;\n\nTRUNCATE TABLE bronze.zonas_raw;\nTRUNCATE TABLE bronze.tipos_operacion_raw;\nTRUNCATE TABLE bronze.especialidades_raw;\nTRUNCATE TABLE bronze.rangos_raw;\nTRUNCATE TABLE bronze.tipos_movimiento_raw;\nTRUNCATE TABLE bronze.unidades_raw;\nTRUNCATE TABLE bronze.estructura_organizacional_raw;\nTRUNCATE TABLE bronze.efectivos_raw;\nTRUNCATE TABLE bronze.movimientos_personal_raw;\nTRUNCATE TABLE bronze.operaciones_raw;"
+						}
+					]
+				}
+			},
+			{
 				"name": "Cargar_Bronze",
 				"type": "ExecutePipeline",
-				"dependsOn": [],
+				"dependsOn": [
+					{
+						"activity": "Limpiar_Base_Datos",
+						"dependencyConditions": [
+							"Succeeded"
+						]
+					}
+				],
 				"userProperties": [],
 				"typeProperties": {
 					"pipeline": {
