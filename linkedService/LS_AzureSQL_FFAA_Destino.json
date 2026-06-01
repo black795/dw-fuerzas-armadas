@@ -1,0 +1,20 @@
+{
+	"name": "LS_AzureSQL_FFAA_Destino",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"server": "sql-ucb-sisger-ffaa-5756067.database.windows.net",
+			"database": "dw_ffaa",
+			"encrypt": "mandatory",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "alan",
+			"password": {
+				"type": "SecureString",
+				"value": "S3cur3_P@ssw0rd_2026"
+			}
+		}
+	}
+}

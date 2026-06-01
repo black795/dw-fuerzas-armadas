@@ -1,0 +1,33 @@
+{
+	"name": "silver_tipos_operacion",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_AzureSQL_FFAA_Destino",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "silver"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "id_tipo",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "nombre",
+				"type": "varchar"
+			},
+			{
+				"name": "categoria",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "silver",
+			"table": "tipos_operacion"
+		}
+	}
+}

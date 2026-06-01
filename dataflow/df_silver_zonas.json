@@ -1,0 +1,97 @@
+{
+	"name": "df_silver_zonas",
+	"properties": {
+		"folder": {
+			"name": "silver"
+		},
+		"type": "MappingDataFlow",
+		"typeProperties": {
+			"sources": [
+				{
+					"dataset": {
+						"referenceName": "bronce_zonas_destino",
+						"type": "DatasetReference"
+					},
+					"name": "source1"
+				}
+			],
+			"sinks": [
+				{
+					"dataset": {
+						"referenceName": "silver_zonas",
+						"type": "DatasetReference"
+					},
+					"name": "sink1"
+				}
+			],
+			"transformations": [
+				{
+					"name": "filter1"
+				},
+				{
+					"name": "derivedColumn1"
+				},
+				{
+					"name": "derivedColumn2"
+				}
+			],
+			"scriptLines": [
+				"source(output(",
+				"          id_zona as string,",
+				"          nombre as string,",
+				"          departamento as string,",
+				"          frontera_con as string,",
+				"          tipo_terreno as string,",
+				"          altitud_msnm as string,",
+				"          nivel_riesgo as string,",
+				"          acceso_carretero as string",
+				"     ),",
+				"     allowSchemaDrift: true,",
+				"     validateSchema: false,",
+				"     isolationLevel: 'READ_UNCOMMITTED',",
+				"     query: 'SELECT \\n    TRIM(id_zona) AS id_zona,\\n    TRIM(nombre) AS nombre,\\n    TRIM(departamento) AS departamento,\\n    TRIM(frontera_con) AS frontera_con,\\n    TRIM(tipo_terreno) AS tipo_terreno,\\n    TRIM(altitud_msnm) AS altitud_msnm,\\n    TRIM(nivel_riesgo) AS nivel_riesgo,\\n    TRIM(acceso_carretero) AS acceso_carretero\\nFROM bronze.zonas_raw',",
+				"     format: 'query') ~> source1",
+				"source1 filter(!isNull(id_zona) && length(trim(id_zona)) > 0 && !isNull(nombre) && length(trim(nombre)) > 0) ~> filter1",
+				"filter1 derive(nombre = initCap(trim(regexReplace(nombre, '\\\\s+', ' '))),",
+				"          departamento = case(     in(['santacruz','stacruz','scz','sc'], lower(regexReplace(departamento, '[^a-zA-Z]', ''))), 'Santa Cruz',     in(['lapaz','lpz','lp'], lower(regexReplace(departamento, '[^a-zA-Z]', ''))), 'La Paz',     in(['cochabamba','cbba','cbb','cb'], lower(regexReplace(departamento, '[^a-zA-Z]', ''))), 'Cochabamba',     in(['oruro','oru','or'], lower(regexReplace(departamento, '[^a-zA-Z]', ''))), 'Oruro',     in(['potosi','potosí','pts','pt'], lower(regexReplace(departamento, '[^a-zA-Z]', ''))), 'Potosí',     in(['tarija','tja','tj'], lower(regexReplace(departamento, '[^a-zA-Z]', ''))), 'Tarija',     in(['chuquisaca','chq','sucre','suc','ch'], lower(regexReplace(departamento, '[^a-zA-Z]', ''))), 'Chuquisaca',     in(['beni','ben','bn'], lower(regexReplace(departamento, '[^a-zA-Z]', ''))), 'Beni',     in(['pando','pnd','pn'], lower(regexReplace(departamento, '[^a-zA-Z]', ''))), 'Pando',     initCap(trim(departamento)) ),",
+				"          frontera_con = iif(upper(frontera_con) == 'NULL' || frontera_con == '', toString(null()), initCap(trim(frontera_con))),",
+				"          tipo_terreno = initCap(trim(tipo_terreno)),",
+				"          nivel_riesgo = initCap(trim(nivel_riesgo)),",
+				"          altitud_msnm = regexReplace(altitud_msnm, '[^0-9]', ''),",
+				"          acceso_carretero = iif(in(['true', 'si', '1', 'yes'], lower(trim(acceso_carretero))), true(), false())) ~> derivedColumn1",
+				"derivedColumn1 derive(id_zona = toInteger(id_zona),",
+				"          altitud_msnm = toInteger(altitud_msnm)) ~> derivedColumn2",
+				"derivedColumn2 sink(allowSchemaDrift: true,",
+				"     validateSchema: false,",
+				"     input(",
+				"          id_zona as integer,",
+				"          nombre as string,",
+				"          departamento as string,",
+				"          frontera_con as string,",
+				"          tipo_terreno as string,",
+				"          altitud_msnm as integer,",
+				"          nivel_riesgo as string,",
+				"          acceso_carretero as boolean",
+				"     ),",
+				"     deletable:false,",
+				"     insertable:true,",
+				"     updateable:false,",
+				"     upsertable:false,",
+				"     format: 'table',",
+				"     skipDuplicateMapInputs: true,",
+				"     skipDuplicateMapOutputs: true,",
+				"     errorHandlingOption: 'stopOnFirstError',",
+				"     mapColumn(",
+				"          id_zona,",
+				"          nombre,",
+				"          departamento,",
+				"          frontera_con,",
+				"          tipo_terreno,",
+				"          altitud_msnm,",
+				"          nivel_riesgo,",
+				"          acceso_carretero",
+				"     )) ~> sink1"
+			]
+		}
+	}
+}

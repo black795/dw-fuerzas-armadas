@@ -1,0 +1,73 @@
+{
+	"name": "df_silver_especialidades",
+	"properties": {
+		"folder": {
+			"name": "silver"
+		},
+		"type": "MappingDataFlow",
+		"typeProperties": {
+			"sources": [
+				{
+					"dataset": {
+						"referenceName": "bronce_especialidades_destino",
+						"type": "DatasetReference"
+					},
+					"name": "source1"
+				}
+			],
+			"sinks": [
+				{
+					"dataset": {
+						"referenceName": "silver_especialidades",
+						"type": "DatasetReference"
+					},
+					"name": "sink1"
+				}
+			],
+			"transformations": [
+				{
+					"name": "derivedColumn1"
+				},
+				{
+					"name": "filter1"
+				}
+			],
+			"scriptLines": [
+				"source(output(",
+				"          id_especialidad as string,",
+				"          nombre as string,",
+				"          area as string",
+				"     ),",
+				"     allowSchemaDrift: true,",
+				"     validateSchema: false,",
+				"     isolationLevel: 'READ_UNCOMMITTED',",
+				"     query: 'SELECT \\n    TRIM(id_especialidad) AS id_especialidad,\\n    TRIM(nombre) AS nombre,\\n    TRIM(area) AS area\\nFROM bronze.especialidades_raw',",
+				"     format: 'query') ~> source1",
+				"filter1 derive(nombre = initCap(trim(regexReplace(regexReplace(nombre, '[^a-zA-ZáéíóúÁÉÍÓÚñÑ\\\\s]', ''), '\\\\s+', ' '))),",
+				"          area = initCap(trim(regexReplace(replace(area, '_', ' '), '\\\\s+', ' '))),",
+				"          id_especialidad = toInteger(id_especialidad)) ~> derivedColumn1",
+				"source1 filter(!isNull(id_especialidad) && length(trim(id_especialidad)) > 0 && !isNull(nombre) && length(trim(nombre)) > 0) ~> filter1",
+				"derivedColumn1 sink(allowSchemaDrift: true,",
+				"     validateSchema: false,",
+				"     input(",
+				"          id_especialidad as integer,",
+				"          nombre as string,",
+				"          area as string",
+				"     ),",
+				"     deletable:false,",
+				"     insertable:true,",
+				"     updateable:false,",
+				"     upsertable:false,",
+				"     format: 'table',",
+				"     skipDuplicateMapInputs: true,",
+				"     skipDuplicateMapOutputs: true,",
+				"     errorHandlingOption: 'stopOnFirstError',",
+				"     mapColumn(",
+				"          id_especialidad,",
+				"          nombre,",
+				"          area",
+				"     )) ~> sink1"
+			]
+		}
+	}
+}

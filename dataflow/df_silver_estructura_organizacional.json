@@ -1,0 +1,87 @@
+{
+	"name": "df_silver_estructura_organizacional",
+	"properties": {
+		"folder": {
+			"name": "silver"
+		},
+		"type": "MappingDataFlow",
+		"typeProperties": {
+			"sources": [
+				{
+					"dataset": {
+						"referenceName": "bronce_estructura_organizacional_destino",
+						"type": "DatasetReference"
+					},
+					"name": "source1"
+				}
+			],
+			"sinks": [
+				{
+					"dataset": {
+						"referenceName": "silver_estructura_organizacional",
+						"type": "DatasetReference"
+					},
+					"name": "sink1"
+				}
+			],
+			"transformations": [
+				{
+					"name": "derivedColumn1"
+				},
+				{
+					"name": "filter1"
+				}
+			],
+			"scriptLines": [
+				"source(output(",
+				"          id_estructura as integer,",
+				"          id_padre as integer,",
+				"          nivel as string,",
+				"          nombre as string,",
+				"          sigla as string,",
+				"          tipo as string,",
+				"          cobertura_departamentos as string",
+				"     ),",
+				"     allowSchemaDrift: true,",
+				"     validateSchema: false,",
+				"     isolationLevel: 'READ_UNCOMMITTED',",
+				"     query: 'SELECT \\n    TRIM(id_estructura) AS id_estructura,\\n    TRIM(id_padre) AS id_padre,\\n    TRIM(nivel) AS nivel,\\n    TRIM(nombre) AS nombre,\\n    TRIM(sigla) AS sigla,\\n    TRIM(tipo) AS tipo,\\n    TRIM(cobertura_departamentos) AS cobertura_departamentos\\nFROM bronze.estructura_organizacional_raw',",
+				"     format: 'query') ~> source1",
+				"filter1 derive(nivel = initCap(lower(nivel)),",
+				"          nombre = initCap(regexReplace(regexReplace(nombre, '[^a-zA-ZáéíóúÁÉÍÓÚñÑ\\\\s]', ''), '\\\\s+', ' ')),",
+				"          sigla = iif(upper(sigla) == 'NULL' || sigla == '', toString(null()), upper(sigla)),",
+				"          tipo = iif(upper(tipo) == 'NULL' || tipo == '', toString(null()), initCap(regexReplace(tipo, '\\\\s+', ' '))),",
+				"          cobertura_departamentos = iif(upper(cobertura_departamentos) == 'NULL' || cobertura_departamentos == '', toString(null()), initCap(regexReplace(cobertura_departamentos, '\\\\s+', ' ')))) ~> derivedColumn1",
+				"source1 filter(!isNull(id_estructura) && id_estructura > 0 && !isNull(nombre) && length(trim(nombre)) > 0) ~> filter1",
+				"derivedColumn1 sink(allowSchemaDrift: true,",
+				"     validateSchema: false,",
+				"     input(",
+				"          id_estructura as integer,",
+				"          id_padre as integer,",
+				"          nivel as string,",
+				"          nombre as string,",
+				"          sigla as string,",
+				"          tipo as string,",
+				"          cobertura_departamentos as string",
+				"     ),",
+				"     deletable:false,",
+				"     insertable:true,",
+				"     updateable:false,",
+				"     upsertable:false,",
+				"     format: 'table',",
+				"     skipDuplicateMapInputs: true,",
+				"     skipDuplicateMapOutputs: true,",
+				"     errorHandlingOption: 'stopOnFirstError',",
+				"     mapColumn(",
+				"          id_estructura,",
+				"          id_padre,",
+				"          nivel,",
+				"          nombre,",
+				"          sigla,",
+				"          tipo,",
+				"          cobertura_departamentos",
+				"     )) ~> sink1"
+			]
+		}
+	}
+}

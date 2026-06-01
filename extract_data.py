@@ -21,7 +21,7 @@ tables = [
     "tbl_estructura_organizacional"
 ]
 
-output_dir = 'Dataset'
+output_dir = 'datos_csv'
 os.makedirs(output_dir, exist_ok=True)
 
 print(f"Connecting to database {database} at {server}...")

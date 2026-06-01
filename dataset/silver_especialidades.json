@@ -1,0 +1,33 @@
+{
+	"name": "silver_especialidades",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_AzureSQL_FFAA_Destino",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "silver"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "id_especialidad",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "nombre",
+				"type": "varchar"
+			},
+			{
+				"name": "area",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "silver",
+			"table": "especialidades"
+		}
+	}
+}

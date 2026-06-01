@@ -1,0 +1,92 @@
+{
+	"name": "df_silver_unidades",
+	"properties": {
+		"folder": {
+			"name": "silver"
+		},
+		"type": "MappingDataFlow",
+		"typeProperties": {
+			"sources": [
+				{
+					"dataset": {
+						"referenceName": "bronce_unidades_destino",
+						"type": "DatasetReference"
+					},
+					"name": "source1"
+				}
+			],
+			"sinks": [
+				{
+					"dataset": {
+						"referenceName": "silver_unidades",
+						"type": "DatasetReference"
+					},
+					"name": "sink1"
+				}
+			],
+			"transformations": [
+				{
+					"name": "filter1"
+				},
+				{
+					"name": "derivedColumn1"
+				},
+				{
+					"name": "derivedColumn2"
+				}
+			],
+			"scriptLines": [
+				"source(output(",
+				"          id_unidad as integer,",
+				"          id_brigada as integer,",
+				"          nombre as string,",
+				"          codigo as string,",
+				"          ciudad as string,",
+				"          departamento as string,",
+				"          tipo_cuartel as string",
+				"     ),",
+				"     allowSchemaDrift: true,",
+				"     validateSchema: false,",
+				"     isolationLevel: 'READ_UNCOMMITTED',",
+				"     query: 'SELECT \\n    TRIM(id_unidad) AS id_unidad,\\n    TRIM(id_brigada) AS id_brigada,\\n    TRIM(nombre) AS nombre,\\n    TRIM(codigo) AS codigo,\\n    TRIM(ciudad) AS ciudad,\\n    TRIM(departamento) AS departamento,\\n    TRIM(tipo_cuartel) AS tipo_cuartel\\nFROM bronze.unidades_raw',",
+				"     format: 'query') ~> source1",
+				"source1 filter(!isNull(id_unidad) && id_unidad > 0 && !isNull(nombre) && length(trim(nombre)) > 0) ~> filter1",
+				"filter1 derive(nombre = initCap(trim(regexReplace(nombre, '\\\\s+', ' '))),",
+				"          codigo = upper(trim(regexReplace(codigo, '\\\\s+', ' '))),",
+				"          ciudad = initCap(trim(regexReplace(ciudad, '\\\\s+', ' '))),",
+				"          departamento = case(     in(['santacruz','stacruz','scz','sc'], lower(regexReplace(departamento, '[^a-zA-Z]', ''))), 'Santa Cruz',     in(['lapaz','lpz','lp'], lower(regexReplace(departamento, '[^a-zA-Z]', ''))), 'La Paz',     in(['cochabamba','cbba','cbb','cb'], lower(regexReplace(departamento, '[^a-zA-Z]', ''))), 'Cochabamba',     in(['oruro','oru','or'], lower(regexReplace(departamento, '[^a-zA-Z]', ''))), 'Oruro',     in(['potosi','potosí','pts','pt'], lower(regexReplace(departamento, '[^a-zA-Z]', ''))), 'Potosí',     in(['tarija','tja','tj'], lower(regexReplace(departamento, '[^a-zA-Z]', ''))), 'Tarija',     in(['chuquisaca','chq','sucre','suc','ch'], lower(regexReplace(departamento, '[^a-zA-Z]', ''))), 'Chuquisaca',     in(['beni','ben','bn'], lower(regexReplace(departamento, '[^a-zA-Z]', ''))), 'Beni',     in(['pando','pnd','pn'], lower(regexReplace(departamento, '[^a-zA-Z]', ''))), 'Pando',     initCap(trim(departamento)) ),",
+				"          tipo_cuartel = initCap(trim(regexReplace(tipo_cuartel, '\\\\s+', ' ')))) ~> derivedColumn1",
+				"derivedColumn1 derive(id_unidad = toInteger(id_unidad),",
+				"          id_brigada = toInteger(id_brigada)) ~> derivedColumn2",
+				"derivedColumn2 sink(allowSchemaDrift: true,",
+				"     validateSchema: false,",
+				"     input(",
+				"          id_unidad as integer,",
+				"          id_brigada as integer,",
+				"          nombre as string,",
+				"          codigo as string,",
+				"          ciudad as string,",
+				"          departamento as string,",
+				"          tipo_cuartel as string",
+				"     ),",
+				"     deletable:false,",
+				"     insertable:true,",
+				"     updateable:false,",
+				"     upsertable:false,",
+				"     format: 'table',",
+				"     skipDuplicateMapInputs: true,",
+				"     skipDuplicateMapOutputs: true,",
+				"     errorHandlingOption: 'stopOnFirstError',",
+				"     mapColumn(",
+				"          id_unidad,",
+				"          id_brigada,",
+				"          nombre,",
+				"          codigo,",
+				"          ciudad,",
+				"          departamento,",
+				"          tipo_cuartel",
+				"     )) ~> sink1"
+			]
+		}
+	}
+}

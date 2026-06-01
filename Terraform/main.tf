@@ -11,6 +11,11 @@ provider "azurerm" {
     features{}
 }
 
+import {
+  to = azurerm_resource_group.rg_ffaa
+  id = "/subscriptions/246a4b38-d108-4cce-956d-8e0d398ee97e/resourceGroups/gr-sisger-dwffaa-5756067"
+}
+
 # 1. Grupo de Recursos para Fuerzas Armadas
 resource "azurerm_resource_group" "rg_ffaa" {
   name     = "gr-sisger-dwffaa-5756067"

@@ -1,0 +1,21 @@
+{
+	"name": "LS_AzureSQL_FFAA_Origen",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"server": "server02-fuerzas-armadas-bolivia.database.windows.net",
+			"database": "erp-fuerzas-armadas-bolivia-2",
+			"encrypt": "True",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "userSisGer",
+			"multipleActiveResultSets": "False",
+			"password": {
+				"type": "SecureString",
+				"value": "C0ntr4s3n!a"
+			}
+		}
+	}
+}

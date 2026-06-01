@@ -1,0 +1,84 @@
+{
+	"name": "df_silver_rangos",
+	"properties": {
+		"folder": {
+			"name": "silver"
+		},
+		"type": "MappingDataFlow",
+		"typeProperties": {
+			"sources": [
+				{
+					"dataset": {
+						"referenceName": "bronce_rangos_destino",
+						"type": "DatasetReference"
+					},
+					"name": "source1"
+				}
+			],
+			"sinks": [
+				{
+					"dataset": {
+						"referenceName": "silver_rangos",
+						"type": "DatasetReference"
+					},
+					"name": "sink1"
+				}
+			],
+			"transformations": [
+				{
+					"name": "filter1"
+				},
+				{
+					"name": "derivedColumn1"
+				},
+				{
+					"name": "derivedColumn2"
+				}
+			],
+			"scriptLines": [
+				"source(output(",
+				"          id_rango as string,",
+				"          nombre as string,",
+				"          categoria as string,",
+				"          nivel_jerarquico as string,",
+				"          abreviatura as string",
+				"     ),",
+				"     allowSchemaDrift: true,",
+				"     validateSchema: false,",
+				"     isolationLevel: 'READ_UNCOMMITTED',",
+				"     query: 'SELECT \\n    TRIM(id_rango) AS id_rango,\\n    TRIM(nombre) AS nombre,\\n    TRIM(categoria) AS categoria,\\n    TRIM(nivel_jerarquico) AS nivel_jerarquico,\\n    TRIM(abreviatura) AS abreviatura\\nFROM bronze.rangos_raw',",
+				"     format: 'query') ~> source1",
+				"source1 filter(!isNull(id_rango) && length(trim(id_rango)) > 0 && !isNull(nombre) && length(trim(nombre)) > 0 && toInteger(nivel_jerarquico) >= 1 && toInteger(nivel_jerarquico) <= 25) ~> filter1",
+				"filter1 derive(nombre = initCap(trim(regexReplace(nombre, '\\\\s+', ' '))),",
+				"          categoria = case(     instr(lower(categoria), 'of.') > 0,      initCap(replace(lower(categoria), 'of.', 'oficiales ')),     initCap(trim(categoria)) ),",
+				"          abreviatura = trim(regexReplace(abreviatura, '\\\\s+', ' '))) ~> derivedColumn1",
+				"derivedColumn1 derive(id_rango = toInteger(id_rango),",
+				"          nivel_jerarquico = toInteger(nivel_jerarquico)) ~> derivedColumn2",
+				"derivedColumn2 sink(allowSchemaDrift: true,",
+				"     validateSchema: false,",
+				"     input(",
+				"          id_rango as integer,",
+				"          nombre as string,",
+				"          categoria as string,",
+				"          nivel_jerarquico as integer,",
+				"          abreviatura as string",
+				"     ),",
+				"     deletable:false,",
+				"     insertable:true,",
+				"     updateable:false,",
+				"     upsertable:false,",
+				"     format: 'table',",
+				"     skipDuplicateMapInputs: true,",
+				"     skipDuplicateMapOutputs: true,",
+				"     errorHandlingOption: 'stopOnFirstError',",
+				"     mapColumn(",
+				"          id_rango,",
+				"          nombre,",
+				"          categoria,",
+				"          nivel_jerarquico,",
+				"          abreviatura",
+				"     )) ~> sink1"
+			]
+		}
+	}
+}

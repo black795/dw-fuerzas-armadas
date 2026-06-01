@@ -1,0 +1,161 @@
+{
+	"name": "df_silver_operaciones",
+	"properties": {
+		"folder": {
+			"name": "silver"
+		},
+		"type": "MappingDataFlow",
+		"typeProperties": {
+			"sources": [
+				{
+					"dataset": {
+						"referenceName": "bronce_operaciones_destino",
+						"type": "DatasetReference"
+					},
+					"name": "source1"
+				}
+			],
+			"sinks": [
+				{
+					"dataset": {
+						"referenceName": "silver_operaciones",
+						"type": "DatasetReference"
+					},
+					"name": "sink1"
+				}
+			],
+			"transformations": [
+				{
+					"name": "filter1"
+				},
+				{
+					"name": "derivedColumn1"
+				},
+				{
+					"name": "derivedColumn2"
+				}
+			],
+			"scriptLines": [
+				"source(output(",
+				"          id_operacion as string,",
+				"          id_tipo as string,",
+				"          id_unidad_resp as string,",
+				"          id_zona as string,",
+				"          nombre_operacion as string,",
+				"          fecha_inicio as string,",
+				"          fecha_fin as string,",
+				"          efectivos_desplegados as string,",
+				"          vehiculos_utilizados as string,",
+				"          duracion_dias as string,",
+				"          costo_operacion as string,",
+				"          resultado as string,",
+				"          detenidos as string,",
+				"          area_km2 as string,",
+				"          incidentes as string,",
+				"          observaciones as string",
+				"     ),",
+				"     allowSchemaDrift: true,",
+				"     validateSchema: false,",
+				"     isolationLevel: 'READ_UNCOMMITTED',",
+				"     query: 'SELECT \\n    TRIM(id_operacion) AS id_operacion,\\n    TRIM(id_tipo) AS id_tipo,\\n    TRIM(id_unidad_resp) AS id_unidad_resp,\\n    TRIM(id_zona) AS id_zona,\\n    TRIM(nombre_operacion) AS nombre_operacion,\\n    TRIM(fecha_inicio) AS fecha_inicio,\\n    TRIM(fecha_fin) AS fecha_fin,\\n    TRIM(efectivos_desplegados) AS efectivos_desplegados,\\n    TRIM(vehiculos_utilizados) AS vehiculos_utilizados,\\n    TRIM(duracion_dias) AS duracion_dias,\\n    TRIM(costo_operacion) AS costo_operacion,\\n    TRIM(resultado) AS resultado,\\n    TRIM(detenidos) AS detenidos,\\n    TRIM(area_km2) AS area_km2,\\n    TRIM(incidentes) AS incidentes,\\n    TRIM(observaciones) AS observaciones\\nFROM bronze.operaciones_raw',",
+				"     format: 'query') ~> source1",
+				"source1 filter(!isNull(id_operacion) && length(trim(id_operacion)) > 0 && !isNull(id_tipo) && !isNull(id_unidad_resp) && !isNull(id_zona)) ~> filter1",
+				"filter1 derive(fecha_inicio = coalesce(\r",
+				"    toDate(fecha_inicio, 'yyyy/MM/dd'),\r",
+				"    toDate(fecha_inicio, 'yyyy-MM-dd'),\r",
+				"    toDate(fecha_inicio, 'dd-MM-yyyy'),\r",
+				"    toDate(fecha_inicio, 'MM-dd-yyyy'),\r",
+				"    toDate(fecha_inicio, 'dd/MM/yyyy'),\r",
+				"    toDate(fecha_inicio, 'yyyyMMdd'),\r",
+				"    toDate(replace(replace(replace(replace(replace(lower(fecha_inicio), 'ene', 'jan'), 'abr', 'apr'), 'ago', 'aug'), 'dic', 'dec'), 'sept', 'sep'), 'dd/MMM/yyyy'),\r",
+				"    toDate(replace(replace(replace(replace(replace(lower(fecha_inicio), 'ene', 'jan'), 'abr', 'apr'), 'ago', 'aug'), 'dic', 'dec'), 'sept', 'sep'), 'd-MMM-yyyy'),\r",
+				"    toDate(replace(replace(replace(replace(replace(replace(replace(lower(fecha_inicio), 'enero', 'january'), 'febrero', 'february'), 'marzo', 'march'), 'abril', 'april'), 'agosto', 'august'), 'septiembre', 'september'), 'diciembre', 'december'), 'MMMM dd, yyyy')\r",
+				"),",
+				"          fecha_fin = coalesce(\r",
+				"    toDate(fecha_fin, 'yyyy/MM/dd'),\r",
+				"    toDate(fecha_fin, 'yyyy-MM-dd'),\r",
+				"    toDate(fecha_fin, 'dd-MM-yyyy'),\r",
+				"    toDate(fecha_fin, 'MM-dd-yyyy'),\r",
+				"    toDate(fecha_fin, 'dd/MM/yyyy'),\r",
+				"    toDate(fecha_fin, 'yyyyMMdd'),\r",
+				"    toDate(replace(replace(replace(replace(replace(lower(fecha_fin), 'ene', 'jan'), 'abr', 'apr'), 'ago', 'aug'), 'dic', 'dec'), 'sept', 'sep'), 'dd/MMM/yyyy'),\r",
+				"    toDate(replace(replace(replace(replace(replace(lower(fecha_fin), 'ene', 'jan'), 'abr', 'apr'), 'ago', 'aug'), 'dic', 'dec'), 'sept', 'sep'), 'd-MMM-yyyy'),\r",
+				"    toDate(replace(replace(replace(replace(replace(replace(replace(lower(fecha_fin), 'enero', 'january'), 'febrero', 'february'), 'marzo', 'march'), 'abril', 'april'), 'agosto', 'august'), 'septiembre', 'september'), 'diciembre', 'december'), 'MMMM dd, yyyy')\r",
+				"),",
+				"          efectivos_desplegados = case(     in(['trescientos', 'doscientos', 'cien', '100 efectivos', '(400 efectivos)', 'aprox 100', 'aprox 100 efectivos'], lower(trim(efectivos_desplegados))),     case(         lower(trim(efectivos_desplegados)) == 'trescientos', '300',         lower(trim(efectivos_desplegados)) == 'doscientos', '200',         in(['cien', '100 efectivos', 'aprox 100'], lower(trim(efectivos_desplegados))), '100',         lower(trim(efectivos_desplegados)) == '(400 efectivos)', '400',         '0'     ),     regexReplace(efectivos_desplegados, '[^0-9]', '') ),",
+				"          vehiculos_utilizados = case(     in(['veinte', 'nueve'], lower(trim(vehiculos_utilizados))),     case(lower(trim(vehiculos_utilizados)) == 'veinte', '20', lower(trim(vehiculos_utilizados)) == 'nueve', '9', '0'),     regexReplace(vehiculos_utilizados, '[^0-9]', '') ),",
+				"          costo_operacion = iif(instr(lower(costo_operacion), 'usd') > 0 || instr(lower(costo_operacion), '$us') > 0,\r",
+				"    toString(toFloat(iif(instr(regexReplace(lower(costo_operacion), '[^0-9.,]', ''), ',') > 0, iif(instr(regexReplace(lower(costo_operacion), '[^0-9.,]', ''), '.') < instr(regexReplace(lower(costo_operacion), '[^0-9.,]', ''), ','), replace(replace(regexReplace(lower(costo_operacion), '[^0-9.,]', ''), '.', ''), ',', '.'), replace(regexReplace(lower(costo_operacion), '[^0-9.,]', ''), ',', '')), iif(instr(regexReplace(lower(costo_operacion), '[^0-9.,]', ''), '.') > 0, iif(length(split(regexReplace(lower(costo_operacion), '[^0-9.,]', ''), '.')[2]) == 3, replace(regexReplace(lower(costo_operacion), '[^0-9.,]', ''), '.', ''), regexReplace(lower(costo_operacion), '[^0-9.,]', '')), regexReplace(lower(costo_operacion), '[^0-9.,]', '')))) * 6.96),\r",
+				"    iif(instr(regexReplace(lower(costo_operacion), '[^0-9.,]', ''), ',') > 0, iif(instr(regexReplace(lower(costo_operacion), '[^0-9.,]', ''), '.') < instr(regexReplace(lower(costo_operacion), '[^0-9.,]', ''), ','), replace(replace(regexReplace(lower(costo_operacion), '[^0-9.,]', ''), '.', ''), ',', '.'), replace(regexReplace(lower(costo_operacion), '[^0-9.,]', ''), ',', '')), iif(instr(regexReplace(lower(costo_operacion), '[^0-9.,]', ''), '.') > 0, iif(length(split(regexReplace(lower(costo_operacion), '[^0-9.,]', ''), '.')[2]) == 3, replace(regexReplace(lower(costo_operacion), '[^0-9.,]', ''), '.', ''), regexReplace(lower(costo_operacion), '[^0-9.,]', '')), regexReplace(lower(costo_operacion), '[^0-9.,]', '')))\r",
+				"),",
+				"          resultado = case(     in(['positivo', 'exitosa', 'bueno', 'aceptable', 'objetivo cumplido', 'favorable'], lower(trim(resultado))), 'Exitoso',     in(['fallida', 'sin éxito', 'incompleta'], lower(trim(resultado))), 'Fallido',     in(['en proceso', 'en curso', 'por evaluar'], lower(trim(resultado))), 'En Curso',     'No Reportado' ),",
+				"          detenidos = case(     in(['-', 'sin detenidos', 'ninguno', 'cero'], lower(trim(detenidos))), '0',     in(['uno', '1 pers.'], lower(trim(detenidos))), '1',     regexReplace(detenidos, '[^0-9]', '') ),",
+				"          area_km2 = regexReplace(replace(lower(area_km2), 'km2', ''), '[^0-9.]', ''),",
+				"          incidentes = case(\r",
+				"    in(['-', 'n/a', 'ninguno', '0 incidentes', 'sin incidentes', 's/d', 'cero', 'null'], lower(trim(incidentes))) || isNull(incidentes), '0',\r",
+				"    in(['uno', 'un'], lower(trim(incidentes))), '1',\r",
+				"    in(['dos'], lower(trim(incidentes))), '2',\r",
+				"    in(['tres'], lower(trim(incidentes))), '3',\r",
+				"    regexReplace(incidentes, '[^0-9]', '')\r",
+				")) ~> derivedColumn1",
+				"derivedColumn1 derive(id_operacion = toInteger(id_operacion),",
+				"          id_tipo = toInteger(id_tipo),",
+				"          id_unidad_resp = toInteger(id_unidad_resp),",
+				"          id_zona = toInteger(id_zona),",
+				"          efectivos_desplegados = iifNull(toInteger(efectivos_desplegados), 0),",
+				"          vehiculos_utilizados = iifNull(toInteger(vehiculos_utilizados), 0),",
+				"          duracion_dias = iif(isNull(fecha_inicio) || isNull(fecha_fin), toInteger(null()), toInteger(fecha_fin - fecha_inicio)),",
+				"          detenidos = iifNull(toInteger(detenidos), 0),",
+				"          incidentes = iifNull(toInteger(incidentes), 0),",
+				"          costo_operacion = toDecimal(costo_operacion, 18, 2),",
+				"          area_km2 = toDecimal(area_km2, 10, 2)) ~> derivedColumn2",
+				"derivedColumn2 sink(allowSchemaDrift: true,",
+				"     validateSchema: false,",
+				"     input(",
+				"          id_operacion as integer,",
+				"          id_tipo as integer,",
+				"          id_unidad_resp as integer,",
+				"          id_zona as integer,",
+				"          nombre_operacion as string,",
+				"          fecha_inicio as date,",
+				"          fecha_fin as date,",
+				"          efectivos_desplegados as integer,",
+				"          vehiculos_utilizados as integer,",
+				"          duracion_dias as integer,",
+				"          costo_operacion as decimal(18,2),",
+				"          resultado as string,",
+				"          detenidos as integer,",
+				"          area_km2 as decimal(10,2),",
+				"          incidentes as integer,",
+				"          observaciones as string",
+				"     ),",
+				"     deletable:false,",
+				"     insertable:true,",
+				"     updateable:false,",
+				"     upsertable:false,",
+				"     format: 'table',",
+				"     skipDuplicateMapInputs: true,",
+				"     skipDuplicateMapOutputs: true,",
+				"     errorHandlingOption: 'stopOnFirstError',",
+				"     mapColumn(",
+				"          id_operacion,",
+				"          id_tipo,",
+				"          id_unidad_resp,",
+				"          id_zona,",
+				"          nombre_operacion,",
+				"          fecha_inicio,",
+				"          fecha_fin,",
+				"          efectivos_desplegados,",
+				"          vehiculos_utilizados,",
+				"          duracion_dias,",
+				"          costo_operacion,",
+				"          resultado,",
+				"          detenidos,",
+				"          area_km2,",
+				"          incidentes,",
+				"          observaciones",
+				"     )) ~> sink1"
+			]
+		}
+	}
+}

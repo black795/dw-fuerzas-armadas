@@ -1,0 +1,88 @@
+{
+	"name": "bronce_operaciones_destino",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_AzureSQL_FFAA_Destino",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "bronze"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "id_operacion",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "id_tipo",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "id_unidad_resp",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "id_zona",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "nombre_operacion",
+				"type": "nvarchar"
+			},
+			{
+				"name": "fecha_inicio",
+				"type": "varchar"
+			},
+			{
+				"name": "fecha_fin",
+				"type": "varchar"
+			},
+			{
+				"name": "efectivos_desplegados",
+				"type": "varchar"
+			},
+			{
+				"name": "vehiculos_utilizados",
+				"type": "varchar"
+			},
+			{
+				"name": "duracion_dias",
+				"type": "varchar"
+			},
+			{
+				"name": "costo_operacion",
+				"type": "varchar"
+			},
+			{
+				"name": "resultado",
+				"type": "varchar"
+			},
+			{
+				"name": "detenidos",
+				"type": "varchar"
+			},
+			{
+				"name": "area_km2",
+				"type": "varchar"
+			},
+			{
+				"name": "incidentes",
+				"type": "varchar"
+			},
+			{
+				"name": "observaciones",
+				"type": "nvarchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "bronze",
+			"table": "operaciones_raw"
+		}
+	}
+}
