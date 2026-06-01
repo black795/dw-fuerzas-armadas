@@ -1,0 +1,31 @@
+{
+	"name": "pip_gold_dim_rango",
+	"properties": {
+		"activities": [
+			{
+				"name": "Cargar_Dim_Rango",
+				"type": "SqlServerStoredProcedure",
+				"dependsOn": [],
+				"policy": {
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"storedProcedureName": "[gold].[sp_gold_dim_rango]"
+				},
+				"linkedServiceName": {
+					"referenceName": "LS_AzureSQL_FFAA_Destino",
+					"type": "LinkedServiceReference"
+				}
+			}
+		],
+		"folder": {
+			"name": "gold"
+		},
+		"annotations": []
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}

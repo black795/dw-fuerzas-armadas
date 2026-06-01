@@ -216,8 +216,8 @@
 				}
 			},
 			{
-				"name": "Generar_Dim_Tiempo",
-				"type": "SqlServerStoredProcedure",
+				"name": "Gold_Dim_Tiempo",
+				"type": "ExecutePipeline",
 				"dependsOn": [
 					{
 						"activity": "Cargar_Bronze",
@@ -226,24 +226,118 @@
 						]
 					}
 				],
-				"policy": {
-					"retry": 0,
-					"retryIntervalInSeconds": 30,
-					"secureOutput": false,
-					"secureInput": false
-				},
 				"userProperties": [],
 				"typeProperties": {
-					"storedProcedureName": "[gold].[sp_generate_dim_tiempo]"
-				},
-				"linkedServiceName": {
-					"referenceName": "LS_AzureSQL_FFAA_Destino",
-					"type": "LinkedServiceReference"
+					"pipeline": {
+						"referenceName": "pip_gold_dim_tiempo",
+						"type": "PipelineReference"
+					},
+					"waitOnCompletion": true
 				}
 			},
 			{
-				"name": "Cargar_Gold",
-				"type": "SqlServerStoredProcedure",
+				"name": "Gold_Dim_Zona_Operacion",
+				"type": "ExecutePipeline",
+				"dependsOn": [
+					{
+						"activity": "Silver_Zonas",
+						"dependencyConditions": [
+							"Succeeded"
+						]
+					}
+				],
+				"userProperties": [],
+				"typeProperties": {
+					"pipeline": {
+						"referenceName": "pip_gold_dim_zona_operacion",
+						"type": "PipelineReference"
+					},
+					"waitOnCompletion": true
+				}
+			},
+			{
+				"name": "Gold_Dim_Tipo_Operacion",
+				"type": "ExecutePipeline",
+				"dependsOn": [
+					{
+						"activity": "Silver_Tipos_Operacion",
+						"dependencyConditions": [
+							"Succeeded"
+						]
+					}
+				],
+				"userProperties": [],
+				"typeProperties": {
+					"pipeline": {
+						"referenceName": "pip_gold_dim_tipo_operacion",
+						"type": "PipelineReference"
+					},
+					"waitOnCompletion": true
+				}
+			},
+			{
+				"name": "Gold_Dim_Rango",
+				"type": "ExecutePipeline",
+				"dependsOn": [
+					{
+						"activity": "Silver_Rangos",
+						"dependencyConditions": [
+							"Succeeded"
+						]
+					}
+				],
+				"userProperties": [],
+				"typeProperties": {
+					"pipeline": {
+						"referenceName": "pip_gold_dim_rango",
+						"type": "PipelineReference"
+					},
+					"waitOnCompletion": true
+				}
+			},
+			{
+				"name": "Gold_Dim_Tipo_Movimiento",
+				"type": "ExecutePipeline",
+				"dependsOn": [
+					{
+						"activity": "Silver_Tipos_Movimiento",
+						"dependencyConditions": [
+							"Succeeded"
+						]
+					}
+				],
+				"userProperties": [],
+				"typeProperties": {
+					"pipeline": {
+						"referenceName": "pip_gold_dim_tipo_movimiento",
+						"type": "PipelineReference"
+					},
+					"waitOnCompletion": true
+				}
+			},
+			{
+				"name": "Gold_Dim_Unidad",
+				"type": "ExecutePipeline",
+				"dependsOn": [
+					{
+						"activity": "Silver_Unidades",
+						"dependencyConditions": [
+							"Succeeded"
+						]
+					}
+				],
+				"userProperties": [],
+				"typeProperties": {
+					"pipeline": {
+						"referenceName": "pip_gold_dim_unidad",
+						"type": "PipelineReference"
+					},
+					"waitOnCompletion": true
+				}
+			},
+			{
+				"name": "Gold_Dim_Efectivo",
+				"type": "ExecutePipeline",
 				"dependsOn": [
 					{
 						"activity": "Silver_Efectivos",
@@ -256,15 +350,41 @@
 						"dependencyConditions": [
 							"Succeeded"
 						]
+					}
+				],
+				"userProperties": [],
+				"typeProperties": {
+					"pipeline": {
+						"referenceName": "pip_gold_dim_efectivo",
+						"type": "PipelineReference"
 					},
+					"waitOnCompletion": true
+				}
+			},
+			{
+				"name": "Gold_Hechos_Operacion",
+				"type": "ExecutePipeline",
+				"dependsOn": [
 					{
-						"activity": "Silver_Estructura_Organizacional",
+						"activity": "Gold_Dim_Tiempo",
 						"dependencyConditions": [
 							"Succeeded"
 						]
 					},
 					{
-						"activity": "Silver_Movimientos_Personal",
+						"activity": "Gold_Dim_Tipo_Operacion",
+						"dependencyConditions": [
+							"Succeeded"
+						]
+					},
+					{
+						"activity": "Gold_Dim_Unidad",
+						"dependencyConditions": [
+							"Succeeded"
+						]
+					},
+					{
+						"activity": "Gold_Dim_Zona_Operacion",
 						"dependencyConditions": [
 							"Succeeded"
 						]
@@ -274,57 +394,65 @@
 						"dependencyConditions": [
 							"Succeeded"
 						]
+					}
+				],
+				"userProperties": [],
+				"typeProperties": {
+					"pipeline": {
+						"referenceName": "pip_gold_hechos_operacion",
+						"type": "PipelineReference"
 					},
+					"waitOnCompletion": true
+				}
+			},
+			{
+				"name": "Gold_Hechos_Movimiento_Personal",
+				"type": "ExecutePipeline",
+				"dependsOn": [
 					{
-						"activity": "Silver_Rangos",
+						"activity": "Gold_Dim_Tiempo",
 						"dependencyConditions": [
 							"Succeeded"
 						]
 					},
 					{
-						"activity": "Silver_Tipos_Movimiento",
+						"activity": "Gold_Dim_Efectivo",
 						"dependencyConditions": [
 							"Succeeded"
 						]
 					},
 					{
-						"activity": "Silver_Tipos_Operacion",
+						"activity": "Gold_Dim_Unidad",
 						"dependencyConditions": [
 							"Succeeded"
 						]
 					},
 					{
-						"activity": "Silver_Unidades",
+						"activity": "Gold_Dim_Rango",
 						"dependencyConditions": [
 							"Succeeded"
 						]
 					},
 					{
-						"activity": "Silver_Zonas",
+						"activity": "Gold_Dim_Tipo_Movimiento",
 						"dependencyConditions": [
 							"Succeeded"
 						]
 					},
 					{
-						"activity": "Generar_Dim_Tiempo",
+						"activity": "Silver_Movimientos_Personal",
 						"dependencyConditions": [
 							"Succeeded"
 						]
 					}
 				],
-				"policy": {
-					"retry": 0,
-					"retryIntervalInSeconds": 30,
-					"secureOutput": false,
-					"secureInput": false
-				},
 				"userProperties": [],
 				"typeProperties": {
-					"storedProcedureName": "[gold].[sp_silver_to_gold]"
-				},
-				"linkedServiceName": {
-					"referenceName": "LS_AzureSQL_FFAA_Destino",
-					"type": "LinkedServiceReference"
+					"pipeline": {
+						"referenceName": "pip_gold_hechos_movimiento_personal",
+						"type": "PipelineReference"
+					},
+					"waitOnCompletion": true
 				}
 			}
 		],

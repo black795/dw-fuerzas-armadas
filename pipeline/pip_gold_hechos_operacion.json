@@ -1,0 +1,31 @@
+{
+	"name": "pip_gold_hechos_operacion",
+	"properties": {
+		"activities": [
+			{
+				"name": "Cargar_Hechos_Operacion",
+				"type": "SqlServerStoredProcedure",
+				"dependsOn": [],
+				"policy": {
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"storedProcedureName": "[gold].[sp_gold_hechos_operacion]"
+				},
+				"linkedServiceName": {
+					"referenceName": "LS_AzureSQL_FFAA_Destino",
+					"type": "LinkedServiceReference"
+				}
+			}
+		],
+		"folder": {
+			"name": "gold"
+		},
+		"annotations": []
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}

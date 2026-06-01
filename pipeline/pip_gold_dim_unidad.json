@@ -1,0 +1,31 @@
+{
+	"name": "pip_gold_dim_unidad",
+	"properties": {
+		"activities": [
+			{
+				"name": "Cargar_Dim_Unidad",
+				"type": "SqlServerStoredProcedure",
+				"dependsOn": [],
+				"policy": {
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"storedProcedureName": "[gold].[sp_gold_dim_unidad]"
+				},
+				"linkedServiceName": {
+					"referenceName": "LS_AzureSQL_FFAA_Destino",
+					"type": "LinkedServiceReference"
+				}
+			}
+		],
+		"folder": {
+			"name": "gold"
+		},
+		"annotations": []
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}
