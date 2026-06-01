@@ -1,0 +1,19 @@
+{
+	"name": "gold_hechos_operacion",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_AzureSQL_FFAA_Destino",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "gold"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "gold",
+			"table": "hechos_operacion"
+		}
+	}
+}

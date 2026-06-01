@@ -1,0 +1,19 @@
+{
+	"name": "gold_dim_efectivo",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_AzureSQL_FFAA_Destino",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "gold"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "gold",
+			"table": "dim_efectivo"
+		}
+	}
+}

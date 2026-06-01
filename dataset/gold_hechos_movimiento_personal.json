@@ -1,0 +1,19 @@
+{
+	"name": "gold_hechos_movimiento_personal",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_AzureSQL_FFAA_Destino",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "gold"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "gold",
+			"table": "hechos_movimiento_personal"
+		}
+	}
+}
