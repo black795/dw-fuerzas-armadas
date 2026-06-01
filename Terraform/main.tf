@@ -72,4 +72,11 @@ resource "azurerm_data_factory" "df_ffaa" {
   name                = "adf-ucb-dw-ffaa-5756067"
   location            = azurerm_resource_group.rg_ffaa.location
   resource_group_name = azurerm_resource_group.rg_ffaa.name
+
+  github_configuration {
+    account_name    = "black795"
+    branch_name     = "master"
+    repository_name = "dw-fuerzas-armadas"
+    root_folder     = "/"
+  }
 }
