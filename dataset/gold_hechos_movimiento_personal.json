@@ -1,19 +1,63 @@
-{
-	"name": "gold_hechos_movimiento_personal",
-	"properties": {
-		"linkedServiceName": {
-			"referenceName": "LS_AzureSQL_FFAA_Destino",
-			"type": "LinkedServiceReference"
-		},
-		"folder": {
-			"name": "gold"
-		},
-		"annotations": [],
-		"type": "AzureSqlTable",
-		"schema": [],
-		"typeProperties": {
-			"schema": "gold",
-			"table": "hechos_movimiento_personal"
-		}
-	}
+﻿{
+    "properties":  {
+                       "schema":  [
+                                      {
+                                          "name":  "hecho_movimiento_key",
+                                          "precision":  10,
+                                          "type":  "int"
+                                      },
+                                      {
+                                          "name":  "fecha_movimiento_key",
+                                          "precision":  10,
+                                          "type":  "int"
+                                      },
+                                      {
+                                          "name":  "efectivo_key",
+                                          "precision":  10,
+                                          "type":  "int"
+                                      },
+                                      {
+                                          "name":  "unidad_destino_key",
+                                          "precision":  10,
+                                          "type":  "int"
+                                      },
+                                      {
+                                          "name":  "rango_key",
+                                          "precision":  10,
+                                          "type":  "int"
+                                      },
+                                      {
+                                          "name":  "tipo_movimiento_key",
+                                          "precision":  10,
+                                          "type":  "int"
+                                      },
+                                      {
+                                          "name":  "antiguedad_anios",
+                                          "precision":  10,
+                                          "type":  "int"
+                                      },
+                                      {
+                                          "scale":  2,
+                                          "name":  "salario_mensual",
+                                          "precision":  18,
+                                          "type":  "decimal"
+                                      }
+                                  ],
+                       "type":  "AzureSqlTable",
+                       "typeProperties":  {
+                                              "table":  "hechos_movimiento_personal",
+                                              "schema":  "gold"
+                                          },
+                       "annotations":  [
+
+                                       ],
+                       "folder":  {
+                                      "name":  "gold"
+                                  },
+                       "linkedServiceName":  {
+                                                 "referenceName":  "LS_AzureSQL_FFAA_Destino",
+                                                 "type":  "LinkedServiceReference"
+                                             }
+                   },
+    "name":  "gold_hechos_movimiento_personal"
 }

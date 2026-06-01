@@ -1,19 +1,52 @@
-{
-	"name": "gold_dim_zona_operacion",
-	"properties": {
-		"linkedServiceName": {
-			"referenceName": "LS_AzureSQL_FFAA_Destino",
-			"type": "LinkedServiceReference"
-		},
-		"folder": {
-			"name": "gold"
-		},
-		"annotations": [],
-		"type": "AzureSqlTable",
-		"schema": [],
-		"typeProperties": {
-			"schema": "gold",
-			"table": "dim_zona_operacion"
-		}
-	}
+﻿{
+    "properties":  {
+                       "schema":  [
+                                      {
+                                          "name":  "zona_key",
+                                          "precision":  10,
+                                          "type":  "int"
+                                      },
+                                      {
+                                          "name":  "id_zona",
+                                          "precision":  10,
+                                          "type":  "int"
+                                      },
+                                      {
+                                          "name":  "nombre_zona",
+                                          "type":  "varchar"
+                                      },
+                                      {
+                                          "name":  "departamento",
+                                          "type":  "varchar"
+                                      },
+                                      {
+                                          "name":  "frontera_con",
+                                          "type":  "varchar"
+                                      },
+                                      {
+                                          "name":  "tipo_terreno",
+                                          "type":  "varchar"
+                                      },
+                                      {
+                                          "name":  "nivel_riesgo",
+                                          "type":  "varchar"
+                                      }
+                                  ],
+                       "type":  "AzureSqlTable",
+                       "typeProperties":  {
+                                              "table":  "dim_zona_operacion",
+                                              "schema":  "gold"
+                                          },
+                       "annotations":  [
+
+                                       ],
+                       "folder":  {
+                                      "name":  "gold"
+                                  },
+                       "linkedServiceName":  {
+                                                 "referenceName":  "LS_AzureSQL_FFAA_Destino",
+                                                 "type":  "LinkedServiceReference"
+                                             }
+                   },
+    "name":  "gold_dim_zona_operacion"
 }

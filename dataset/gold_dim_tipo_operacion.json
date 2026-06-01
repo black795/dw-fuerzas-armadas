@@ -1,19 +1,40 @@
-{
-	"name": "gold_dim_tipo_operacion",
-	"properties": {
-		"linkedServiceName": {
-			"referenceName": "LS_AzureSQL_FFAA_Destino",
-			"type": "LinkedServiceReference"
-		},
-		"folder": {
-			"name": "gold"
-		},
-		"annotations": [],
-		"type": "AzureSqlTable",
-		"schema": [],
-		"typeProperties": {
-			"schema": "gold",
-			"table": "dim_tipo_operacion"
-		}
-	}
+﻿{
+    "properties":  {
+                       "schema":  [
+                                      {
+                                          "name":  "tipo_operacion_key",
+                                          "precision":  10,
+                                          "type":  "int"
+                                      },
+                                      {
+                                          "name":  "id_tipo",
+                                          "precision":  10,
+                                          "type":  "int"
+                                      },
+                                      {
+                                          "name":  "nombre_tipo",
+                                          "type":  "varchar"
+                                      },
+                                      {
+                                          "name":  "categoria",
+                                          "type":  "varchar"
+                                      }
+                                  ],
+                       "type":  "AzureSqlTable",
+                       "typeProperties":  {
+                                              "table":  "dim_tipo_operacion",
+                                              "schema":  "gold"
+                                          },
+                       "annotations":  [
+
+                                       ],
+                       "folder":  {
+                                      "name":  "gold"
+                                  },
+                       "linkedServiceName":  {
+                                                 "referenceName":  "LS_AzureSQL_FFAA_Destino",
+                                                 "type":  "LinkedServiceReference"
+                                             }
+                   },
+    "name":  "gold_dim_tipo_operacion"
 }

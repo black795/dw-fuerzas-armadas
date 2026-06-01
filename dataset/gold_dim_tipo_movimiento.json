@@ -1,19 +1,36 @@
-{
-	"name": "gold_dim_tipo_movimiento",
-	"properties": {
-		"linkedServiceName": {
-			"referenceName": "LS_AzureSQL_FFAA_Destino",
-			"type": "LinkedServiceReference"
-		},
-		"folder": {
-			"name": "gold"
-		},
-		"annotations": [],
-		"type": "AzureSqlTable",
-		"schema": [],
-		"typeProperties": {
-			"schema": "gold",
-			"table": "dim_tipo_movimiento"
-		}
-	}
+﻿{
+    "properties":  {
+                       "schema":  [
+                                      {
+                                          "name":  "tipo_movimiento_key",
+                                          "precision":  10,
+                                          "type":  "int"
+                                      },
+                                      {
+                                          "name":  "id_tipo",
+                                          "precision":  10,
+                                          "type":  "int"
+                                      },
+                                      {
+                                          "name":  "nombre_tipo",
+                                          "type":  "varchar"
+                                      }
+                                  ],
+                       "type":  "AzureSqlTable",
+                       "typeProperties":  {
+                                              "table":  "dim_tipo_movimiento",
+                                              "schema":  "gold"
+                                          },
+                       "annotations":  [
+
+                                       ],
+                       "folder":  {
+                                      "name":  "gold"
+                                  },
+                       "linkedServiceName":  {
+                                                 "referenceName":  "LS_AzureSQL_FFAA_Destino",
+                                                 "type":  "LinkedServiceReference"
+                                             }
+                   },
+    "name":  "gold_dim_tipo_movimiento"
 }

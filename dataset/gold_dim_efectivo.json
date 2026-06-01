@@ -1,19 +1,60 @@
-{
-	"name": "gold_dim_efectivo",
-	"properties": {
-		"linkedServiceName": {
-			"referenceName": "LS_AzureSQL_FFAA_Destino",
-			"type": "LinkedServiceReference"
-		},
-		"folder": {
-			"name": "gold"
-		},
-		"annotations": [],
-		"type": "AzureSqlTable",
-		"schema": [],
-		"typeProperties": {
-			"schema": "gold",
-			"table": "dim_efectivo"
-		}
-	}
+﻿{
+    "properties":  {
+                       "schema":  [
+                                      {
+                                          "name":  "efectivo_key",
+                                          "precision":  10,
+                                          "type":  "int"
+                                      },
+                                      {
+                                          "name":  "id_efectivo",
+                                          "precision":  10,
+                                          "type":  "int"
+                                      },
+                                      {
+                                          "name":  "ci",
+                                          "type":  "varchar"
+                                      },
+                                      {
+                                          "name":  "nombre_completo",
+                                          "type":  "varchar"
+                                      },
+                                      {
+                                          "name":  "genero",
+                                          "type":  "varchar"
+                                      },
+                                      {
+                                          "name":  "departamento_origen",
+                                          "type":  "varchar"
+                                      },
+                                      {
+                                          "name":  "fecha_ingreso",
+                                          "type":  "date"
+                                      },
+                                      {
+                                          "name":  "nombre_especialidad",
+                                          "type":  "varchar"
+                                      },
+                                      {
+                                          "name":  "area_especialidad",
+                                          "type":  "varchar"
+                                      }
+                                  ],
+                       "type":  "AzureSqlTable",
+                       "typeProperties":  {
+                                              "table":  "dim_efectivo",
+                                              "schema":  "gold"
+                                          },
+                       "annotations":  [
+
+                                       ],
+                       "folder":  {
+                                      "name":  "gold"
+                                  },
+                       "linkedServiceName":  {
+                                                 "referenceName":  "LS_AzureSQL_FFAA_Destino",
+                                                 "type":  "LinkedServiceReference"
+                                             }
+                   },
+    "name":  "gold_dim_efectivo"
 }

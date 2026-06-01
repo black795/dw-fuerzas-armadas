@@ -1,19 +1,60 @@
-{
-	"name": "gold_dim_unidad",
-	"properties": {
-		"linkedServiceName": {
-			"referenceName": "LS_AzureSQL_FFAA_Destino",
-			"type": "LinkedServiceReference"
-		},
-		"folder": {
-			"name": "gold"
-		},
-		"annotations": [],
-		"type": "AzureSqlTable",
-		"schema": [],
-		"typeProperties": {
-			"schema": "gold",
-			"table": "dim_unidad"
-		}
-	}
+﻿{
+    "properties":  {
+                       "schema":  [
+                                      {
+                                          "name":  "unidad_key",
+                                          "precision":  10,
+                                          "type":  "int"
+                                      },
+                                      {
+                                          "name":  "id_unidad",
+                                          "precision":  10,
+                                          "type":  "int"
+                                      },
+                                      {
+                                          "name":  "nombre_unidad",
+                                          "type":  "varchar"
+                                      },
+                                      {
+                                          "name":  "codigo_unidad",
+                                          "type":  "varchar"
+                                      },
+                                      {
+                                          "name":  "ciudad",
+                                          "type":  "varchar"
+                                      },
+                                      {
+                                          "name":  "departamento",
+                                          "type":  "varchar"
+                                      },
+                                      {
+                                          "name":  "tipo_cuartel",
+                                          "type":  "varchar"
+                                      },
+                                      {
+                                          "name":  "nombre_brigada",
+                                          "type":  "varchar"
+                                      },
+                                      {
+                                          "name":  "nivel_jerarquico",
+                                          "type":  "varchar"
+                                      }
+                                  ],
+                       "type":  "AzureSqlTable",
+                       "typeProperties":  {
+                                              "table":  "dim_unidad",
+                                              "schema":  "gold"
+                                          },
+                       "annotations":  [
+
+                                       ],
+                       "folder":  {
+                                      "name":  "gold"
+                                  },
+                       "linkedServiceName":  {
+                                                 "referenceName":  "LS_AzureSQL_FFAA_Destino",
+                                                 "type":  "LinkedServiceReference"
+                                             }
+                   },
+    "name":  "gold_dim_unidad"
 }
