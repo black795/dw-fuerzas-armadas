@@ -17,7 +17,7 @@
 					"storedProcedureName": "[silver].[sp_bronze_to_silver]"
 				},
 				"linkedServiceName": {
-					"referenceName": "ls_sqldb_gold",
+					"referenceName": "LS_AzureSQL_FFAA_Destino",
 					"type": "LinkedServiceReference"
 				}
 			},
@@ -43,7 +43,7 @@
 					"storedProcedureName": "[gold].[sp_silver_to_gold]"
 				},
 				"linkedServiceName": {
-					"referenceName": "ls_sqldb_gold",
+					"referenceName": "LS_AzureSQL_FFAA_Destino",
 					"type": "LinkedServiceReference"
 				}
 			}
