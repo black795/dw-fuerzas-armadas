@@ -1,0 +1,97 @@
+{
+	"name": "df_gold_dim_unidad",
+	"properties": {
+		"folder": {
+			"name": "gold"
+		},
+		"type": "MappingDataFlow",
+		"typeProperties": {
+			"sources": [
+				{
+					"dataset": {
+						"referenceName": "silver_unidades",
+						"type": "DatasetReference"
+					},
+					"name": "source1"
+				}
+			],
+			"sinks": [
+				{
+					"dataset": {
+						"referenceName": "gold_dim_unidad",
+						"type": "DatasetReference"
+					},
+					"name": "sink1"
+				}
+			],
+			"transformations": [
+				{
+					"name": "derivedColumn1"
+				},
+				{
+					"name": "select1"
+				}
+			],
+			"scriptLines": [
+				"source(output(",
+				"          id_unidad as integer,",
+				"          id_brigada as integer,",
+				"          nombre as string,",
+				"          codigo as string,",
+				"          ciudad as string,",
+				"          departamento as string,",
+				"          tipo_cuartel as string",
+				"     ),",
+				"     allowSchemaDrift: true,",
+				"     validateSchema: false,",
+				"     isolationLevel: 'READ_UNCOMMITTED',",
+				"     format: 'table') ~> source1",
+				"source1 derive(nombre_brigada = 'Brigada ' + toString(id_brigada),",
+				"          nivel_jerarquico = 'Nivel Base') ~> derivedColumn1",
+				"derivedColumn1 select(mapColumn(",
+				"          id_unidad,",
+				"          nombre_unidad = nombre,",
+				"          codigo_unidad = codigo,",
+				"          ciudad,",
+				"          departamento,",
+				"          tipo_cuartel,",
+				"          nombre_brigada,",
+				"          nivel_jerarquico",
+				"     ),",
+				"     skipDuplicateMapInputs: true,",
+				"     skipDuplicateMapOutputs: true) ~> select1",
+				"select1 sink(allowSchemaDrift: true,",
+				"     validateSchema: false,",
+				"     input(",
+				"          unidad_key as integer,",
+				"          id_unidad as integer,",
+				"          nombre_unidad as string,",
+				"          codigo_unidad as string,",
+				"          ciudad as string,",
+				"          departamento as string,",
+				"          tipo_cuartel as string,",
+				"          nombre_brigada as string,",
+				"          nivel_jerarquico as string",
+				"     ),",
+				"     deletable:false,",
+				"     insertable:true,",
+				"     updateable:false,",
+				"     upsertable:false,",
+				"     format: 'table',",
+				"     skipDuplicateMapInputs: true,",
+				"     skipDuplicateMapOutputs: true,",
+				"     errorHandlingOption: 'stopOnFirstError',",
+				"     mapColumn(",
+				"          id_unidad,",
+				"          nombre_unidad,",
+				"          codigo_unidad,",
+				"          ciudad,",
+				"          departamento,",
+				"          tipo_cuartel,",
+				"          nombre_brigada,",
+				"          nivel_jerarquico",
+				"     )) ~> sink1"
+			]
+		}
+	}
+}

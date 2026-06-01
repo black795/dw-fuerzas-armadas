@@ -4,9 +4,10 @@
 		"activities": [
 			{
 				"name": "Cargar_Hechos_Movimiento_Personal",
-				"type": "SqlServerStoredProcedure",
+				"type": "ExecuteDataFlow",
 				"dependsOn": [],
 				"policy": {
+					"timeout": "0.12:00:00",
 					"retry": 0,
 					"retryIntervalInSeconds": 30,
 					"secureOutput": false,
@@ -14,11 +15,15 @@
 				},
 				"userProperties": [],
 				"typeProperties": {
-					"storedProcedureName": "[gold].[sp_gold_hechos_movimiento_personal]"
-				},
-				"linkedServiceName": {
-					"referenceName": "LS_AzureSQL_FFAA_Destino",
-					"type": "LinkedServiceReference"
+					"dataflow": {
+						"referenceName": "df_gold_hechos_movimiento_personal",
+						"type": "DataFlowReference"
+					},
+					"compute": {
+						"coreCount": 8,
+						"computeType": "General"
+					},
+					"traceLevel": "Fine"
 				}
 			}
 		],
