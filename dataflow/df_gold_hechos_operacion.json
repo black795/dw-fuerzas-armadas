@@ -53,6 +53,9 @@
 					"name": "join2"
 				},
 				{
+					"name": "selZona"
+				},
+				{
 					"name": "join3"
 				},
 				{
@@ -123,6 +126,12 @@
 				"     validateSchema: false,",
 				"     isolationLevel: 'READ_UNCOMMITTED',",
 				"     format: 'table') ~> source4",
+				"source4 select(mapColumn(",
+				"          zona_key,",
+				"          id_zona_dim = id_zona",
+				"     ),",
+				"     skipDuplicateMapInputs: true,",
+				"     skipDuplicateMapOutputs: true) ~> selZona",
 				"source1, source2 join(source1@id_tipo == source2@id_tipo,",
 				"     joinType:'left',",
 				"     matchType:'exact',",
@@ -133,7 +142,7 @@
 				"     matchType:'exact',",
 				"     ignoreSpaces: false,",
 				"     broadcast: 'auto')~> join2",
-				"join2, source4 join(join2@id_zona == source4@id_zona,",
+				"join2, selZona join(id_zona == id_zona_dim,",
 				"     joinType:'left',",
 				"     matchType:'exact',",
 				"     ignoreSpaces: false,",

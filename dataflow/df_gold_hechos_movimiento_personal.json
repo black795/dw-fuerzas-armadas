@@ -60,6 +60,12 @@
 					"name": "join2"
 				},
 				{
+					"name": "selRango"
+				},
+				{
+					"name": "selTipo"
+				},
+				{
 					"name": "join3"
 				},
 				{
@@ -129,6 +135,12 @@
 				"     validateSchema: false,",
 				"     isolationLevel: 'READ_UNCOMMITTED',",
 				"     format: 'table') ~> source4",
+				"source4 select(mapColumn(",
+				"          rango_key,",
+				"          id_rango_dim = id_rango",
+				"     ),",
+				"     skipDuplicateMapInputs: true,",
+				"     skipDuplicateMapOutputs: true) ~> selRango",
 				"source(output(",
 				"          tipo_movimiento_key as integer,",
 				"          id_tipo as integer,",
@@ -138,6 +150,12 @@
 				"     validateSchema: false,",
 				"     isolationLevel: 'READ_UNCOMMITTED',",
 				"     format: 'table') ~> source5",
+				"source5 select(mapColumn(",
+				"          tipo_movimiento_key,",
+				"          id_tipo_dim = id_tipo",
+				"     ),",
+				"     skipDuplicateMapInputs: true,",
+				"     skipDuplicateMapOutputs: true) ~> selTipo",
 				"source1, source2 join(source1@id_efectivo == source2@id_efectivo,",
 				"     joinType:'left',",
 				"     matchType:'exact',",
@@ -148,12 +166,12 @@
 				"     matchType:'exact',",
 				"     ignoreSpaces: false,",
 				"     broadcast: 'auto')~> join2",
-				"join2, source4 join(join2@id_rango == source4@id_rango,",
+				"join2, selRango join(id_rango == id_rango_dim,",
 				"     joinType:'left',",
 				"     matchType:'exact',",
 				"     ignoreSpaces: false,",
 				"     broadcast: 'auto')~> join3",
-				"join3, source5 join(join3@id_tipo == source5@id_tipo,",
+				"join3, selTipo join(id_tipo == id_tipo_dim,",
 				"     joinType:'left',",
 				"     matchType:'exact',",
 				"     ignoreSpaces: false,",
