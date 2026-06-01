@@ -133,7 +133,7 @@
 				"     matchType:'exact',",
 				"     ignoreSpaces: false,",
 				"     broadcast: 'auto')~> join2",
-				"join2, source4 join(id_zona == {id_zona},",
+				"join2, source4 join(join2@id_zona == source4@id_zona,",
 				"     joinType:'left',",
 				"     matchType:'exact',",
 				"     ignoreSpaces: false,",
