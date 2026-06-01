@@ -1,0 +1,55 @@
+{
+	"name": "pl_bronze_to_gold_etl",
+	"properties": {
+		"activities": [
+			{
+				"name": "SP_Bronze_to_Silver",
+				"type": "SqlServerStoredProcedure",
+				"dependsOn": [],
+				"policy": {
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"storedProcedureName": "[silver].[sp_bronze_to_silver]"
+				},
+				"linkedServiceName": {
+					"referenceName": "ls_sqldb_gold",
+					"type": "LinkedServiceReference"
+				}
+			},
+			{
+				"name": "SP_Silver_to_Gold",
+				"type": "SqlServerStoredProcedure",
+				"dependsOn": [
+					{
+						"activity": "SP_Bronze_to_Silver",
+						"dependencyConditions": [
+							"Succeeded"
+						]
+					}
+				],
+				"policy": {
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"storedProcedureName": "[gold].[sp_silver_to_gold]"
+				},
+				"linkedServiceName": {
+					"referenceName": "ls_sqldb_gold",
+					"type": "LinkedServiceReference"
+				}
+			}
+		],
+		"annotations": [],
+		"lastPublishTime": "2026-06-01T18:54:30Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}

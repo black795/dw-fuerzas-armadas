@@ -1,0 +1,16 @@
+{
+	"name": "ds_gold_dim_tiempo",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_sqldb_gold",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"typeProperties": {
+			"schema": "gold",
+			"table": "dim_tiempo"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

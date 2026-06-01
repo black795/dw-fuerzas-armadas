@@ -1,0 +1,16 @@
+{
+	"name": "ds_gold_hechos_operacion",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_sqldb_gold",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"typeProperties": {
+			"schema": "gold",
+			"table": "hechos_operacion"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
